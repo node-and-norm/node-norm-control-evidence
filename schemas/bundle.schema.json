@@ -1,0 +1,818 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$defs": {
+    "event": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_class": {
+          "enum": [
+            "incident",
+            "hazard",
+            "near_miss",
+            "successful_intervention",
+            "controlled_evaluation"
+          ]
+        },
+        "synthetic": {
+          "type": "boolean"
+        },
+        "occurred_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "time_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "external_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "event_class",
+        "synthetic",
+        "occurred_at",
+        "time_note",
+        "external_ids"
+      ],
+      "additionalProperties": false
+    },
+    "control": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "objective": {
+          "type": "string",
+          "minLength": 1
+        },
+        "opportunity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "functions": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "preventive",
+              "detective",
+              "restrictive_corrective",
+              "recovery",
+              "authorization_governance",
+              "human_oversight"
+            ]
+          }
+        },
+        "relevant_from": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "relevant_to": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "time_note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "event_id",
+        "objective",
+        "opportunity",
+        "functions",
+        "relevant_from",
+        "relevant_to",
+        "time_note"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "enum": [
+            "primary_record",
+            "institutional_statement",
+            "investigation",
+            "research",
+            "news",
+            "discovery",
+            "synthetic"
+          ]
+        },
+        "source_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "rights": {
+          "enum": [
+            "unknown",
+            "restricted",
+            "metadata_only",
+            "redistributable",
+            "synthetic"
+          ]
+        },
+        "rights_basis": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "url",
+        "title",
+        "role",
+        "source_date",
+        "retrieved_at",
+        "version",
+        "family_id",
+        "rights",
+        "rights_basis"
+      ],
+      "additionalProperties": false
+    },
+    "evidence_item": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "valid_from": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "time_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quality": {
+          "type": "object",
+          "properties": {
+            "directness": {
+              "type": "string",
+              "minLength": 1
+            },
+            "independence": {
+              "type": "string",
+              "minLength": 1
+            },
+            "traceability": {
+              "type": "string",
+              "minLength": 1
+            },
+            "temporal_relevance": {
+              "type": "string",
+              "minLength": 1
+            },
+            "specificity": {
+              "type": "string",
+              "minLength": 1
+            },
+            "consistency": {
+              "type": "string",
+              "minLength": 1
+            },
+            "completeness": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "directness",
+            "independence",
+            "traceability",
+            "temporal_relevance",
+            "specificity",
+            "consistency",
+            "completeness"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "id",
+        "event_id",
+        "source_id",
+        "locator",
+        "observation",
+        "valid_from",
+        "time_note",
+        "quality"
+      ],
+      "additionalProperties": false
+    },
+    "claim": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "control_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "asserted_by_source_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "statement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_-]+$"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "status": {
+          "enum": [
+            "alleged",
+            "preliminary",
+            "corroborated",
+            "investigated",
+            "adjudicated",
+            "disputed",
+            "corrected"
+          ]
+        },
+        "valid_from": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "control_id",
+        "asserted_by_source_id",
+        "statement",
+        "evidence_ids",
+        "status",
+        "valid_from"
+      ],
+      "additionalProperties": false
+    },
+    "packet": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "event_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_-]+$"
+          },
+          "uniqueItems": true
+        },
+        "cutoff": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cohort": {
+          "enum": [
+            "synthetic",
+            "pilot",
+            "main",
+            "holdout"
+          ]
+        },
+        "retrieval_log": {
+          "type": "string",
+          "minLength": 1
+        },
+        "omissions": {
+          "type": "string",
+          "minLength": 1
+        },
+        "content_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "id",
+        "event_id",
+        "evidence_ids",
+        "cutoff",
+        "version",
+        "cohort",
+        "retrieval_log",
+        "omissions",
+        "content_sha256"
+      ],
+      "additionalProperties": false
+    },
+    "annotation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "control_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "packet_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "packet_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "dimension": {
+          "enum": [
+            "declared",
+            "design_adequacy",
+            "implemented",
+            "operating",
+            "trigger",
+            "action",
+            "propagation",
+            "trajectory_effect",
+            "outcome_mitigation",
+            "formal_authority",
+            "information",
+            "comprehension_opportunity",
+            "intervention_time",
+            "technical_permission",
+            "institutional_permission",
+            "alternatives",
+            "intervention_attempted"
+          ]
+        },
+        "value": {
+          "enum": [
+            "yes",
+            "no",
+            "partial",
+            "conflicting",
+            "unknown",
+            "not_observable",
+            "not_reported",
+            "not_applicable"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_-]+$"
+          },
+          "uniqueItems": true
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "coder_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "coder_kind": {
+          "enum": [
+            "human",
+            "ai",
+            "synthetic"
+          ]
+        },
+        "status": {
+          "enum": [
+            "proposal",
+            "sealed_initial"
+          ]
+        },
+        "independent": {
+          "type": "boolean"
+        },
+        "eligibility_record": {
+          "type": "string",
+          "minLength": 1
+        },
+        "codebook_version": {
+          "const": "0.1.0"
+        },
+        "coded_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "control_id",
+        "packet_id",
+        "packet_sha256",
+        "dimension",
+        "value",
+        "evidence_ids",
+        "rationale",
+        "coder_id",
+        "coder_kind",
+        "status",
+        "independent",
+        "eligibility_record",
+        "codebook_version",
+        "coded_at"
+      ],
+      "additionalProperties": false
+    },
+    "adjudication": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "annotation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_-]+$"
+          },
+          "uniqueItems": true,
+          "minItems": 2
+        },
+        "value": {
+          "enum": [
+            "yes",
+            "no",
+            "partial",
+            "conflicting",
+            "unknown",
+            "not_observable",
+            "not_reported",
+            "not_applicable"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "adjudicator_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "id",
+        "annotation_ids",
+        "value",
+        "reason",
+        "adjudicator_id",
+        "created_at"
+      ],
+      "additionalProperties": false
+    },
+    "provenance_relation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "from_source_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "to_source_id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "relation": {
+          "enum": [
+            "derived_from",
+            "aggregation_of",
+            "reports_same_claim",
+            "independent_corroboration",
+            "supersedes",
+            "correction_of",
+            "contradicts"
+          ]
+        },
+        "basis": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "from_source_id",
+        "to_source_id",
+        "relation",
+        "basis"
+      ],
+      "additionalProperties": false
+    },
+    "derived_measure": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "adjudication_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_-]+$"
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "code_revision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "limitations": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "adjudication_ids",
+        "method",
+        "code_revision",
+        "value",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "release": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_-]+$"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "schema_version": {
+          "const": "0.1.0"
+        },
+        "status": {
+          "enum": [
+            "development",
+            "approved"
+          ]
+        },
+        "approval_records": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_-]+$"
+          },
+          "uniqueItems": true
+        },
+        "limitations": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "schema_version",
+        "status",
+        "approval_records",
+        "limitations"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "0.1.0"
+    },
+    "mode": {
+      "enum": [
+        "synthetic",
+        "empirical"
+      ]
+    },
+    "event": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    },
+    "control": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/control"
+      }
+    },
+    "source": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "evidence_item": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence_item"
+      }
+    },
+    "claim": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "packet": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/packet"
+      }
+    },
+    "annotation": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/annotation"
+      }
+    },
+    "adjudication": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/adjudication"
+      }
+    },
+    "provenance_relation": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/provenance_relation"
+      }
+    },
+    "derived_measure": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/derived_measure"
+      }
+    },
+    "release": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/release"
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "mode",
+    "event",
+    "control",
+    "source",
+    "evidence_item",
+    "claim",
+    "packet",
+    "annotation",
+    "adjudication",
+    "provenance_relation",
+    "derived_measure",
+    "release"
+  ],
+  "additionalProperties": false
+}

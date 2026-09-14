@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "annotation",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "control_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "packet_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "packet_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "dimension": {
+      "enum": [
+        "declared",
+        "design_adequacy",
+        "implemented",
+        "operating",
+        "trigger",
+        "action",
+        "propagation",
+        "trajectory_effect",
+        "outcome_mitigation",
+        "formal_authority",
+        "information",
+        "comprehension_opportunity",
+        "intervention_time",
+        "technical_permission",
+        "institutional_permission",
+        "alternatives",
+        "intervention_attempted"
+      ]
+    },
+    "value": {
+      "enum": [
+        "yes",
+        "no",
+        "partial",
+        "conflicting",
+        "unknown",
+        "not_observable",
+        "not_reported",
+        "not_applicable"
+      ]
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9_-]+$"
+      },
+      "uniqueItems": true
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "coder_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "coder_kind": {
+      "enum": [
+        "human",
+        "ai",
+        "synthetic"
+      ]
+    },
+    "status": {
+      "enum": [
+        "proposal",
+        "sealed_initial"
+      ]
+    },
+    "independent": {
+      "type": "boolean"
+    },
+    "eligibility_record": {
+      "type": "string",
+      "minLength": 1
+    },
+    "codebook_version": {
+      "const": "0.1.0"
+    },
+    "coded_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "control_id",
+    "packet_id",
+    "packet_sha256",
+    "dimension",
+    "value",
+    "evidence_ids",
+    "rationale",
+    "coder_id",
+    "coder_kind",
+    "status",
+    "independent",
+    "eligibility_record",
+    "codebook_version",
+    "coded_at"
+  ],
+  "additionalProperties": false
+}

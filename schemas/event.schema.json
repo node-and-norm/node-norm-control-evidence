@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "event",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_class": {
+      "enum": [
+        "incident",
+        "hazard",
+        "near_miss",
+        "successful_intervention",
+        "controlled_evaluation"
+      ]
+    },
+    "synthetic": {
+      "type": "boolean"
+    },
+    "occurred_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "time_note": {
+      "type": "string",
+      "minLength": 1
+    },
+    "external_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "event_class",
+    "synthetic",
+    "occurred_at",
+    "time_note",
+    "external_ids"
+  ],
+  "additionalProperties": false
+}

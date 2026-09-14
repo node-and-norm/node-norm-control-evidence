@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "source",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "role": {
+      "enum": [
+        "primary_record",
+        "institutional_statement",
+        "investigation",
+        "research",
+        "news",
+        "discovery",
+        "synthetic"
+      ]
+    },
+    "source_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "family_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "rights": {
+      "enum": [
+        "unknown",
+        "restricted",
+        "metadata_only",
+        "redistributable",
+        "synthetic"
+      ]
+    },
+    "rights_basis": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "id",
+    "url",
+    "title",
+    "role",
+    "source_date",
+    "retrieved_at",
+    "version",
+    "family_id",
+    "rights",
+    "rights_basis"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite the exact commit and identify this as an unvalidated infrastructure development version."
+title: "Node & Norm Control Evidence Corpus: research infrastructure"
+type: software
+version: 0.1.0-dev
+authors:
+  - family-names: Banasihan
+    given-names: Mark
+abstract: "Development infrastructure for provenance-aware reconstruction of event-control observations. No empirical corpus release or validity claim."

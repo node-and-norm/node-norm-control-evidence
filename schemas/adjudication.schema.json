@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "adjudication",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "annotation_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9_-]+$"
+      },
+      "uniqueItems": true,
+      "minItems": 2
+    },
+    "value": {
+      "enum": [
+        "yes",
+        "no",
+        "partial",
+        "conflicting",
+        "unknown",
+        "not_observable",
+        "not_reported",
+        "not_applicable"
+      ]
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "adjudicator_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "annotation_ids",
+    "value",
+    "reason",
+    "adjudicator_id",
+    "created_at"
+  ],
+  "additionalProperties": false
+}

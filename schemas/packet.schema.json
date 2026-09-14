@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "packet",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "event_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9_-]+$"
+      },
+      "uniqueItems": true
+    },
+    "cutoff": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cohort": {
+      "enum": [
+        "synthetic",
+        "pilot",
+        "main",
+        "holdout"
+      ]
+    },
+    "retrieval_log": {
+      "type": "string",
+      "minLength": 1
+    },
+    "omissions": {
+      "type": "string",
+      "minLength": 1
+    },
+    "content_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  },
+  "required": [
+    "id",
+    "event_id",
+    "evidence_ids",
+    "cutoff",
+    "version",
+    "cohort",
+    "retrieval_log",
+    "omissions",
+    "content_sha256"
+  ],
+  "additionalProperties": false
+}

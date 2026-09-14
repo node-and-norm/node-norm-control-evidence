@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "provenance_relation",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "from_source_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "to_source_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9_-]+$"
+    },
+    "relation": {
+      "enum": [
+        "derived_from",
+        "aggregation_of",
+        "reports_same_claim",
+        "independent_corroboration",
+        "supersedes",
+        "correction_of",
+        "contradicts"
+      ]
+    },
+    "basis": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "id",
+    "from_source_id",
+    "to_source_id",
+    "relation",
+    "basis"
+  ],
+  "additionalProperties": false
+}
