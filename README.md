@@ -51,13 +51,11 @@ Read the [comparative pilot design](research/COMPARATIVE_PILOT_DESIGN.md) and [r
 ## Follow the evidence
 
 ```mermaid
-flowchart LR
-    S["Sources + dependence"] --> E["Located evidence"]
-    E --> P["Frozen event packet"]
-    P --> A["Separate initial ratings"]
-    A --> J["Adjudication + disagreement"]
-    J --> R["Reviewed release"]
-    R --> D["TAE · HIT · RGDS · future site"]
+flowchart TB
+    S["Sources, located evidence, and dependence"] --> P["Frozen event packet"]
+    P --> A["Independent initial ratings"]
+    A --> J["Separate adjudication and disagreement"]
+    J --> R["Reviewed release for downstream reuse"]
 ```
 
 Each analytical observation binds **one event, one control objective, one opportunity, and one relevant period**. A source claim remains separate from a researcher judgment. Review and release steps in this diagram are research requirements; the executable demonstration uses synthetic records.
