@@ -20,18 +20,18 @@
 
 ## Located evidence
 
-| Evidence / source | Location | Observation | Applies from |
-| :--- | :--- | :--- | :--- |
-| EVID&#95;1 / SRC&#95;1 | Invented trace line 1 | The invented trace records an override command and a downstream stop acknowledgement. Consequences and alternatives are not reported. | 2026-09-01T12:00:00Z |
+| Evidence / source | Location | Observation |
+| :--- | :--- | :--- |
+| EVID&#95;1 / SRC&#95;1 | Invented trace line 1 | The invented trace records an override command and a downstream stop acknowledgement. Consequences and alternatives are not reported. |
 
 ## Sources and dependence
 
 Review views include all bundle source metadata; packet views include only sources connected to frozen evidence.
 
-| Source | Role / family | Source date / retrieved | Version / rights |
-| :--- | :--- | :--- | :--- |
-| SRC&#95;1: Invented trace description | synthetic / FAMILY&#95;1 | 2026-09-01T12:01:00Z / 2026-09-02T00:00:00Z | synthetic-v1 / synthetic |
-| SRC&#95;2: Invented derivative summary | synthetic / FAMILY&#95;1 | 2026-09-02T00:00:00Z / 2026-09-02T00:00:00Z | synthetic-v1 / synthetic |
+| Source | Role | Family |
+| :--- | :--- | :--- |
+| SRC&#95;1: Invented trace description | synthetic | FAMILY&#95;1 |
+| SRC&#95;2: Invented derivative summary | synthetic | FAMILY&#95;1 |
 
 | From | Relation | To | Basis |
 | :--- | :--- | :--- | :--- |
@@ -41,13 +41,25 @@ Review views include all bundle source metadata; packet views include only sourc
 <summary><strong>Source URLs and evidence-quality notes</strong></summary>
 
 
-| Source | URL (as recorded) | Rights basis |
-| :--- | :--- | :--- |
-| SRC&#95;1 | https://example.invalid/synthetic/trace | Created solely as a software fixture. |
-| SRC&#95;2 | https://example.invalid/synthetic/summary | Created solely as a software fixture. |
+| Source / field | Recorded value |
+| :--- | :--- |
+| SRC&#95;1 / url | https://example.invalid/synthetic/trace |
+| SRC&#95;1 / source&#95;date | 2026-09-01T12:01:00Z |
+| SRC&#95;1 / retrieved&#95;at | 2026-09-02T00:00:00Z |
+| SRC&#95;1 / version | synthetic-v1 |
+| SRC&#95;1 / rights | synthetic |
+| SRC&#95;1 / rights&#95;basis | Created solely as a software fixture. |
+| SRC&#95;2 / url | https://example.invalid/synthetic/summary |
+| SRC&#95;2 / source&#95;date | 2026-09-02T00:00:00Z |
+| SRC&#95;2 / retrieved&#95;at | 2026-09-02T00:00:00Z |
+| SRC&#95;2 / version | synthetic-v1 |
+| SRC&#95;2 / rights | synthetic |
+| SRC&#95;2 / rights&#95;basis | Created solely as a software fixture. |
 
 | Evidence | Dimension | Recorded assessment |
 | :--- | :--- | :--- |
+| EVID&#95;1 | valid&#95;from | 2026-09-01T12:00:00Z |
+| EVID&#95;1 | time&#95;note | Synthetic timestamp. |
 | EVID&#95;1 | directness | Synthetic demonstration; no empirical quality assessment. |
 | EVID&#95;1 | independence | Synthetic demonstration; no empirical quality assessment. |
 | EVID&#95;1 | traceability | Synthetic demonstration; no empirical quality assessment. |
@@ -76,11 +88,59 @@ Each value belongs to its stated packet. **Uncoded** means no annotation was sup
 
 ### CONTROL&#95;1 · PACKET&#95;1
 
-| Dimension | Value | Annotation / coder / kind / status | Evidence | Rationale |
-| :--- | :--- | :--- | :--- | :--- |
-| propagation | yes | ANN&#95;1 / SYNTHETIC&#95;1 / synthetic / sealed&#95;initial | EVID&#95;1 | The invented downstream acknowledgement documents propagation within this fixture. |
-| propagation | yes | ANN&#95;2 / SYNTHETIC&#95;2 / synthetic / sealed&#95;initial | EVID&#95;1 | The invented downstream acknowledgement documents propagation within this fixture. |
-| outcome&#95;mitigation | not&#95;reported | ANN&#95;3 / SYNTHETIC&#95;1 / synthetic / sealed&#95;initial | No cited item | No consequences or alternative trajectory are reported in the invented packet. |
+| Dimension | Value | Annotation |
+| :--- | :--- | :--- |
+| propagation | yes | ANN&#95;1 |
+| propagation | yes | ANN&#95;2 |
+| outcome&#95;mitigation | not&#95;reported | ANN&#95;3 |
+
+<details>
+<summary><strong>Judgment provenance, evidence, and rationale</strong></summary>
+
+
+**ANN&#95;1**
+
+| Field | Recorded value |
+| :--- | :--- |
+| coder&#95;id | SYNTHETIC&#95;1 |
+| coder&#95;kind | synthetic |
+| status | sealed&#95;initial |
+| independent | False |
+| eligibility&#95;record | Fixture only; no person or independent rating. |
+| evidence&#95;ids | EVID&#95;1 |
+| rationale | The invented downstream acknowledgement documents propagation within this fixture. |
+| codebook&#95;version | 0.1.0 |
+| coded&#95;at | 2026-09-03T01:00:00Z |
+
+**ANN&#95;2**
+
+| Field | Recorded value |
+| :--- | :--- |
+| coder&#95;id | SYNTHETIC&#95;2 |
+| coder&#95;kind | synthetic |
+| status | sealed&#95;initial |
+| independent | False |
+| eligibility&#95;record | Fixture only; no person or independent rating. |
+| evidence&#95;ids | EVID&#95;1 |
+| rationale | The invented downstream acknowledgement documents propagation within this fixture. |
+| codebook&#95;version | 0.1.0 |
+| coded&#95;at | 2026-09-03T01:00:00Z |
+
+**ANN&#95;3**
+
+| Field | Recorded value |
+| :--- | :--- |
+| coder&#95;id | SYNTHETIC&#95;1 |
+| coder&#95;kind | synthetic |
+| status | sealed&#95;initial |
+| independent | False |
+| eligibility&#95;record | Fixture only; no person or independent rating. |
+| evidence&#95;ids |  |
+| rationale | No consequences or alternative trajectory are reported in the invented packet. |
+| codebook&#95;version | 0.1.0 |
+| coded&#95;at | 2026-09-03T01:00:00Z |
+
+</details>
 
 <details>
 <summary><strong>Uncoded dimensions (15)</strong></summary>

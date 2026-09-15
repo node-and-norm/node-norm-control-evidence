@@ -20,28 +20,35 @@ Control enumeration, source-claim objects, ratings, and adjudications are omitte
 
 ## Located evidence
 
-| Evidence / source | Location | Observation | Applies from |
-| :--- | :--- | :--- | :--- |
-| EVID&#95;1 / SRC&#95;1 | Invented trace line 1 | The invented trace records an override command and a downstream stop acknowledgement. Consequences and alternatives are not reported. | 2026-09-01T12:00:00Z |
+| Evidence / source | Location | Observation |
+| :--- | :--- | :--- |
+| EVID&#95;1 / SRC&#95;1 | Invented trace line 1 | The invented trace records an override command and a downstream stop acknowledgement. Consequences and alternatives are not reported. |
 
 ## Sources and dependence
 
 Review views include all bundle source metadata; packet views include only sources connected to frozen evidence.
 
-| Source | Role / family | Source date / retrieved | Version / rights |
-| :--- | :--- | :--- | :--- |
-| SRC&#95;1: Invented trace description | synthetic / FAMILY&#95;1 | 2026-09-01T12:01:00Z / 2026-09-02T00:00:00Z | synthetic-v1 / synthetic |
+| Source | Role | Family |
+| :--- | :--- | :--- |
+| SRC&#95;1: Invented trace description | synthetic | FAMILY&#95;1 |
 
 <details>
 <summary><strong>Source URLs and evidence-quality notes</strong></summary>
 
 
-| Source | URL (as recorded) | Rights basis |
-| :--- | :--- | :--- |
-| SRC&#95;1 | https://example.invalid/synthetic/trace | Created solely as a software fixture. |
+| Source / field | Recorded value |
+| :--- | :--- |
+| SRC&#95;1 / url | https://example.invalid/synthetic/trace |
+| SRC&#95;1 / source&#95;date | 2026-09-01T12:01:00Z |
+| SRC&#95;1 / retrieved&#95;at | 2026-09-02T00:00:00Z |
+| SRC&#95;1 / version | synthetic-v1 |
+| SRC&#95;1 / rights | synthetic |
+| SRC&#95;1 / rights&#95;basis | Created solely as a software fixture. |
 
 | Evidence | Dimension | Recorded assessment |
 | :--- | :--- | :--- |
+| EVID&#95;1 | valid&#95;from | 2026-09-01T12:00:00Z |
+| EVID&#95;1 | time&#95;note | Synthetic timestamp. |
 | EVID&#95;1 | directness | Synthetic demonstration; no empirical quality assessment. |
 | EVID&#95;1 | independence | Synthetic demonstration; no empirical quality assessment. |
 | EVID&#95;1 | traceability | Synthetic demonstration; no empirical quality assessment. |

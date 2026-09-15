@@ -48,16 +48,16 @@ def render(data, view='review'):
         if linked <= source_ids: break
         source_ids |= linked
     sources = [s for s in data['source'] if view == 'review' or s['id'] in source_ids]
-    out += ['## Located evidence', table(['Evidence / source', 'Location', 'Observation', 'Applies from'],
-            [(e['id']+' / '+e['source_id'],e['locator'],e['observation'],e['valid_from']) for e in evidence])]
-    out += ['## Sources and dependence', 'Review views include all bundle source metadata; packet views include only sources connected to frozen evidence.', table(['Source', 'Role / family', 'Source date / retrieved', 'Version / rights'],
-            [(s['id']+': '+s['title'],s['role']+' / '+s['family_id'],str(s['source_date'])+' / '+s['retrieved_at'],s['version']+' / '+s['rights']) for s in sources])]
+    out += ['## Located evidence', table(['Evidence / source', 'Location', 'Observation'],
+            [(e['id']+' / '+e['source_id'],e['locator'],e['observation']) for e in evidence])]
+    out += ['## Sources and dependence', 'Review views include all bundle source metadata; packet views include only sources connected to frozen evidence.', table(['Source', 'Role', 'Family'],
+            [(s['id']+': '+s['title'],s['role'],s['family_id']) for s in sources])]
     relations=[r for r in data['provenance_relation'] if view == 'review' or r['from_source_id'] in source_ids]
     if relations:
         out += [table(['From', 'Relation', 'To', 'Basis'], [(r['from_source_id'],r['relation'],r['to_source_id'],r['basis']) for r in relations])]
     out += ['<details>\n<summary><strong>Source URLs and evidence-quality notes</strong></summary>\n',
-            table(['Source', 'URL (as recorded)', 'Rights basis'],[(s['id'],s['url'],s['rights_basis']) for s in sources]),
-            table(['Evidence', 'Dimension', 'Recorded assessment'],[(e['id'],k,v) for e in evidence for k,v in e['quality'].items()]),'</details>']
+            table(['Source / field', 'Recorded value'],[(s['id']+' / '+k,s[k]) for s in sources for k in ['url','source_date','retrieved_at','version','rights','rights_basis']]),
+            table(['Evidence', 'Dimension', 'Recorded assessment'],[(e['id'],k,v) for e in evidence for k,v in dict(valid_from=e['valid_from'],time_note=e['time_note'],**e['quality']).items()]),'</details>']
     if view == 'review':
         out += ['## Proposed controls',table(['Control / event','Objective and opportunity','Functions / relevant period'],
                 [(c['id']+' / '+c['event_id'],c['objective']+' '+c['opportunity'],', '.join(c['functions'])+' / '+str(c['relevant_from'])+' to '+str(c['relevant_to'])) for c in data['control']])]
@@ -73,8 +73,13 @@ def render(data, view='review'):
                     matches=[a for a in ratings if a['dimension']==dim]
                     if not matches: continue
                     for a in matches:
-                        rows.append((dim,a['value'],a['id']+' / '+a['coder_id']+' / '+a['coder_kind']+' / '+a['status'],', '.join(a['evidence_ids']) or 'No cited item',a['rationale']))
-                out += ['### '+cell(c['id'])+' · '+cell(p['id']),table(['Dimension','Value','Annotation / coder / kind / status','Evidence','Rationale'],rows)]
+                        rows.append((dim,a['value'],a['id']))
+                out += ['### '+cell(c['id'])+' · '+cell(p['id']),table(['Dimension','Value','Annotation'],rows)]
+                if ratings:
+                    out += ['<details>\n<summary><strong>Judgment provenance, evidence, and rationale</strong></summary>\n']
+                    for a in ratings:
+                        out += ['**'+cell(a['id'])+'**',table(['Field','Recorded value'],[(k,', '.join(a[k]) if isinstance(a[k],list) else a[k]) for k in ['coder_id','coder_kind','status','independent','eligibility_record','evidence_ids','rationale','codebook_version','coded_at']])]
+                    out += ['</details>']
                 uncoded=[d for d in dims if not any(a['dimension']==d for a in ratings)]
                 if uncoded:
                     out += ['<details>\n<summary><strong>Uncoded dimensions ('+str(len(uncoded))+')</strong></summary>\n', ', '.join(cell(d) for d in uncoded)+'. No value is inferred for these dimensions.','</details>']
