@@ -1,5 +1,40 @@
 # Node & Norm Control Evidence Research Charter
 
+[Repository](README.md) / [Research guide](docs/README.md)
+
+> **Governing draft.** The recovered text below is preserved. The [research brief](research/README.md) provides a short reading guide; the [continuation record](docs/reference/CONTINUATION.md) explains draft precedence.
+
+<details>
+<summary><strong>Jump to a section</strong></summary>
+
+- [1. Purpose](#1-purpose)
+- [2. Primary Research Question](#2-primary-research-question)
+- [3. Secondary Research Questions](#3-secondary-research-questions)
+- [4. Epistemic Target](#4-epistemic-target)
+- [5. Units of Analysis](#5-units-of-analysis)
+- [6. Event Classes](#6-event-classes)
+- [7. Control Model](#7-control-model)
+- [8. Human Control](#8-human-control)
+- [9. Evidence Model](#9-evidence-model)
+- [10. Source Dependence](#10-source-dependence)
+- [11. Source Hierarchy](#11-source-hierarchy)
+- [12. Temporal Provenance](#12-temporal-provenance)
+- [13. Missingness and Uncertainty](#13-missingness-and-uncertainty)
+- [14. Sampling Strategy](#14-sampling-strategy)
+- [15. Prohibited Inferences](#15-prohibited-inferences)
+- [16. Annotation Protocol](#16-annotation-protocol)
+- [17. Use of Artificial Intelligence in Research](#17-use-of-artificial-intelligence-in-research)
+- [18. Ethics and Affected Persons](#18-ethics-and-affected-persons)
+- [19. Licensing and Redistribution](#19-licensing-and-redistribution)
+- [20. Reproducibility and Release](#20-reproducibility-and-release)
+- [21. Release Gate](#21-release-gate)
+- [22. Research Integrity](#22-research-integrity)
+- [23. Scope of the First Study](#23-scope-of-the-first-study)
+
+</details>
+
+<!-- recovered-governing-text -->
+
 **Status:** Research design draft  
 **Artifact:** Node & Norm Control Evidence Corpus  
 **Repository:** `node-norm-control-evidence`  

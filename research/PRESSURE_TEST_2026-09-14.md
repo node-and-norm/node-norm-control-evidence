@@ -1,5 +1,7 @@
 # Pressure-test findings and decisions
 
+[Repository](../README.md) / [Research](README.md)
+
 Status: AI-assisted methodological review, 2026-09-14. This continues the preliminary seven-area screen in NOVELTY_REVIEW.md. It does not constitute independent scientific validation or an exhaustive novelty determination.
 
 ## What has been tested

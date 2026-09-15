@@ -1,0 +1,56 @@
+{
+  "artifact_type": "source_reconnaissance_metadata",
+  "status": "ai_assisted_unreviewed",
+  "candidate_id": "RECON_TEMPE_2018",
+  "external_id": "NTSB:HWY18MH010",
+  "source_url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR1903.pdf",
+  "source_id": "NTSB_HAR_19_03_CORRECTED",
+  "source_family": "NTSB_HWY18MH010",
+  "adopted_date": "2019-11-19",
+  "version_note": "Corrected copy; title-page correction reissued 2020-06-26.",
+  "retrieved_at": "2026-09-15T03:06:08.639157+00:00",
+  "sha256": "1a0bb130efd50b994a4a20c00d3e35855cb885b37a5c972b365b21a485c43857",
+  "bytes": 2002815,
+  "access": "Official public PDF; selected sections inspected via web-extracted text.",
+  "locators": [
+    {
+      "section": "1.5.4.2",
+      "printed_pages": [
+        11
+      ],
+      "pdf_pages": [
+        23
+      ]
+    },
+    {
+      "section": "1.5.6, table continued",
+      "printed_pages": [
+        16
+      ],
+      "pdf_pages": [
+        28
+      ]
+    },
+    {
+      "section": "1.6.3",
+      "printed_pages": [
+        22
+      ],
+      "pdf_pages": [
+        34
+      ]
+    }
+  ],
+  "rights_status": "metadata_only",
+  "rights_basis": "No source text, images, or PDF redistributed; source-specific redistribution review pending.",
+  "reviewer": null,
+  "empirical_annotations": 0,
+  "frame_membership": "not_selected",
+  "holdout_eligible": false,
+  "holdout_exclusion_reason": "Exposed to development researchers through this reconnaissance.",
+  "limitations": [
+    "One investigation family; underlying docket materials not independently inspected here.",
+    "Selection is purposive for demonstrating source locators; not a sampling frame.",
+    "Checksum records downloaded bytes; no historical custody claim."
+  ]
+}

@@ -1,5 +1,37 @@
 # Node & Norm Control Evidence Research Agenda
 
+[Repository](README.md) / [Research guide](docs/README.md)
+
+> **Governing draft.** The recovered text below is preserved. The [research brief](research/README.md) provides a short reading guide; the [continuation record](docs/reference/CONTINUATION.md) explains draft precedence.
+
+<details>
+<summary><strong>Jump to a section</strong></summary>
+
+- [Research Position](#research-position)
+- [Core Research Question](#core-research-question)
+- [Primary Contribution Hypothesis](#primary-contribution-hypothesis)
+- [Unit of Analysis](#unit-of-analysis)
+- [Evidence Architecture](#evidence-architecture)
+- [Program I: Public Observability of AI Control Operation](#program-i-public-observability-of-ai-control-operation)
+- [Program II: Practical Human Control](#program-ii-practical-human-control)
+- [Program III: Evidence Preservation and Post-Incident Auditability](#program-iii-evidence-preservation-and-post-incident-auditability)
+- [Program IV: Prospective Validation](#program-iv-prospective-validation)
+- [Corpus Development Design](#corpus-development-design)
+- [Reliability](#reliability)
+- [Construct Validation](#construct-validation)
+- [Source Strategy](#source-strategy)
+- [Source Dependence](#source-dependence)
+- [Data Rights](#data-rights)
+- [AI Assistance](#ai-assistance)
+- [Open Science](#open-science)
+- [Downstream Research Contract](#downstream-research-contract)
+- [Initial Publication Sequence](#initial-publication-sequence)
+- [Release Principle](#release-principle)
+
+</details>
+
+<!-- recovered-governing-text -->
+
 **Status:** Foundational research agenda  
 **Program:** Node & Norm AI Assurance & Evaluation Lab  
 **Research infrastructure:** Node & Norm Control Evidence Corpus  

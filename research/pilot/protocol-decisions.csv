@@ -1,0 +1,11 @@
+decision_id,decision,rationale,status,accountable_person,decision_value,evidence_ref,decided_at
+P01,Retrieval budget and stopping rule,Availability must be conditional on a common retrieval procedure.,open,,,,
+P02,Eligibility and source-family deduplication,Freeze candidate inclusion and family rules before sampling.,open,,,,
+P03,Control enumeration and matching rule,Keep unmatched opportunities and avoid preselected-control agreement bias.,open,,,,
+P04,Representation construction and allocation,Hold packet content constant and prevent reviewer carryover.,open,,,,
+P05,Primary comparison outcome and support rubric,Operationalize documentary support before judging outputs.,open,,,,
+P06,Minimum worthwhile benefit and maximum burden,Define a decision-relevant gain before confirmatory testing.,open,,,,
+P07,"Precision, allocation, and primary weighting","Account for event, reviewer, and source dependence.",open,,,,
+P08,Assessor eligibility and custody roles,Obtain actual acceptance and exposure/conflict records.,open,,,,
+P09,Reliability thresholds and missingness treatment,"Preserve confusion, zero-variance failures, and uncertainty.",open,,,,
+P10,"Holdout split, custody, and unsealing","Split whole event families after deduplication, outside developer access.",open,,,,

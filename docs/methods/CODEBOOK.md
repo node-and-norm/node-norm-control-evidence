@@ -1,5 +1,7 @@
 # Development codebook 0.1.0
 
+[Repository](../../README.md) / [Documentation](../README.md) / Codebook
+
 Each annotation records one dimension of one event-control observation, packet version, coder identity and kind, provenance-bearing evidence IDs, rationale, and coding time. Human authoritativeness requires an eligible human's own initial judgment, sealed before comparison. AI suggestions remain proposals.
 
 ## Values
@@ -41,8 +43,24 @@ Use conflicting before unknown when there is affirmative conflict. Use not_repor
 
 ## Procedure
 
-Freeze an event scope and retrieval cutoff. Identify controls from objectives and mechanisms, including explicitly hypothetical opportunities. Trace each source to its origin and document inaccessible records. Assemble the same packet for every coder. Code applicability before substantive values and cite exact locations through evidence objects. Seal initial submissions. Compare only after all submissions are sealed. Adjudicate in a new object; never rewrite initial annotations.
+1. Freeze event scope, retrieval cutoff, codebook version, and packet.
+2. Independently enumerate objectives, mechanisms, opportunities, and relevant periods. Retain hypothetical opportunities as such, and preserve unmatched controls.
+3. Trace sources to their origins and record inaccessible material. Supply identical evidence to each eligible coder.
+4. Code applicability before substantive values. Use exact evidence locators; explain uncertainty and access barriers.
+5. Seal initial submissions before comparison. Record exposure, conflicts, and coder identity under the independence procedure.
+6. Compare and adjudicate in separate records. Never overwrite initial annotations.
 
-A company says a reviewer must approve deployment: declared may be yes; implemented and operating remain unresolved without supporting records. Three articles repeating that statement are one assertion family. A trace shows an override command but no execution acknowledgement: action may be yes; propagation remains unknown. A preventive permission boundary can be operating without a discrete trigger.
+## Boundary examples
+
+| Evidence | Defensible distinction | Inspect |
+| :--- | :--- | :--- |
+| Policy assigns approval authority | A declaration leaves implementation and operation unresolved without supporting records | [Policy-only dossier](../../examples/dossiers/policy-only.md) |
+| Override command without downstream acknowledgement | An action can be recorded while propagation is `not_reported` in the packet | [Unresolved override](../../examples/dossiers/override-unresolved.md) |
+| Command and downstream stop acknowledgement | Propagation can resolve while consequences and mitigation remain unreported | [Acknowledged stop](../../examples/dossiers/override-confirmed.md) |
+| Three articles repeating one institutional statement | Repetition preserves one assertion family; publisher count does not establish independence | [Source policy](../policies/SOURCE_POLICY.md) |
+| Always-on permission boundary | Operation need not involve a discrete trigger | [Constructs](CONSTRUCTS.md) |
+
+The linked cases are synthetic teaching and software artifacts. They supply no empirical validity evidence.
+
 
 Quantitative timing and construct-specific thresholds require pilot amendments before they become canonical structured measures. This codebook does not authorize a composite score.

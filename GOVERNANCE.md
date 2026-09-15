@@ -1,9 +1,42 @@
-# Governance
+# Research governance
 
-The research maintainer stewards protocol revisions and repository changes. Independent assessors own their sealed initial judgments. An adjudicator resolves recorded disagreements in separate objects. A holdout custodian controls access. An external methodological reviewer assesses the release claims. These roles may not be asserted occupied until named people accept them and disclose conflicts.
+[Repository](README.md) / [Documentation](docs/README.md) / Governance
 
-Every substantive change records rationale, evidence, affected constructs, migration effect, and whether existing analyses remain comparable. Pilot revisions are exploratory. Main-study changes after freeze require a deviation record and a separate analysis designation. Holdout failure must be retained.
+**Research approval requires attributable human decisions.** Repository administration, software validation, and scientific review are separate responsibilities.
 
-An empirical release requires signed or otherwise attributable human decisions covering protocol freeze and preregistration, provenance and dependence, independent annotation, reliability reporting, construct limitations, rights, ethics, unresolved cases, deterministic artifacts, citation, and downstream contract. A failed scientific validity gate cannot be relabeled passed by software. Limitations may justify a clearly bounded development artifact; they do not authorize reliability or criterion-validity claims.
+## Roles and independence
 
-The present version is an infrastructure development artifact. No release approvals are recorded, and the exporter cannot publish empirical data. Public dataset releases and persistent identifiers remain future milestones.
+| Role | Responsibility | Acceptance status |
+| :--- | :--- | :--- |
+| Research maintainer | Steward protocol revisions, comparability, and repository changes | Research approval responsibilities must be recorded |
+| Independent assessors | Own sealed initial judgments; disclose conflicts and exposure | Unassigned |
+| Adjudicator | Resolve recorded disagreements in new objects | Unassigned |
+| Holdout custodian | Control access and document unsealing | Unassigned |
+| External methodological reviewer | Assess release claims, methods, and unresolved findings | Unassigned |
+
+No research role is treated as occupied until a named person accepts it and discloses relevant conflicts. AI-generated work does not fill an independent human role.
+
+## Change control
+
+| Change | Required record |
+| :--- | :--- |
+| Presentation or navigation | Check links, generated artifacts, and preservation of governing text |
+| Construct, method, or schema | Rationale, evidence, affected constructs, migration effect, and comparability decision |
+| Development-pilot revision | Exploratory designation and new method version where needed |
+| Change after main-study freeze | Deviation record and separate analysis designation |
+| Correction to a finding | Retained initial record, new correction or adjudication object, downstream release note |
+
+Holdout failures remain in the record. Presentation improvements cannot change the status of a research gate.
+
+<details>
+<summary><strong>Empirical release approval requirements</strong></summary>
+
+An empirical release needs signed or otherwise attributable human decisions covering protocol freeze and preregistration, provenance and dependence, independent annotation, reliability reporting, construct limitations, rights, ethics, unresolved cases, deterministic artifacts, citation, and the downstream contract.
+
+A failed validity gate remains failed. Limitations can bound a development artifact; they cannot authorize a reliability or criterion-validity claim.
+
+</details>
+
+## Current release boundary
+
+The present version is a development artifact. No empirical release approvals are recorded. Export and dossier rendering accept synthetic bundles only. Public dataset releases and persistent identifiers remain future milestones in the [roadmap](ROADMAP.md).

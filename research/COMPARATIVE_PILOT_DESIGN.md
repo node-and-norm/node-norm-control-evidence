@@ -1,5 +1,7 @@
 # Comparative pilot design: proposed protocol
 
+[Repository](../README.md) / [Research](README.md)
+
 This proposal operationalizes the governing validation agenda. It has not been frozen, preregistered, staffed, or run. Pilot results may change the design; every change must be logged before confirmatory use.
 
 ## Decision served
