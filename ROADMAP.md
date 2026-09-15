@@ -4,6 +4,8 @@ Completed in this continuation: recovery of governing drafts and failed Work sta
 
 Next unfinished research tasks:
 
+Progress update, 2026-09-14: inspected selected full-text methods in four close works and added research/PRESSURE_TEST_2026-09-14.md and research/COMPARATIVE_PILOT_DESIGN.md. Independent screening and novelty closure remain unfinished. The pilot proposal now separates control enumeration, representation value, and evidence-enrichment effects.
+
 1. Retrieve and independently screen full texts for the closest novelty competitors; complete the logged search protocol, citation chasing, and feature comparison. Keep inaccessible papers on the unresolved list.
 2. Build a rights-reviewed candidate frame with immutable source snapshots, deduplication families, retrieval logs, and approximately 30 development events. No confirmatory selection may be inferred from current literature examples.
 3. Conduct pilot coding, external content review, and codebook revision. Recruit independent human assessors and a holdout custodian. Determine estimands, precision, strata, and holdout size.

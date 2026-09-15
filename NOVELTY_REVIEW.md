@@ -4,6 +4,8 @@ Review date: 2026-09-14 UTC. Status: targeted AI-assisted screening, not a compl
 
 ## Finding
 
+The [follow-up pressure test](research/PRESSURE_TEST_2026-09-14.md) records additional inspection of four works' methods, the remaining access gaps, and a proposed comparative pilot. In particular, the closest accountability paper explicitly distinguishes insufficient evidence in its method. The initial access levels below are retained as the historical first-pass record; the follow-up supersedes them where indicated.
+
 The broad topics already have substantial prior work. Control operation is an established audit concern; AI safety cases connect claims to evidence; incident researchers study uncertainty and institutional response. Recent work directly examines post-deployment evidence and AI forensics. CEC must demonstrate incremental value through independently reproducible event-control coding, explicit source dependence and missingness, and validated reuse. Combining familiar features is not itself proof of a scholarly contribution.
 
 | Source and access level | Observed overlap | Consequence for CEC |
