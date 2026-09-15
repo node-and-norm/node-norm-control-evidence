@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+Connected repository navigation and the downstream contract to the Node & Norm organization after seven related repositories transferred from `mj3b`. Added a migration record covering preservation checks, the study's new Pages address, and remaining archival verification limits. No change to research authority, corpus contents, repository visibility, or the existing development release.
+
 ## v0.1.0-dev · 2026-09-15 UTC
 
 First tagged GitHub prerelease of the research infrastructure. Includes three downloadable synthetic exports, a commit-linked asset manifest, SHA-256 checksums, release notes, and versioned citation metadata. No empirical corpus release is approved.

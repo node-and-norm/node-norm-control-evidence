@@ -7,7 +7,8 @@
 <p align="center">
   <a href="research/README.md">Research brief</a> ·
   <a href="examples/dossiers/override-unresolved.md">Explore a dossier</a> ·
-  <a href="docs/README.md">Methods &amp; documentation</a>
+  <a href="docs/README.md">Methods &amp; documentation</a> ·
+  <a href="https://github.com/node-and-norm">Node &amp; Norm projects</a>
 </p>
 
 [![Infrastructure checks](https://github.com/node-and-norm/node-norm-control-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/node-norm-control-evidence/actions/workflows/validate.yml)
