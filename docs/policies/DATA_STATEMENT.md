@@ -16,4 +16,4 @@ The corpus preserves source assertions separately from annotations and adjudicat
 
 ## Distribution and citation
 
-Distribution is currently a development repository. There is no archived dataset release or DOI. Research citations must state the exact development revision and its infrastructure-only status.
+Distribution includes the [v0.1.0-dev infrastructure prerelease](https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.1.0-dev) and its synthetic exports. There is no approved empirical dataset release or DOI. Research citations must state the exact development revision and its infrastructure-only status.

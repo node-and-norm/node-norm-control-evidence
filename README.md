@@ -12,6 +12,8 @@
 
 [![Infrastructure checks](https://github.com/node-and-norm/node-norm-control-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/node-norm-control-evidence/actions/workflows/validate.yml)
 
+**Development release:** [v0.1.0-dev](https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.1.0-dev) · [Release history](docs/releases/README.md)
+
 An investigation says a human could intervene. A trace records an override command. Neither statement, on its own, establishes that the command changed what the system did.
 
 **The Control Evidence Corpus (CEC) makes that evidentiary boundary inspectable.** It connects each control proposition to a dated source, a precise evidence location, and a preserved judgment. Its research question is whether independent reviewers can use those records to reconstruct control operation reliably.

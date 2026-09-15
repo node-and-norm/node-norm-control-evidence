@@ -52,6 +52,7 @@
 | [Schemas](../schemas/README.md) | Objects, typed relations, temporal integrity, validation limits |
 | [Integration contract](reference/INTEGRATION_CONTRACT.md) | Canonical ownership, downstream transformations, later site export |
 | [Data directory](../data/README.md) | Empirical storage status and intake boundary |
+| [Release history](releases/README.md) | Tagged infrastructure snapshots, downloadable assets, and research status |
 | [Changelog](../CHANGELOG.md) | Changes without retroactive validity claims |
 | [Citation](../CITATION.cff) | Development version attribution |
 
