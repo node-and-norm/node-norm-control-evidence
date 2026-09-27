@@ -6,7 +6,7 @@
 
 CEC is the canonical empirical layer. TAE, HIT, and RGDS consume immutable releases and own their derived analyses. Proposed corrections return through reviewed changes with provenance; downstream code cannot silently update canonical records.
 
-The repositories share the [Node & Norm organization](https://github.com/node-and-norm). Organization ownership does not change research authority, establish scientific validity, or make downstream outputs ground truth. CEC remains private development infrastructure; empirical consumption is a future contract, not an operational data feed. See the [organization migration record](ORGANIZATION_MIGRATION_2026-09-15.md).
+The repositories share the [Node & Norm organization](https://github.com/node-and-norm). Organization ownership does not change research authority, establish scientific validity, or make downstream outputs ground truth. CEC is public development infrastructure; empirical consumption is a future contract, not an operational data feed. See the [organization migration record](ORGANIZATION_MIGRATION_2026-09-15.md).
 
 ## Required analysis provenance
 

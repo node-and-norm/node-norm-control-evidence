@@ -1,5 +1,7 @@
 # Continuation record
 
+The [2026-09-27 repository audit](REPOSITORY_AUDIT_2026-09-27.md) records the verified GitHub state and subsequent pilot preparation. The recovery account below is retained as historical provenance.
+
 Recovered on 2026-09-14 UTC from AI Risk Data Sources, conversation `6aa7445d-8f5c-83ea-9113-dd50d7ad1a8e`, and Work task `01a09de3-bdfd-7561-acbc-fd9a520076a2`.
 
 The earlier Work task failed at the account usage limit before producing an implementation. The workspace contained the site build and supplied research references; `sources/` was empty. A GitHub inventory of mj3b contained no `node-norm-control-evidence` repository. This continuation therefore prepares the first implementation without replacing an earlier corpus.
