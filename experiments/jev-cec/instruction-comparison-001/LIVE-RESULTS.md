@@ -41,3 +41,5 @@ Archive verification and a configured-credential scan passed. Response structure
 Do not promote the candidate as an established improvement. The primary paired result supplies no net advantage, and incomplete coverage constrains both aggregate and targeted comparisons. Preserve both packages and their disagreements.
 
 Pause further prompt tuning while reviewing the 14 response-validity failures and the known reference-linkage ambiguities. Any normalization analysis must be separately labeled and retain these original exclusions. Any packet repair must be a separate version. Repeated tuning on these public cases cannot establish independent accuracy; broader claims require a separate evaluation design.
+
+The subsequent [response-validity and reference review](VALIDITY-REVIEW.md) traces the exclusions and specifies the next packet-linkage diagnostic.
