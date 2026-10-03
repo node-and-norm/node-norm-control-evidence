@@ -50,7 +50,7 @@
         },
         {
           "id": "E4",
-          "text": "The custodian identifies the record of account outcome attributable to R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
         }
       ],
       "scope": {
@@ -79,7 +79,7 @@
         },
         {
           "id": "E3",
-          "text": "The custodian identifies the record of execution of J after R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
         },
         {
           "id": "E4",
@@ -112,11 +112,11 @@
         },
         {
           "id": "E3",
-          "text": "The custodian identifies the record of execution of J after R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
         },
         {
           "id": "E4",
-          "text": "The custodian identifies the record of account outcome attributable to R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
         }
       ],
       "scope": {
@@ -141,7 +141,7 @@
         },
         {
           "id": "E2",
-          "text": "The custodian identifies the record of receipt by W of R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
         },
         {
           "id": "E3",
@@ -174,7 +174,7 @@
         },
         {
           "id": "E2",
-          "text": "The custodian identifies the record of receipt by W of R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
         },
         {
           "id": "E3",
@@ -182,7 +182,7 @@
         },
         {
           "id": "E4",
-          "text": "The custodian identifies the record of account outcome attributable to R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
         }
       ],
       "scope": {
@@ -207,11 +207,11 @@
         },
         {
           "id": "E2",
-          "text": "The custodian identifies the record of receipt by W of R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
         },
         {
           "id": "E3",
-          "text": "The custodian identifies the record of execution of J after R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
         },
         {
           "id": "E4",
@@ -240,15 +240,15 @@
         },
         {
           "id": "E2",
-          "text": "The custodian identifies the record of receipt by W of R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
         },
         {
           "id": "E3",
-          "text": "The custodian identifies the record of execution of J after R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
         },
         {
           "id": "E4",
-          "text": "The custodian identifies the record of account outcome attributable to R but withholds it under an explicit access restriction. Its contents are unavailable."
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
         }
       ],
       "scope": {
