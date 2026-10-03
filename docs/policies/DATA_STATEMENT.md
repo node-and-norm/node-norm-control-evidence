@@ -8,6 +8,8 @@ This development version contains three synthetic event-control examples and no 
 
 The separate [TAE/HIT sandbox](../../experiments/us-control-sandbox/README.md) contains sixteen authored conditions and saved execution records, including deliberate faults and evidence-withholding cases. They remain outside the empirical corpus and are not coded CEC observations. Full reference documents are excluded from publication; source links and locally acquired-byte hashes remain. See its [publication record](../../experiments/us-control-sandbox/PUBLICATION.md).
 
+The separate [Jev experiment](../../experiments/jev-cec/README.md) preserves twelve invented packets, 36 live attempts, raw outputs and an exposed AI-assisted boundary review. The [successor draft](../../experiments/jev-cec/development-v2/README.md) contains sixteen unrun paired packets with proposed labels. Neither collection is an empirical corpus or independent validation set.
+
 ## Intended data and inference
 
 Planned data comes from publicly documented events, enriched with primary evidence where available. Selection, reporting, language, access, publicity, and source-dependence biases limit inference. The initial study estimates observability within its declared frame and retrieval procedure.
@@ -18,4 +20,4 @@ The corpus preserves source assertions separately from annotations and adjudicat
 
 ## Distribution and citation
 
-Distribution includes the [v0.1.0-dev infrastructure prerelease](https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.1.0-dev) and its synthetic exports. There is no approved empirical dataset release or DOI. Research citations must state the exact development revision and its infrastructure-only status.
+Distribution includes the [v0.2.0-dev infrastructure prerelease](https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.2.0-dev) and its synthetic exports. There is no approved empirical dataset release or DOI. Research citations must state the exact development revision and its infrastructure-only status.

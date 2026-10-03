@@ -24,8 +24,12 @@ The [versioned challenge set](challenge-v1/README.md) adds twelve invented packe
 
 ## Execution contract
 
-The [execution protocol v1](execution-v1/PROTOCOL.md) fixes three passes, a 36-request ceiling, a USD 1 spending ceiling for a future runner, whole-response validation and descriptive reporting rules. `python experiments/jev-cec/execution.py --output build/cec-schedule` prepares the schedule offline. The response validator rejects malformed distributions without normalization. No live transport is implemented yet.
+The [execution protocol v1](execution-v1/PROTOCOL.md) fixes three passes, a 36-request ceiling, a USD 1 spending ceiling for a future runner, whole-response validation and descriptive reporting rules. `python experiments/jev-cec/execution.py --output build/cec-schedule` prepares the schedule offline. The response validator rejects malformed distributions without normalization. This describes the earlier contract milestone; the runner and first live results are linked below.
 
 ## Runner continuation
 
 The [runner guide](execution-v1/RUNNER.md) documents the implemented bounded transport, mock verification, live preflight and per-pass analysis. The earlier execution-contract milestone remains preserved. The [first live results](execution-v1/LIVE-RESULTS.md) preserve 31 valid and five invalid responses from 36 attempts, with unresolved disagreements.
+
+## Successor development
+
+The [four-question development draft](development-v2/README.md) supplies sixteen paired cases and proposed reference labels. It remains unrun and unfrozen. See the [results figure and formulas](../../docs/figures/README.md) for the original run.

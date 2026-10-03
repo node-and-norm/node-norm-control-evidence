@@ -12,6 +12,8 @@
 | [Pilot workbench](../research/pilot/README.md) | Concrete decisions, blank instruments, and an intake-to-review workflow |
 | [Reproducibility guide](reference/REPRODUCIBILITY.md) | Commands, generated artifacts, checks, and implementation limits |
 
+Additional development evidence: [Jev results and formulas](figures/README.md), [successor cases](../experiments/jev-cec/development-v2/README.md), and [October maintenance audit](reference/REPOSITORY_AUDIT_2026-10-03.md).
+
 ## Authority and direction
 
 | Document | Purpose |

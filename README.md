@@ -13,14 +13,14 @@
 
 [![Infrastructure checks](https://github.com/node-and-norm/node-norm-control-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/node-norm-control-evidence/actions/workflows/validate.yml)
 
-**Development release:** [v0.1.0-dev](https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.1.0-dev) · [Release history](docs/releases/README.md)
+**Development release:** [v0.2.0-dev](https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.2.0-dev) · [Release history](docs/releases/README.md)
 
 An investigation says a human could intervene. A trace records an override command. Neither statement, on its own, establishes that the command changed what the system did.
 
 **The Control Evidence Corpus (CEC) makes that evidentiary boundary inspectable.** It connects each control proposition to a dated source, a precise evidence location, and a preserved judgment. Its research question is whether independent reviewers can use those records to reconstruct control operation reliably.
 
 > [!IMPORTANT]
-> **Development infrastructure · 0.1.0-dev.** Three synthetic demonstrations and one unrated source-reconnaissance note are available. A separate [TAE/HIT sandbox](experiments/us-control-sandbox/README.md) adds sixteen scripted development conditions with preserved run records. There are **zero independently coded empirical events** and **no approved corpus release**. Software checks do not establish scientific validity.
+> **Development infrastructure · 0.2.0-dev.** Three synthetic demonstrations and one unrated source-reconnaissance note are available. A separate [TAE/HIT sandbox](experiments/us-control-sandbox/README.md) adds sixteen scripted development conditions with preserved run records. There are **zero independently coded empirical events** and **no approved corpus release**. Software checks do not establish scientific validity.
 
 ## See the distinction
 
@@ -74,6 +74,14 @@ Each analytical observation binds **one event, one control objective, one opport
 | Inspect or extend the implementation | [Reproducibility guide](docs/reference/REPRODUCIBILITY.md) | [Schemas](schemas/README.md) |
 | Use future findings | [Integration contract](docs/reference/INTEGRATION_CONTRACT.md) | [Data and rights](docs/policies/DATA_STATEMENT.md) |
 | Review the research authority | [Charter](RESEARCH_CHARTER.md) · [Agenda](RESEARCH_AGENDA.md) | [Governance](GOVERNANCE.md) |
+
+## Development findings and next tests
+
+[Results figure and formulas](docs/figures/README.md) · [Disagreement review](experiments/jev-cec/execution-v1/BOUNDARY-REVIEW.md) · [Successor paired-case draft](experiments/jev-cec/development-v2/README.md)
+
+![CEC live run: all scheduled determinations, including unavailable answers](docs/figures/cec-live-overview.png)
+
+These descriptive counts come from public synthetic packets and an AI-authored reference. The successor cases are unrun development proposals.
 
 ## Optional model-assisted preparation
 
