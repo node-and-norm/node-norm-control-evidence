@@ -21,3 +21,7 @@ The original synthetic bundles include labels and are saved as provenance only. 
 ## Documentary challenge continuation
 
 The [versioned challenge set](challenge-v1/README.md) adds twelve invented packets and a separate AI-authored reference key. It preserves 36 expectations before any CEC model inference. Run `python experiments/jev-cec/challenge.py check` to verify its hashes and references. This is development exposure; independent review and a live execution protocol remain outstanding.
+
+## Execution contract
+
+The [execution protocol v1](execution-v1/PROTOCOL.md) fixes three passes, a 36-request ceiling, a USD 1 spending ceiling for a future runner, whole-response validation and descriptive reporting rules. `python experiments/jev-cec/execution.py --output build/cec-schedule` prepares the schedule offline. The response validator rejects malformed distributions without normalization. No live transport is implemented yet.
