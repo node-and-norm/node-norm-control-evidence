@@ -39,3 +39,7 @@ Before procedure execution, commit inputs, key, audit code and runner. Record th
 Complete response capture before auditing. If the runner or audit fails, retain available inputs and failure details in a new attempt folder; do not overwrite it. No procedure revision is permitted within this attempt. A later fix requires a new version/attempt with the exposed cases classified as development data.
 
 Publish inputs, key, original outputs, source snapshots, hashes, results and limitations. Report engineering checks separately from observed comparison counts. No inferential statistics, field prevalence, independent validity, superiority or human-assessment benefit is claimed. The research result may be that extra trace content has an unproven benefit despite additional size.
+
+## Pre-run clarification
+
+After writing the packet/key files but before executing either procedure on them, locator checking was clarified to require the complete prescribed locator set for a check, ignoring order. A subset can omit a material conflicting response. This clarification changes no cases, reference labels or procedure code. It is retained in the pre-run implementation commit with the auditor tests.

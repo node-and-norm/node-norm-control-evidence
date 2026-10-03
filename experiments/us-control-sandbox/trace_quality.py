@@ -13,6 +13,12 @@ def audit(response, key):
             raise ValueError('Response identity differs from key')
     if response.get('claim_scope') != key['scope'] or response.get('response') not in LABELS.values():
         raise ValueError('Invalid scope or response label')
+    if not isinstance(response.get('reason'), str) or not response['reason'].strip() or not isinstance(response.get('limits'), list) or not response['limits']:
+        raise ValueError('Missing rationale or limitations')
+    if set(key['checks']) != CHECKS or key['reference'] not in LABELS:
+        raise ValueError('Invalid reference key')
+    if any(not any(item['state'] is value for value in (True, False, None)) for item in key['checks'].values()):
+        raise ValueError('Invalid reference check state')
     entries = response.get('checks')
     if not isinstance(entries, list) or not entries:
         raise ValueError('Missing check assertions')
@@ -29,7 +35,8 @@ def audit(response, key):
         same_state = item['satisfied'] is expected['state']
         locators = item['locators']
         valid_locators = (isinstance(locators, list) and bool(locators)
-                          and all(isinstance(p, str) and p in expected['locators'] for p in locators))
+                          and all(isinstance(p, str) for p in locators)
+                          and set(locators) == set(expected['locators']))
         wrong += not same_state
         bad_locators += not valid_locators
         if same_state and valid_locators:
@@ -42,6 +49,8 @@ def audit(response, key):
     if not determinate and response['outcome_locator'] is not None:
         raise ValueError('Unresolved response asserts an outcome locator')
     bad_locators += int(determinate and response['outcome_locator'] != expected_outcome)
+    if response['procedure'] == 'trace' and 'blockers' not in response:
+        raise ValueError('Missing trace blocker list')
     named = response.get('blockers', [])
     if not isinstance(named, list) or any(name not in CHECKS for name in named) or len(set(named)) != len(named):
         raise ValueError('Invalid blocker labels')
