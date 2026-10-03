@@ -97,3 +97,16 @@ class LinkageRunnerTests(unittest.TestCase):
         saved=json.loads((path/'report.json').read_text())
         for name,value in result.items():self.assertEqual(value,saved[name])
         self.assertEqual(saved['live_requests_sent'],0)
+    def test_preserved_live_reproduces(self):
+        path=ROOT/'experiments/jev-cec/packet-linkage-001/live-001'
+        runner.verify(path)
+        rows=json.loads((path/'schedule.json').read_text())
+        records=json.loads((path/'attempts.json').read_text())
+        for record in records:
+            if record['status']=='valid':
+                record['response_raw']=(path/'responses'/f"{record['attempt_id']}.bin").read_bytes()
+        key=json.loads((path/'source/packet-linkage-001/reference.json').read_text())
+        result=runner.summarize(rows,records,key,'live')
+        saved=json.loads((path/'report.json').read_text())
+        for name,value in result.items():self.assertEqual(value,saved[name])
+        self.assertEqual(saved['live_requests_sent'],8)
