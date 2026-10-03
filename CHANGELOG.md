@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+No changes yet.
+
+## v0.2.0-dev · 2026-10-03 UTC
+
+Infrastructure prerelease consolidating the sandbox, paired procedures, Jev execution and boundary review. Added a reproducible figure with full coverage counts and metric formulas, sixteen successor development cases, and a repository maintenance audit. No new inference, canonical codebook revision or empirical release.
+
 Added a post-output review of all 22 first-run Jev mismatches, grouped into nine issues with evidence links and prospective requirements. No relabeling, rescoring, new inference or human adjudication.
 
 Preserved the first CEC Jev live run: 36 attempts, 31 valid responses and five probability-sum rejections, with no retries or repaired outputs. Primary-pass agreement is 24/33 valid determinations at 33/36 coverage. Added a bounded results interpretation and archive/report reproduction check; all 22 mismatches remain unresolved. No canonical ratings or independent-validity claim.

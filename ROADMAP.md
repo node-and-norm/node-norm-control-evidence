@@ -15,6 +15,10 @@
 | 6 · Empirical release | Rights and ethics decisions, attributable review, reproducible packages, exact-version citation and archive | Closed |
 | 7 · Downstream integration | Audited adapters and site allowlist projection preserving uncertainty and corrections | Contract defined; implementation deferred |
 
+## Parallel technical development
+
+The shared sandbox, paired record procedures and first Jev run are preserved. The [successor specification](experiments/jev-cec/development-v2/README.md) now has sixteen paired cases. Fill its declared coverage gaps, inspect its proposed reference, then freeze a separate execution contract before further inference. These tasks do not complete the human research gates above.
+
 ## Next executable research tasks
 
 | Task | Artifact to complete | Acceptance condition |

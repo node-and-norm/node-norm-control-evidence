@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "Cite the exact commit and identify this as an unvalidated infrastructure development version."
 title: "Node & Norm Control Evidence Corpus: research infrastructure"
 type: software
-version: 0.1.0-dev
-date-released: 2026-09-15
-url: "https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.1.0-dev"
+version: 0.2.0-dev
+date-released: 2026-10-03
+url: "https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.2.0-dev"
 repository-code: "https://github.com/node-and-norm/node-norm-control-evidence"
 authors:
   - family-names: Banasihan

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "V2-01-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_reported",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only delivery evidence changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-01-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only delivery evidence changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-02-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only execution evidence changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-02-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "yes",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only execution evidence changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-03-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "yes",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only consequence evidence changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-03-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "yes",
+      "outcome_mitigation": "yes"
+    },
+    "rationale": "Only consequence evidence changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-04-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "yes",
+      "outcome_mitigation": "yes"
+    },
+    "rationale": "Only settlement evidence changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-04-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "no",
+      "outcome_mitigation": "no"
+    },
+    "rationale": "Only settlement evidence changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-05-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_reported",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only availability of receipt records changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-05-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_observable",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only availability of receipt records changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-06-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "unknown",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only the reason linkage is unavailable changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-06-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_observable",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only the reason linkage is unavailable changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-07-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_reported",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only evidence contradicting issuance changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-07-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "conflicting",
+      "propagation": "not_reported",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only evidence contradicting issuance changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-08-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "partial",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only receipt coverage changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  },
+  {
+    "id": "V2-08-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationale": "Only receipt coverage changes. Apply the draft dimension-local rules; E1 supplies common context and E2 is the paired evidence change."
+  }
+]

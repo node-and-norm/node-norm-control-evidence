@@ -1,0 +1,388 @@
+[
+  {
+    "id": "V2-01-A",
+    "pair_id": "receipt",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued STOP R for job J."
+      },
+      {
+        "id": "E2",
+        "text": "No downstream receipt information is supplied."
+      }
+    ]
+  },
+  {
+    "id": "V2-01-B",
+    "pair_id": "receipt",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued STOP R for job J."
+      },
+      {
+        "id": "E2",
+        "text": "Worker W recorded receipt of R for J."
+      }
+    ]
+  },
+  {
+    "id": "V2-02-A",
+    "pair_id": "trajectory",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued R; W recorded receipt for J."
+      },
+      {
+        "id": "E2",
+        "text": "No execution information is supplied."
+      }
+    ]
+  },
+  {
+    "id": "V2-02-B",
+    "pair_id": "trajectory",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued R; W recorded receipt for J."
+      },
+      {
+        "id": "E2",
+        "text": "W records that R cancelled J before execution."
+      }
+    ]
+  },
+  {
+    "id": "V2-03-A",
+    "pair_id": "consequence",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued R; W received R and cancelled the erroneous fee job J before execution."
+      },
+      {
+        "id": "E2",
+        "text": "No account outcome information is supplied."
+      }
+    ]
+  },
+  {
+    "id": "V2-03-B",
+    "pair_id": "consequence",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued R; W received R and cancelled the erroneous fee job J before execution."
+      },
+      {
+        "id": "E2",
+        "text": "The account ledger links the cancellation of J to prevention of its ten-dollar debit; the closing statement records no debit from J."
+      }
+    ]
+  },
+  {
+    "id": "V2-04-A",
+    "pair_id": "failed_remedy",
+    "synthetic": true,
+    "scope": {
+      "objective": "Refund the erroneous ten-dollar fee.",
+      "targets": [
+        "payment service"
+      ],
+      "trajectory": "Settle refund R.",
+      "consequence": "Reverse the specified ten-dollar fee.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The operator issued refund R for the erroneous ten-dollar fee; the payment service received R."
+      },
+      {
+        "id": "E2",
+        "text": "Settlement R credited the full fee; the closing account entry links the credit to the original fee and records zero remaining."
+      }
+    ]
+  },
+  {
+    "id": "V2-04-B",
+    "pair_id": "failed_remedy",
+    "synthetic": true,
+    "scope": {
+      "objective": "Refund the erroneous ten-dollar fee.",
+      "targets": [
+        "payment service"
+      ],
+      "trajectory": "Settle refund R.",
+      "consequence": "Reverse the specified ten-dollar fee.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The operator issued refund R for the erroneous ten-dollar fee; the payment service received R."
+      },
+      {
+        "id": "E2",
+        "text": "Settlement R was rejected; the closing account retains the full fee and records no credit in the interval."
+      }
+    ]
+  },
+  {
+    "id": "V2-05-A",
+    "pair_id": "access",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued STOP R for J. No execution or account outcome records are described."
+      },
+      {
+        "id": "E2",
+        "text": "The packet supplies no receipt information."
+      }
+    ]
+  },
+  {
+    "id": "V2-05-B",
+    "pair_id": "access",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued STOP R for J. No execution or account outcome records are described."
+      },
+      {
+        "id": "E2",
+        "text": "Custody identifies receipt records for R at W, but withholds them under an access restriction."
+      }
+    ]
+  },
+  {
+    "id": "V2-06-A",
+    "pair_id": "identity",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued STOP R for J; W also had K pending. No execution or account outcome records are described."
+      },
+      {
+        "id": "E2",
+        "text": "A readable receipt says STOP received but omits request and job IDs; no mapping exists in this packet."
+      }
+    ]
+  },
+  {
+    "id": "V2-06-B",
+    "pair_id": "identity",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued STOP R for J; W also had K pending. No execution or account outcome records are described."
+      },
+      {
+        "id": "E2",
+        "text": "A receipt export has damaged, unreadable request and job fields; the damage prevents inspection of those fields."
+      }
+    ]
+  },
+  {
+    "id": "V2-07-A",
+    "pair_id": "conflict",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console export states STOP R was issued for J. No receipt, execution or account outcome information is supplied."
+      },
+      {
+        "id": "E2",
+        "text": "A second export repeats that R was issued."
+      }
+    ]
+  },
+  {
+    "id": "V2-07-B",
+    "pair_id": "conflict",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console export states STOP R was issued for J. No receipt, execution or account outcome information is supplied."
+      },
+      {
+        "id": "E2",
+        "text": "A second export states R was never issued; neither export has precedence and both concern the same interval."
+      }
+    ]
+  },
+  {
+    "id": "V2-08-A",
+    "pair_id": "targets",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W",
+        "V"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued STOP R for replicas of J at W and V. No execution or account outcome information is supplied."
+      },
+      {
+        "id": "E2",
+        "text": "W records receipt of R for J; no receipt information is supplied for V."
+      }
+    ]
+  },
+  {
+    "id": "V2-08-B",
+    "pair_id": "targets",
+    "synthetic": true,
+    "scope": {
+      "objective": "Stop erroneous fee job J before execution.",
+      "targets": [
+        "W",
+        "V"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent the specified ten-dollar debit from J.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued STOP R for replicas of J at W and V. No execution or account outcome information is supplied."
+      },
+      {
+        "id": "E2",
+        "text": "Both W and V record receipt of R for J."
+      }
+    ]
+  }
+]
