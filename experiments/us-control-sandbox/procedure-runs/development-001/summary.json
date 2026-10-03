@@ -1,0 +1,49 @@
+{
+  "status": "public development demonstration; no independent reference key or comparative performance estimate",
+  "selection": "seven existing packets chosen for visible development contrasts",
+  "tae_hit_scored": false,
+  "rows": [
+    {
+      "unit_id": "demo-001",
+      "checklist_response": "effect_supported",
+      "trace_response": "effect_supported",
+      "labels_agree": true
+    },
+    {
+      "unit_id": "demo-002",
+      "checklist_response": "fault_supported",
+      "trace_response": "fault_supported",
+      "labels_agree": true
+    },
+    {
+      "unit_id": "demo-003",
+      "checklist_response": "effect_supported",
+      "trace_response": "effect_supported",
+      "labels_agree": true
+    },
+    {
+      "unit_id": "demo-004",
+      "checklist_response": "fault_supported",
+      "trace_response": "fault_supported",
+      "labels_agree": true
+    },
+    {
+      "unit_id": "demo-005",
+      "checklist_response": "unresolved",
+      "trace_response": "unresolved",
+      "labels_agree": true
+    },
+    {
+      "unit_id": "demo-006",
+      "checklist_response": "effect_supported",
+      "trace_response": "effect_supported",
+      "labels_agree": true
+    },
+    {
+      "unit_id": "demo-007",
+      "checklist_response": "fault_supported",
+      "trace_response": "fault_supported",
+      "labels_agree": true
+    }
+  ]
+}

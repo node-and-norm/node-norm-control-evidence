@@ -1,0 +1,99 @@
+{
+  "source": {
+    "path": "runs/recovery-001/assessment-packets/recovery-007.json",
+    "sha256": "80b246e9949b7ef7e2c739b680b91e20fbcb48f4615aa476091f01c01f94b5c8",
+    "revision": "8a792f69df95d7c96481871d960fe420385bb885"
+  },
+  "envelope": {
+    "unit_id": "demo-005",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "stop_response",
+          "accepted": true
+        },
+        {
+          "event": "commit_response",
+          "received": true
+        }
+      ],
+      "downstream": null
+    },
+    "packet_digest": "62f2389d1c5132ac5a5de451a46798bd2857e20b33a59d393d98e53097cdce99"
+  },
+  "checklist": {
+    "version": "paired-record-procedures/0.1",
+    "procedure": "checklist",
+    "unit_id": "demo-005",
+    "objective": "recorded_stop",
+    "claim_scope": "single-authored-packet-terminal-record",
+    "packet_digest": "62f2389d1c5132ac5a5de451a46798bd2857e20b33a59d393d98e53097cdce99",
+    "response": "unresolved",
+    "reason": "A required record condition is unresolved.",
+    "checks": [
+      {
+        "check": "applicable_response_recorded",
+        "satisfied": true,
+        "locators": [
+          "/events/0"
+        ]
+      },
+      {
+        "check": "downstream_record_supplied",
+        "satisfied": false,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    ],
+    "outcome_locator": null,
+    "limits": [
+      "No human-control or institutional finding.",
+      "Source completeness and truth are not independently established."
+    ]
+  },
+  "trace": {
+    "version": "paired-record-procedures/0.1",
+    "procedure": "trace",
+    "unit_id": "demo-005",
+    "objective": "recorded_stop",
+    "claim_scope": "single-authored-packet-terminal-record",
+    "packet_digest": "62f2389d1c5132ac5a5de451a46798bd2857e20b33a59d393d98e53097cdce99",
+    "response": "unresolved",
+    "reason": "A required record condition is unresolved.",
+    "checks": [
+      {
+        "check": "applicable_response_recorded",
+        "satisfied": true,
+        "locators": [
+          "/events/0"
+        ]
+      },
+      {
+        "check": "downstream_record_supplied",
+        "satisfied": false,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      {
+        "check": "record_fits_objective",
+        "satisfied": null,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    ],
+    "outcome_locator": null,
+    "limits": [
+      "No human-control or institutional finding.",
+      "Source completeness and truth are not independently established."
+    ],
+    "blockers": [
+      "downstream_record_supplied",
+      "record_fits_objective"
+    ]
+  }
+}
