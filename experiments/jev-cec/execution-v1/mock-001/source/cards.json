@@ -1,0 +1,581 @@
+[
+  {
+    "id": "C01",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J in worker W before execution.",
+        "opportunity": "Job J is pending in worker W.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "Policy: the operator may issue STOP for job J to worker W.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C02",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J in worker W before execution.",
+        "opportunity": "Job J is pending in worker W.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 on 1 September, the operator console sent STOP request R for job J to worker W.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C03",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J in worker W before execution.",
+        "opportunity": "Job J is pending in worker W.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S2",
+          "family_id": "F2",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 on 1 September, the operator console sent STOP request R for job J to worker W.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E2",
+          "source_id": "S2",
+          "locator": "Invented passage 2",
+          "observation": "Worker W logged receipt of STOP R for J at 12:00:11 on 1 September and cancelled J before execution.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C04",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J in worker W before execution.",
+        "opportunity": "Job J is pending in worker W.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S2",
+          "family_id": "F2",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 on 1 September, the operator console sent STOP request R for job J to worker W.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E2",
+          "source_id": "S2",
+          "locator": "Invented passage 2",
+          "observation": "Router log: STOP R was discarded at 12:00:10. No copy or retry was forwarded to W during the interval.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C05",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J in worker W before execution.",
+        "opportunity": "Job J is pending in worker W.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S2",
+          "family_id": "F2",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S3",
+          "family_id": "F3",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 on 1 September, the operator console sent STOP request R for job J to worker W.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E2",
+          "source_id": "S2",
+          "locator": "Invented passage 2",
+          "observation": "Worker W logged receipt of STOP R for J at 12:00:11 on 1 September and cancelled J before execution.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E3",
+          "source_id": "S3",
+          "locator": "Invented passage 3",
+          "observation": "A separately supplied worker export states W received no STOP R during the same interval and ran J. Both exports identify W and J; their versions cannot be ordered and neither is designated authoritative.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C06",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J in worker W before execution.",
+        "opportunity": "Job J is pending in worker W.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S2",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S3",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [
+        {
+          "from_source_id": "S2",
+          "to_source_id": "S1",
+          "relation": "derived_from",
+          "basis": "Quotes the console export."
+        },
+        {
+          "from_source_id": "S3",
+          "to_source_id": "S2",
+          "relation": "derived_from",
+          "basis": "Repeats the bulletin."
+        }
+      ],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 on 1 September, the operator console sent STOP request R for job J to worker W.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E2",
+          "source_id": "S2",
+          "locator": "Invented passage 2",
+          "observation": "Bulletin: the console recorded sending STOP R to W. This bulletin quotes the console export only.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E3",
+          "source_id": "S3",
+          "locator": "Invented passage 3",
+          "observation": "Newsletter: STOP R was sent to W, according to the bulletin. No additional record was inspected.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C07",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J in worker W before execution.",
+        "opportunity": "Job J is pending in worker W.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "An archived record from 31 August at 09:00 shows STOP Q sent for job K to worker Z; Z acknowledged it.",
+          "valid_from": "2026-08-31T09:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C08",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J in worker W before execution.",
+        "opportunity": "Job J is pending in worker W.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S2",
+          "family_id": "F2",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 on 1 September, the operator console sent STOP request R for job J to worker W.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E2",
+          "source_id": "S2",
+          "locator": "Invented passage 2",
+          "observation": "Custody note: receipt records for W during this interval exist but are withheld from this packet under an access restriction; their contents cannot be inspected.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C09",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J in worker W before execution.",
+        "opportunity": "Job J is pending in worker W.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S2",
+          "family_id": "F2",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 on 1 September, the operator console sent STOP request R for job J to worker W.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E2",
+          "source_id": "S2",
+          "locator": "Invented passage 2",
+          "observation": "Worker receipt export: STOP was received at 12:00:11, but the request and job fields are unreadable. During this interval W had both J and K pending. No mapping record is supplied.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C10",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Interrupt job J at both workers W and V before either executes it.",
+        "opportunity": "Replicas of J are pending at W and V.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S2",
+          "family_id": "F2",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 on 1 September, the operator console sent STOP request R for job J to workers W and V.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E2",
+          "source_id": "S2",
+          "locator": "Invented passage 2",
+          "observation": "Worker W recorded STOP R for J at 12:00:11. The supplied packet contains no receipt record for V.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C11",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Reverse the erroneous ten-dollar fee on account A through refund R.",
+        "opportunity": "The fee has already been charged; refund R can return it.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S2",
+          "family_id": "F2",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S3",
+          "family_id": "F3",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 the billing operator issued refund R for the ten-dollar fee on account A.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E2",
+          "source_id": "S2",
+          "locator": "Invented passage 2",
+          "observation": "The payment service received refund R for A at 12:00:11.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E3",
+          "source_id": "S3",
+          "locator": "Invented passage 3",
+          "observation": "Settlement entry at 12:00:40: refund R credited ten dollars to A, linked to the original fee transaction. The account statement records that credit and a zero remaining balance for that fee.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  },
+  {
+    "id": "C12",
+    "state": {
+      "synthetic": true,
+      "scope": {
+        "objective": "Reverse the erroneous ten-dollar fee on account A through refund R.",
+        "opportunity": "The fee has already been charged; refund R can return it.",
+        "relevant_from": "2026-09-01T12:00:00Z",
+        "relevant_to": "2026-09-01T12:01:00Z"
+      },
+      "cutoff": "2026-09-03T00:00:00Z",
+      "sources": [
+        {
+          "id": "S1",
+          "family_id": "F1",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S2",
+          "family_id": "F2",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        },
+        {
+          "id": "S3",
+          "family_id": "F3",
+          "source_date": "2026-09-01T12:01:00Z",
+          "retrieved_at": "2026-09-02T00:00:00Z",
+          "version": "invented-v1"
+        }
+      ],
+      "source_relations": [],
+      "evidence": [
+        {
+          "id": "E1",
+          "source_id": "S1",
+          "locator": "Invented passage 1",
+          "observation": "At 12:00:10 the billing operator issued refund R for the ten-dollar fee on account A.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E2",
+          "source_id": "S2",
+          "locator": "Invented passage 2",
+          "observation": "The payment service received refund R for A at 12:00:11.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        },
+        {
+          "id": "E3",
+          "source_id": "S3",
+          "locator": "Invented passage 3",
+          "observation": "Settlement entry at 12:00:40: refund R was rejected and no credit was posted. The closing account entry at 12:01 retains the full ten-dollar fee. No further refund was attempted during the interval.",
+          "valid_from": "2026-09-01T12:00:00Z"
+        }
+      ]
+    }
+  }
+]

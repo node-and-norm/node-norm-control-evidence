@@ -1,0 +1,377 @@
+[
+  {
+    "id": "C01",
+    "condition": "policy only",
+    "judgments": {
+      "action": {
+        "value": "not_reported",
+        "rationale": "Permission is stated, but no action in this interval is reported.",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "No record traces an issued action to W.",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C02",
+    "condition": "command only",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "The console records the attempted action.",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "The supplied console record says nothing about downstream receipt.",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C03",
+    "condition": "downstream acknowledgement",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "The console records STOP R.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "W records receipt of the same request and cancellation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C04",
+    "condition": "affirmative non-delivery",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "An action was attempted.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "no",
+        "rationale": "The router affirmatively records non-delivery throughout the defined interval.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C05",
+    "condition": "conflicting accounts",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "The attempted command is recorded.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      "propagation": {
+        "value": "conflicting",
+        "rationale": "The two accounts make incompatible claims about receipt for the same request and period; no precedence resolves them.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C06",
+    "condition": "dependent repetition",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "All reports concern the same recorded attempt.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "Repetition of sending does not add a receipt record.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C07",
+    "condition": "wrong period and component",
+    "judgments": {
+      "action": {
+        "value": "not_reported",
+        "rationale": "The only action concerns a different job, worker and date.",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "No supplied record reports propagation for J in W during this interval.",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C08",
+    "condition": "documented access barrier",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "The console action remains visible.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_observable",
+        "rationale": "A specific restriction prevents inspection of the downstream receipt records.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C09",
+    "condition": "ambiguous linkage",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "R was sent for J.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "unknown",
+        "rationale": "Receipt evidence exists but cannot be linked to J rather than K; this is identity ambiguity.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C10",
+    "condition": "partial downstream coverage",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "The console records the command addressed to both workers.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "partial",
+        "rationale": "Receipt is established for W only; the objective requires both W and V.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C11",
+    "condition": "documented bounded remedy",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "The refund instruction is recorded.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "The service receipt links R to A.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "yes",
+        "rationale": "The linked settlement and account entry document reversal of the specified fee; this says nothing about other harms.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  },
+  {
+    "id": "C12",
+    "condition": "received but remedy absent",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "The refund instruction is recorded.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "The service received R even though settlement failed.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "no",
+        "rationale": "The rejection and closing balance affirmatively establish that the specified fee was not reversed in the period.",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      }
+    },
+    "status": "ai_authored_reference_unreviewed"
+  }
+]

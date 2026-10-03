@@ -138,3 +138,18 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(transport(b'{}'),(200,b'{}'))
         self.assertEqual(captured,{'url':runner.ENDPOINT,'method':'POST','body':b'{}','timeout':30})
         self.assertIsNone(runner.NoRedirect().redirect_request(None,None,302,'',{},'https://example.invalid'))
+
+    def test_preserved_mock_manifest_and_report_reproduction(self):
+        path=ROOT/'experiments/jev-cec/execution-v1/mock-001'
+        self.assertEqual(runner.verify(path)['mode'],'mock')
+        rows=json.loads((path/'schedule.json').read_text())
+        records=json.loads((path/'attempts.json').read_text())
+        for record in records:
+            if record['status']=='valid':
+                record['response_raw']=(path/'responses'/f'{record["attempt_id"]}.bin').read_bytes()
+        key=json.loads((path/'source/reference-key.json').read_text())
+        expected=summarize(rows,records,key,'mock')
+        saved=json.loads((path/'report.json').read_text())
+        for field,value in expected.items():
+            self.assertEqual(saved[field],value)
+        self.assertEqual(saved['live_requests_sent'],0)
