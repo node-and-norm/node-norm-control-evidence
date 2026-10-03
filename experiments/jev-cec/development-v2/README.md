@@ -39,3 +39,7 @@ When outcome observation and causal linkage have different limitations, record b
 All facts are authored narrative evidence, not outputs of executed systems. The first version covers seven labels; `not_applicable` has no example. The pairs omit dependent-source repetition, trajectory-specific conflict, partial consequences and a mixed outcome-access/causal-link barrier. Those gaps must be filled and the whole proposed reference inspected before a prospective freeze. The cases are designed after seeing model outputs and cannot establish independent generalization.
 
 Before a run, create service-compatible questions without the reference, validate pair differences and evidence locators, review every rationale, freeze the source set and analysis, and decide the response-validity policy and request budget. If four questions are used, all counts and denominators must be recalculated. Preserve any human review separately with its actual exposure; AI proposals cannot close human independence requirements.
+
+## Subsequent expansion and full reference review
+
+[Expansion 001](expansion-001/README.md) adds ten packets for the five listed gaps and reviews all 104 judgments across the combined 26 packets. The original sixteen cards above remain intact. All eight labels now occur, but construct issues remain open and execution remains unfrozen.
