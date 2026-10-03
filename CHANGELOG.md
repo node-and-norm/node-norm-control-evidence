@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+No changes yet.
+
+## v0.3.0-dev · 2026-10-03 UTC
+
 Implemented the 32-request missingness runner and dependent-edge analysis with order-preserving payload hashes. Preserved a mock rehearsal and frozen sources; no live inference.
 
 Reviewed all 32 missingness proposals and clarified twelve withheld-record statements before execution. Retained labels conditionally; documented package differences, three-label scope and order confounding. No live inference.
