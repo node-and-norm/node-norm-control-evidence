@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Implemented the eight-request packet-linkage runner, source freeze and analysis preserving unresolved references. Added six failure/accounting tests; no live inference.
+
 Prepared a separate eight-request packet-linkage diagnostic with hash-bound source requests, unresolved original action references and invariant tests. No live requests or revised historical scores.
 
 Reviewed all 14 comparison validity failures with response-hash verification and a reproducible register. Documented pair-12 reference ambiguity and a separate packet-linkage diagnostic. No rescoring, relabeling or new live inference.
