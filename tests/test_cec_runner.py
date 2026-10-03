@@ -14,6 +14,21 @@ from execution import schedule
 
 
 class RunnerTests(unittest.TestCase):
+    def assert_reproduced(self, saved, computed, field=''):
+        if isinstance(computed, dict):
+            self.assertEqual(set(saved), set(computed))
+            for key, value in computed.items():
+                self.assert_reproduced(saved[key], value, key)
+        elif isinstance(computed, list):
+            self.assertEqual(len(saved), len(computed))
+            for actual, expected in zip(saved, computed):
+                self.assert_reproduced(actual, expected, field)
+        elif field in {'brier_loss', 'mean_brier_loss'} and isinstance(computed, float):
+            # Set iteration can change summation order across Python processes.
+            self.assertAlmostEqual(saved, computed, delta=1e-12)
+        else:
+            self.assertEqual(saved, computed)
+
     def execute(self, transport):
         tmp=tempfile.TemporaryDirectory();self.addCleanup(tmp.cleanup)
         path=Path(tmp.name)/'run'
@@ -151,5 +166,21 @@ class RunnerTests(unittest.TestCase):
         expected=summarize(rows,records,key,'mock')
         saved=json.loads((path/'report.json').read_text())
         for field,value in expected.items():
-            self.assertEqual(saved[field],value)
+            self.assert_reproduced(saved[field],value,field)
         self.assertEqual(saved['live_requests_sent'],0)
+
+    def test_live_archive_report_reproduction_and_preserved_failures(self):
+        path=ROOT/'experiments/jev-cec/execution-v1/live-001'
+        self.assertEqual(runner.verify(path)['mode'],'live')
+        rows=json.loads((path/'schedule.json').read_text())
+        records=json.loads((path/'attempts.json').read_text())
+        for record in records:
+            if record['status']=='valid':
+                record['response_raw']=(path/'responses'/f'{record["attempt_id"]}.bin').read_bytes()
+        key=json.loads((path/'source/reference-key.json').read_text())
+        expected=summarize(rows,records,key,'live')
+        saved=json.loads((path/'report.json').read_text())
+        for field,value in expected.items():
+            self.assert_reproduced(saved[field],value,field)
+        self.assertEqual(saved['request_counts']['invalid'],5)
+        self.assertEqual(saved['live_requests_sent'],36)

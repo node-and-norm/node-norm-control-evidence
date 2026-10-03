@@ -28,4 +28,4 @@ The [execution protocol v1](execution-v1/PROTOCOL.md) fixes three passes, a 36-r
 
 ## Runner continuation
 
-The [runner guide](execution-v1/RUNNER.md) documents the implemented bounded transport, mock verification, live preflight and per-pass analysis. The earlier execution-contract milestone remains preserved. No live CEC results are available.
+The [runner guide](execution-v1/RUNNER.md) documents the implemented bounded transport, mock verification, live preflight and per-pass analysis. The earlier execution-contract milestone remains preserved. The [first live results](execution-v1/LIVE-RESULTS.md) preserve 31 valid and five invalid responses from 36 attempts, with unresolved disagreements.
