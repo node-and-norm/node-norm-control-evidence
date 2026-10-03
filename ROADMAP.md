@@ -23,7 +23,7 @@
 | Fix retrieval and eligibility rules | [Pilot decision register](research/pilot/protocol-decisions.csv) | Named accountable people choose and document each rule before allocation |
 | Build the candidate frame | [Intake worksheet](research/pilot/templates/candidate-intake.csv) | Stable event IDs, source families, selection reasons, access and rights decisions; sparse cases retained |
 | Prepare blind enumeration | [Enumeration worksheet](research/pilot/templates/control-enumeration.csv) | Reviewers see the same evidence without proposed controls or expected values |
-| Specify comparison outcomes | [Review worksheet](research/pilot/templates/reconstruction-review.csv) | Support-scoring manual, uncertainty handling, timing, and case assignment fixed before assessment |
+| Specify comparison outcomes | [Draft rubric](research/pilot/SUPPORT_RUBRIC.md) and [review worksheet](research/pilot/templates/reconstruction-review.csv) | Human-reviewed support rules, uncertainty handling, timing, and case assignment fixed before assessment |
 | Establish independence and custody | [Pilot workbench](research/pilot/README.md) | Actual people accept roles; conflicts, exposure, and holdout access are documented |
 
 <details>

@@ -75,6 +75,10 @@ Each analytical observation binds **one event, one control objective, one opport
 | Use future findings | [Integration contract](docs/reference/INTEGRATION_CONTRACT.md) | [Data and rights](docs/policies/DATA_STATEMENT.md) |
 | Review the research authority | [Charter](RESEARCH_CHARTER.md) · [Agenda](RESEARCH_AGENDA.md) | [Governance](GOVERNANCE.md) |
 
+## Optional model-assisted preparation
+
+[Jev request preparation](experiments/jev-cec/README.md) projects the three synthetic demonstrations into bounded questions about action, propagation and mitigation. The inspectable requests preserve missingness categories and exclude existing ratings. No CEC model calls or performance results are recorded. See the [preparation decision](experiments/jev-cec/PLAN.md) for the proposed evaluation and its limits.
+
 ## Run the demonstration
 
 Python 3.11 or later; one pinned dependency. No model credentials or external inference service required.

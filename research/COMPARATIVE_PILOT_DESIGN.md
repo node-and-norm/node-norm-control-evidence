@@ -34,4 +34,4 @@ The method may fail through no improvement over a simpler representation, higher
 
 ## Unfilled requirements
 
-Independent assessors, packet builders, documentary-support reviewers, and a holdout custodian remain unassigned. Source rights, case frame, time budget, scoring manual, and precision analysis remain unfinished. This document is a reviewable design, not evidence that any of those activities occurred.
+Independent assessors, packet builders, documentary-support reviewers, and a holdout custodian remain unassigned. Source rights, case frame, time budget, scoring-manual review, and precision analysis remain unfinished. A [draft documentary-support rubric](pilot/SUPPORT_RUBRIC.md) and separate assessment instrument are available for P05 review; no decision has been closed. This document is a reviewable design, not evidence that any of those activities occurred.

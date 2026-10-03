@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### CEC continuation · 2026-10-03 America/New_York
+
+Recovered the previously unpublished pilot-support work from local commit `dafa9c8e289e8c4ccb88ce9739b9c502e4035d67`, preserving its historical audit and open decisions. Added optional, offline Jev request preparation for the three existing synthetic demonstrations, with eight evidence classes, three separate propositions, source-family provenance, exact artifact hashes and boundary tests. Published preparation is not a live model run, a scientific release or an independent assessment. TAE work remains paused at its separate checkpoint.
+
 Completed a plan-first, author-exposed trace-quality stress evaluation on twelve valid packets and three intake failures. Preserved the authored key, original outputs and source snapshots. The full trace represented three additional material blockers at 1,468 additional bytes; shared-rule labels agreed. Added seven auditor tests. No independent validity, reader benefit or TAE/HIT assessment claim.
 
 Implemented paired record-level checklist and full-trace procedures with the same admissible inputs and decision rules. Preserved a seven-packet development demonstration, source snapshots, mechanical rationale checks and a candidate run plan. Eight tests cover missingness, ambiguous linkage, scope expansion and altered explanations. No independent comparison, new study cohort or TAE/HIT finding.
@@ -11,6 +15,10 @@ Added technical-evidence evaluation rules 0.1 and an arithmetic calculator with 
 Added an evidence-admissibility decision and sixteen reproducible technical appendices for the shared sandbox. Nine new boundary tests check missingness, acknowledgment limits, unsupported fields, artifact changes and independence from private outcome files. Full TAE/HIT findings remain disabled under the synthetic application boundary.
 
 Added the separate TAE/HIT development sandbox: sixteen scripted conditions, nineteen verification tests, source and contract review, six selected NIST AI RMF 1.0 connections, preserved local/container records, a run index and public-copy provenance. Full reference documents are linked with acquired-byte hashes; machine-specific paths are removed from public logs. No corpus-schema change, empirical ratings, method scores, new release tag or research-approval claim.
+### Pilot preparation continuation · 2026-09-27 UTC
+
+Verified the repository at `624ed8910a4b46f5aa99febc7bf152ced3d4d0db`; recorded the architecture comparison and remaining research gates in the [repository audit](docs/reference/REPOSITORY_AUDIT_2026-09-27.md). Added an AI-assisted draft documentary-support rubric 0.1 and a separate, blank support-assessment instrument. Updated pilot navigation and proposed custody guidance; legacy reviewer columns remain for compatibility. Corrected the downstream contract's stale private-visibility description to match observed public visibility. No repository visibility setting was changed. Canonical schemas, codebook, governing drafts, empirical records, thresholds, protocol decisions, release assets, and site remain unchanged.
+
 
 Connected repository navigation and the downstream contract to the Node & Norm organization after seven related repositories transferred from `mj3b`. Added a migration record covering preservation checks, the study's new Pages address, and remaining archival verification limits. No change to research authority, corpus contents, repository visibility, or the existing development release.
 
