@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Implemented the two-condition runner, coverage-aware paired analysis and fixed secondary subsets. Added an exact-source freeze and offline failure tests. No live comparison or independent result.
+
 Prepared a two-condition instruction diagnostic holding packets, criteria and reference fixed. Added a counterbalanced 120-request offline schedule and invariant tests. The candidate changes wording, length and emphasis together; no isolated length-effect claim or inference.
 
 Reviewed all 62 v2 mismatches as 30 card-dimension issues, preserving exact dispatched evidence and questions. Identified reference linkage ambiguity and differing valid outputs for identical request bytes. No relabeling, rescoring or inference.
