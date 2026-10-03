@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "tick": 4,
+      "event": "stop_response",
+      "accepted": true
+    }
+  ],
+  "downstream": {
+    "action": "prevented",
+    "internal_record": "original",
+    "recipient_record": "original"
+  }
+}

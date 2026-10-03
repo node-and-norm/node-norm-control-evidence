@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "event": "commit_response",
+      "received": true
+    },
+    {
+      "event": "commit_response",
+      "received": true
+    }
+  ],
+  "downstream": {
+    "effect_count": 2,
+    "request_ids": [
+      "request-1",
+      "request-1"
+    ]
+  }
+}

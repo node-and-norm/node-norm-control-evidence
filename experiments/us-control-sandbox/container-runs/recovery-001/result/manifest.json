@@ -1,0 +1,33 @@
+{
+  "status": "public development fixtures; no confirmatory results",
+  "assessment_status": "TAE and HIT unscored",
+  "python": "3.12.15",
+  "sqlite": "3.46.1",
+  "ordering": "sequential worker processes; no concurrency or mid-transaction crash",
+  "checks_passed": 7,
+  "checks_total": 7,
+  "control_objectives_met": 5,
+  "artifacts": {
+    "assessment-packets/recovery-001.json": "482aa8139691b938cdc2000d2693c033b733a95c9b2e6cbc8ce8da17a0fcf7a8",
+    "assessment-packets/recovery-002.json": "81182a6fb549612d4aa5226870e4b9075fe656fcbc8ae042b7404f437b561e90",
+    "assessment-packets/recovery-003.json": "482aa8139691b938cdc2000d2693c033b733a95c9b2e6cbc8ce8da17a0fcf7a8",
+    "assessment-packets/recovery-004.json": "604a3679fd39374084c7e030d598eb57213eb5594d62906dcbc66900426681cb",
+    "assessment-packets/recovery-005.json": "fc92fca84fc237b0fdd27c2034a638da3f67e70e73b8fb973bbf1078681b29bb",
+    "assessment-packets/recovery-006.json": "108a7f08e356503dbe463328e37e1d13a51d06a4d280eafa13c961ed75b2af28",
+    "assessment-packets/recovery-007.json": "80b246e9949b7ef7e2c739b680b91e20fbcb48f4615aa476091f01c01f94b5c8",
+    "researcher-only/cases.json": "f1a5db75a5cdcc2c15a00ef84fb085c52123eba6aa06cb212c32d532f58333b6",
+    "researcher-only/outcomes.json": "89b9cfea6d2f4525a19b6b61127a3e35e8374340acceb2929db0a65eff6d2026",
+    "researcher-only/recovery-001.sqlite": "723c64eef1920894394f08b6a072be26bdafc6ea3b8f97f14d3854b7f159bca1",
+    "researcher-only/recovery-002.sqlite": "b2292540c3d796f0227be844fb42ecac438aa64b10bb23eda0bfa4ab326acffe",
+    "researcher-only/recovery-003.sqlite": "1b69edf4d5d49fd90b2f4884746efd2a12fb9bdab21493f059313dd2b832c9c7",
+    "researcher-only/recovery-004.sqlite": "b2292540c3d796f0227be844fb42ecac438aa64b10bb23eda0bfa4ab326acffe",
+    "researcher-only/recovery-005.sqlite": "3e2d633349d69bf7f26fd3f2826a38ad9cdca6c89e5d994df652340d3ea57c00",
+    "researcher-only/recovery-006.sqlite": "723c64eef1920894394f08b6a072be26bdafc6ea3b8f97f14d3854b7f159bca1",
+    "researcher-only/recovery-007.sqlite": "723c64eef1920894394f08b6a072be26bdafc6ea3b8f97f14d3854b7f159bca1",
+    "researcher-only/source/NIST-MAPPING.md": "94a382619e852ed349f9bb63576ee9428cb7d15b851cadb2ee3fc367cabc0499",
+    "researcher-only/source/RECOVERY-DESIGN.md": "5d37c56c2ca03b5284b2fd01803d4dc9ba0dc0fb3c52f8ce6e0f4cf57d51a7dc",
+    "researcher-only/source/recovery.py": "be7f52b0e9730d7fd383c895637f51e2ab0867e8c5058c3eaffdb13d545559a7",
+    "researcher-only/source/recovery_observer.py": "fe4bf544be85372827d546f14c0c00c68593e7da50dd42c1cf74fc9d34520f24",
+    "researcher-only/source/recovery_worker.py": "64e6bd3c89ff06ecaabe5bb2f52914ba454e6c7650913212d5d93f2440f8b810"
+  }
+}

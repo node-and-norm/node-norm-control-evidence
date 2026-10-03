@@ -16,6 +16,8 @@ CEC proposes a reusable record of those distinctions. Its value could be better-
 
 The [literature review](NOVELTY_REVIEW.md) already finds close work on incident uncertainty, accountability coding, audit evidence, and forensics. The defensible candidate contribution is the **tested reconstruction procedure and reusable observations**. An absence of equivalent work has not been established.
 
+A separate [TAE/HIT development sandbox](../experiments/us-control-sandbox/README.md) tests authored intervention and recovery mechanisms. It preserves known outcomes separately from assessment packets. These public fixtures do not complete the empirical pilot or any independent validation gate.
+
 ## The first empirical deliverable
 
 | Element | Development specification |

@@ -1,0 +1,24 @@
+test_bounds_mounts_and_disables_network (test_container_launcher.LauncherGuards.test_bounds_mounts_and_disables_network) ... ok
+test_rejects_mutable_image_or_other_repository (test_container_launcher.LauncherGuards.test_rejects_mutable_image_or_other_repository) ... ok
+test_expected_labels_do_not_drive_worker (test_recovery.RecoveryChecks.test_expected_labels_do_not_drive_worker) ... ok
+test_manifest_and_failure_accounting (test_recovery.RecoveryChecks.test_manifest_and_failure_accounting) ... ok
+test_missing_store_is_not_success (test_recovery.RecoveryChecks.test_missing_store_is_not_success) ... ok
+test_restart_loses_only_volatile_stop (test_recovery.RecoveryChecks.test_restart_loses_only_volatile_stop) ... ok
+test_retry_counts_actual_effects (test_recovery.RecoveryChecks.test_retry_counts_actual_effects) ... ok
+test_stop_blocks_repeated_commit (test_recovery.RecoveryChecks.test_stop_blocks_repeated_commit) ... ok
+test_withholding_does_not_change_execution (test_recovery.RecoveryChecks.test_withholding_does_not_change_execution) ... ok
+test_acknowledgment_does_not_establish_effect (test_sandbox.Controls.test_acknowledgment_does_not_establish_effect) ... ok
+test_boundary_and_late_commands_cannot_retroactively_stop (test_sandbox.Controls.test_boundary_and_late_commands_cannot_retroactively_stop) ... ok
+test_reproduction_and_no_overwrite (test_sandbox.Controls.test_reproduction_and_no_overwrite) ... ok
+test_unauthorized_command_rejected (test_sandbox.Controls.test_unauthorized_command_rejected) ... ok
+test_withholding_does_not_change_execution (test_sandbox.Controls.test_withholding_does_not_change_execution) ... ok
+test_artifact_tampering_detected (test_sandbox.EvidenceControls.test_artifact_tampering_detected) ... ok
+test_observer_rejects_missing_database (test_sandbox.EvidenceControls.test_observer_rejects_missing_database) ... ok
+test_outcome_not_taken_from_expected_label (test_sandbox.EvidenceControls.test_outcome_not_taken_from_expected_label) ... ok
+test_packet_does_not_include_case_oracle (test_sandbox.EvidenceControls.test_packet_does_not_include_case_oracle) ... ok
+test_recipient_effect_is_separate_from_internal_correction (test_sandbox.EvidenceControls.test_recipient_effect_is_separate_from_internal_correction) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 4.823s
+
+OK

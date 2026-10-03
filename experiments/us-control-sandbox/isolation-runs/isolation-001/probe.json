@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "non_root": true,
+    "source_read_only": true,
+    "root_read_only": true,
+    "loopback_only": true,
+    "external_network_unreachable": true,
+    "capabilities_dropped": true,
+    "no_new_privileges": true,
+    "memory_bounded": true,
+    "processes_bounded": true,
+    "cpu_bounded": true
+  },
+  "details": {
+    "uid": 501,
+    "source_write": {
+      "blocked": true,
+      "errno": 30
+    },
+    "root_write": {
+      "blocked": true,
+      "errno": 30
+    },
+    "interfaces": [
+      "lo"
+    ],
+    "connect_errno": 101,
+    "capabilities_effective": "0000000000000000",
+    "no_new_privileges": "1",
+    "memory_max": "268435456",
+    "pids_max": "64",
+    "cpu_max": "100000 100000"
+  },
+  "passed": true
+}

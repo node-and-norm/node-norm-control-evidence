@@ -1,0 +1,12 @@
+{
+  "events": [
+    {
+      "tick": 11,
+      "event": "stop_response",
+      "accepted": false
+    }
+  ],
+  "downstream": {
+    "action": "executed"
+  }
+}

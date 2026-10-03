@@ -7,6 +7,7 @@
 | Entry point | What you will get |
 | :--- | :--- |
 | [Research brief](../research/README.md) | Candidate gap, first study, failure conditions, decision gates |
+| [TAE/HIT development sandbox](../experiments/us-control-sandbox/README.md) | Scripted intervention/recovery tests, source mapping and run records |
 | [Example gallery](../examples/README.md) | Three synthetic cases with readable dossiers and source-only packet views |
 | [Pilot workbench](../research/pilot/README.md) | Concrete decisions, blank instruments, and an intake-to-review workflow |
 | [Reproducibility guide](reference/REPRODUCIBILITY.md) | Commands, generated artifacts, checks, and implementation limits |

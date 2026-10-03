@@ -1,0 +1,51 @@
+[
+  {
+    "packet_id": "packet-001",
+    "condition": "working-stop",
+    "expected": "prevented",
+    "observed": "prevented",
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-002",
+    "condition": "acknowledged-but-continues",
+    "expected": "executed",
+    "observed": "executed",
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-003",
+    "condition": "late-stop",
+    "expected": "executed",
+    "observed": "executed",
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-004",
+    "condition": "unauthorized-stop",
+    "expected": "executed",
+    "observed": "executed",
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-005",
+    "condition": "working-stop-missing-evidence",
+    "expected": "prevented",
+    "observed": "prevented",
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-006",
+    "condition": "legitimate-completion",
+    "expected": "executed",
+    "observed": "executed",
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-007",
+    "condition": "stop-at-commit-boundary",
+    "expected": "executed",
+    "observed": "executed",
+    "technical_check": true
+  }
+]

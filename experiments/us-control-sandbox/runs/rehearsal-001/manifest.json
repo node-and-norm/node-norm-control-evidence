@@ -1,0 +1,10 @@
+{
+  "status": "development rehearsal, not study results",
+  "clock": "logical ticks",
+  "isolation": "local process; no network or external actions implemented",
+  "assessment_status": "TAE and HIT unscored; adapters pending contract review",
+  "source_sha256": "f200e8607954cb860ccbedcbb93cf869d6767a7676e115957d3bd277bf46b412",
+  "cases_sha256": "c27f43e4dad4d3a40da91a6cc8bac380e9644a8bc4ca2a04e4020563ce49239c",
+  "checks_passed": 7,
+  "checks_total": 7
+}

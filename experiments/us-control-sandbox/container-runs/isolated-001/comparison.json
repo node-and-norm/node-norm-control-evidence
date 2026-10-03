@@ -1,0 +1,10 @@
+{
+  "local_run": "runs/rehearsal-002",
+  "container_run": "container-runs/isolated-001/result",
+  "outcomes_identical": true,
+  "checks_passed": 9,
+  "checks_total": 9,
+  "python": "3.12.15",
+  "sqlite": "3.46.1",
+  "comparison": "semantic JSON outcomes; binary database equality not required across runtime versions"
+}
