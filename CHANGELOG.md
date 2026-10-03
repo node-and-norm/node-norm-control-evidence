@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Prepared a two-condition instruction diagnostic holding packets, criteria and reference fixed. Added a counterbalanced 120-request offline schedule and invariant tests. The candidate changes wording, length and emphasis together; no isolated length-effect claim or inference.
+
 Reviewed all 62 v2 mismatches as 30 card-dimension issues, preserving exact dispatched evidence and questions. Identified reference linkage ambiguity and differing valid outputs for identical request bytes. No relabeling, rescoring or inference.
 
 Preserved the first frozen four-question live run: 90 attempts, 76 valid responses, 14 invalid, no retries. Primary agreement 76/92 at 92/120 coverage; all 62 mismatches remain unresolved. No independent accuracy or v1 improvement claim.

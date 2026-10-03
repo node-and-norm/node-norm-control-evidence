@@ -37,3 +37,7 @@ The [four-question development draft](development-v2/README.md) supplies sixteen
 ## Four-question implementation
 
 The [v2 runner checkpoint](execution-v2/RUNNER.md) implements the prospective contract and source freeze. Mock validation makes no new model calls; the v1 live findings remain separate.
+
+## Instruction diagnostic preparation
+
+The [prospective comparison](instruction-comparison-001/PLAN.md) contrasts the frozen shared instructions with a dimension-specific package while preserving packet evidence and reference. Offline only; runner and final freeze remain pending.
