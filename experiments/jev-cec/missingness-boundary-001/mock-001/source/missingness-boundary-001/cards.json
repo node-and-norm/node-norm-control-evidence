@@ -1,0 +1,266 @@
+[
+  {
+    "id": "MB-01",
+    "state": {
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        },
+        {
+          "id": "E2",
+          "text": "No information about receipt by W of R is supplied. No access restriction to this information is reported."
+        },
+        {
+          "id": "E3",
+          "text": "No information about execution of J after R is supplied. No access restriction to this information is reported."
+        },
+        {
+          "id": "E4",
+          "text": "No information about account outcome attributable to R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "scope": {
+        "consequence": "Prevent the specified ten-dollar debit from J.",
+        "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval.",
+        "objective": "Stop erroneous fee job J before execution.",
+        "targets": [
+          "W"
+        ],
+        "trajectory": "Cancel J before execution."
+      },
+      "synthetic": true
+    }
+  },
+  {
+    "id": "MB-02",
+    "state": {
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        },
+        {
+          "id": "E2",
+          "text": "No information about receipt by W of R is supplied. No access restriction to this information is reported."
+        },
+        {
+          "id": "E3",
+          "text": "No information about execution of J after R is supplied. No access restriction to this information is reported."
+        },
+        {
+          "id": "E4",
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "scope": {
+        "consequence": "Prevent the specified ten-dollar debit from J.",
+        "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval.",
+        "objective": "Stop erroneous fee job J before execution.",
+        "targets": [
+          "W"
+        ],
+        "trajectory": "Cancel J before execution."
+      },
+      "synthetic": true
+    }
+  },
+  {
+    "id": "MB-03",
+    "state": {
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        },
+        {
+          "id": "E2",
+          "text": "No information about receipt by W of R is supplied. No access restriction to this information is reported."
+        },
+        {
+          "id": "E3",
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
+        },
+        {
+          "id": "E4",
+          "text": "No information about account outcome attributable to R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "scope": {
+        "consequence": "Prevent the specified ten-dollar debit from J.",
+        "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval.",
+        "objective": "Stop erroneous fee job J before execution.",
+        "targets": [
+          "W"
+        ],
+        "trajectory": "Cancel J before execution."
+      },
+      "synthetic": true
+    }
+  },
+  {
+    "id": "MB-04",
+    "state": {
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        },
+        {
+          "id": "E2",
+          "text": "No information about receipt by W of R is supplied. No access restriction to this information is reported."
+        },
+        {
+          "id": "E3",
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
+        },
+        {
+          "id": "E4",
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "scope": {
+        "consequence": "Prevent the specified ten-dollar debit from J.",
+        "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval.",
+        "objective": "Stop erroneous fee job J before execution.",
+        "targets": [
+          "W"
+        ],
+        "trajectory": "Cancel J before execution."
+      },
+      "synthetic": true
+    }
+  },
+  {
+    "id": "MB-05",
+    "state": {
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        },
+        {
+          "id": "E2",
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
+        },
+        {
+          "id": "E3",
+          "text": "No information about execution of J after R is supplied. No access restriction to this information is reported."
+        },
+        {
+          "id": "E4",
+          "text": "No information about account outcome attributable to R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "scope": {
+        "consequence": "Prevent the specified ten-dollar debit from J.",
+        "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval.",
+        "objective": "Stop erroneous fee job J before execution.",
+        "targets": [
+          "W"
+        ],
+        "trajectory": "Cancel J before execution."
+      },
+      "synthetic": true
+    }
+  },
+  {
+    "id": "MB-06",
+    "state": {
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        },
+        {
+          "id": "E2",
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
+        },
+        {
+          "id": "E3",
+          "text": "No information about execution of J after R is supplied. No access restriction to this information is reported."
+        },
+        {
+          "id": "E4",
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "scope": {
+        "consequence": "Prevent the specified ten-dollar debit from J.",
+        "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval.",
+        "objective": "Stop erroneous fee job J before execution.",
+        "targets": [
+          "W"
+        ],
+        "trajectory": "Cancel J before execution."
+      },
+      "synthetic": true
+    }
+  },
+  {
+    "id": "MB-07",
+    "state": {
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        },
+        {
+          "id": "E2",
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
+        },
+        {
+          "id": "E3",
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
+        },
+        {
+          "id": "E4",
+          "text": "No information about account outcome attributable to R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "scope": {
+        "consequence": "Prevent the specified ten-dollar debit from J.",
+        "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval.",
+        "objective": "Stop erroneous fee job J before execution.",
+        "targets": [
+          "W"
+        ],
+        "trajectory": "Cancel J before execution."
+      },
+      "synthetic": true
+    }
+  },
+  {
+    "id": "MB-08",
+    "state": {
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        },
+        {
+          "id": "E2",
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
+        },
+        {
+          "id": "E3",
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
+        },
+        {
+          "id": "E4",
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "scope": {
+        "consequence": "Prevent the specified ten-dollar debit from J.",
+        "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur within this interval.",
+        "objective": "Stop erroneous fee job J before execution.",
+        "targets": [
+          "W"
+        ],
+        "trajectory": "Cancel J before execution."
+      },
+      "synthetic": true
+    }
+  }
+]

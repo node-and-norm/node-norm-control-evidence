@@ -1,0 +1,269 @@
+{
+  "cards": [
+    {
+      "id": "MB-01",
+      "judgments": {
+        "action": {
+          "basis": "Explicit issuance of the specified request.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "label": "yes"
+        },
+        "outcome_mitigation": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "label": "not_reported"
+        },
+        "propagation": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E2"
+          ],
+          "label": "not_reported"
+        },
+        "trajectory_effect": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E3"
+          ],
+          "label": "not_reported"
+        }
+      }
+    },
+    {
+      "id": "MB-02",
+      "judgments": {
+        "action": {
+          "basis": "Explicit issuance of the specified request.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "label": "yes"
+        },
+        "outcome_mitigation": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "label": "not_observable"
+        },
+        "propagation": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E2"
+          ],
+          "label": "not_reported"
+        },
+        "trajectory_effect": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E3"
+          ],
+          "label": "not_reported"
+        }
+      }
+    },
+    {
+      "id": "MB-03",
+      "judgments": {
+        "action": {
+          "basis": "Explicit issuance of the specified request.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "label": "yes"
+        },
+        "outcome_mitigation": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "label": "not_reported"
+        },
+        "propagation": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E2"
+          ],
+          "label": "not_reported"
+        },
+        "trajectory_effect": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E3"
+          ],
+          "label": "not_observable"
+        }
+      }
+    },
+    {
+      "id": "MB-04",
+      "judgments": {
+        "action": {
+          "basis": "Explicit issuance of the specified request.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "label": "yes"
+        },
+        "outcome_mitigation": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "label": "not_observable"
+        },
+        "propagation": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E2"
+          ],
+          "label": "not_reported"
+        },
+        "trajectory_effect": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E3"
+          ],
+          "label": "not_observable"
+        }
+      }
+    },
+    {
+      "id": "MB-05",
+      "judgments": {
+        "action": {
+          "basis": "Explicit issuance of the specified request.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "label": "yes"
+        },
+        "outcome_mitigation": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "label": "not_reported"
+        },
+        "propagation": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E2"
+          ],
+          "label": "not_observable"
+        },
+        "trajectory_effect": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E3"
+          ],
+          "label": "not_reported"
+        }
+      }
+    },
+    {
+      "id": "MB-06",
+      "judgments": {
+        "action": {
+          "basis": "Explicit issuance of the specified request.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "label": "yes"
+        },
+        "outcome_mitigation": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "label": "not_observable"
+        },
+        "propagation": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E2"
+          ],
+          "label": "not_observable"
+        },
+        "trajectory_effect": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E3"
+          ],
+          "label": "not_reported"
+        }
+      }
+    },
+    {
+      "id": "MB-07",
+      "judgments": {
+        "action": {
+          "basis": "Explicit issuance of the specified request.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "label": "yes"
+        },
+        "outcome_mitigation": {
+          "basis": "Necessary information absent with no reported access barrier.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "label": "not_reported"
+        },
+        "propagation": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E2"
+          ],
+          "label": "not_observable"
+        },
+        "trajectory_effect": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E3"
+          ],
+          "label": "not_observable"
+        }
+      }
+    },
+    {
+      "id": "MB-08",
+      "judgments": {
+        "action": {
+          "basis": "Explicit issuance of the specified request.",
+          "evidence_ids": [
+            "E1"
+          ],
+          "label": "yes"
+        },
+        "outcome_mitigation": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E4"
+          ],
+          "label": "not_observable"
+        },
+        "propagation": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E2"
+          ],
+          "label": "not_observable"
+        },
+        "trajectory_effect": {
+          "basis": "Necessary record explicitly withheld.",
+          "evidence_ids": [
+            "E3"
+          ],
+          "label": "not_observable"
+        }
+      }
+    }
+  ],
+  "status": "AI-authored development proposals; no independent adjudication"
+}
