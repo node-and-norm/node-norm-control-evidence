@@ -1,0 +1,117 @@
+[
+  {
+    "attempt_id": "P1-V2-12-A-original",
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "f7c21579ac0181029080cd9c0ae7944a70d313d515df6ffea1a27180525fe4d2",
+    "response_sha256": "a7f8abe164863ba92191382f8778c2b4809922480712ff40bb06d68a45df6f6b",
+    "seconds": 0.38136437500000003,
+    "started_at": "2026-10-03T21:50:54.353272+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2427,
+      "output_tokens": 346
+    }
+  },
+  {
+    "attempt_id": "P1-V2-12-A-explicit",
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "1f312fdb2fa6034bd61dff4602b136e0c68a60298ce1449a582a2da02c294861",
+    "response_sha256": "c5c1d79468469d4fc90a9b95af3572e33baa46c1123d07a5bad7c1798024b1cd",
+    "seconds": 0.34845604099999994,
+    "started_at": "2026-10-03T21:50:54.739149+00:00",
+    "status": "invalid",
+    "usage": {
+      "input_tokens": 2433,
+      "output_tokens": 343
+    },
+    "validation_error": "probability sum mismatch"
+  },
+  {
+    "attempt_id": "P1-V2-12-B-explicit",
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "f50994d9345479deb8e7c5428a5491c33e8c8472e19a6922afcc93e003efef3b",
+    "response_sha256": "e7c5d51953321b221fa8cf1b44e361c803998b5a71d7aa6ef125a72648363b34",
+    "seconds": 0.2639762080000001,
+    "started_at": "2026-10-03T21:50:55.092033+00:00",
+    "status": "invalid",
+    "usage": {
+      "input_tokens": 2438,
+      "output_tokens": 343
+    },
+    "validation_error": "probability sum mismatch"
+  },
+  {
+    "attempt_id": "P1-V2-12-B-original",
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "9ec1ce380c74003d04ca65efd9d113a1c3659c9cde741edfa0bcd48421733d0f",
+    "response_sha256": "03de21cf7caef98ebe3f0496debefb30a3258e56a4ea5e44f5db7d5d9d71329c",
+    "seconds": 0.23733470899999998,
+    "started_at": "2026-10-03T21:50:55.359632+00:00",
+    "status": "invalid",
+    "usage": {
+      "input_tokens": 2432,
+      "output_tokens": 346
+    },
+    "validation_error": "probability sum mismatch"
+  },
+  {
+    "attempt_id": "P2-V2-12-A-explicit",
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "1f312fdb2fa6034bd61dff4602b136e0c68a60298ce1449a582a2da02c294861",
+    "response_sha256": "95abb2e64f79c3d4586e67754b135a88ebdd09aae2d25369fd541b0c83511b31",
+    "seconds": 0.27833970799999985,
+    "started_at": "2026-10-03T21:50:55.600764+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2433,
+      "output_tokens": 343
+    }
+  },
+  {
+    "attempt_id": "P2-V2-12-A-original",
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "f7c21579ac0181029080cd9c0ae7944a70d313d515df6ffea1a27180525fe4d2",
+    "response_sha256": "9168d445fadcbfb59e44af9b9b3fed64bb0d1869302870af1d2b9be6486497cc",
+    "seconds": 0.27991983399999976,
+    "started_at": "2026-10-03T21:50:55.882034+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2427,
+      "output_tokens": 346
+    }
+  },
+  {
+    "attempt_id": "P2-V2-12-B-original",
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "9ec1ce380c74003d04ca65efd9d113a1c3659c9cde741edfa0bcd48421733d0f",
+    "response_sha256": "cfc3cd86b24fc2ee80103faaffbae58e672b3848a630bf5147fe9df7b56ec999",
+    "seconds": 0.240192709,
+    "started_at": "2026-10-03T21:50:56.164943+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2432,
+      "output_tokens": 346
+    }
+  },
+  {
+    "attempt_id": "P2-V2-12-B-explicit",
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "f50994d9345479deb8e7c5428a5491c33e8c8472e19a6922afcc93e003efef3b",
+    "response_sha256": "3dce3e25a7fb2f950bdca7ef5fd6033ffff1319b4db1605c930d1041dcb9da83",
+    "seconds": 0.2473757919999997,
+    "started_at": "2026-10-03T21:50:56.409007+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2438,
+      "output_tokens": 343
+    }
+  }
+]

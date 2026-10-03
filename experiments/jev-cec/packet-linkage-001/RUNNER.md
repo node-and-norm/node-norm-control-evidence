@@ -16,3 +16,5 @@ Live mode additionally requires a clean committed checkout, the API key in `TYPE
 Analysis leaves the original action reference and its agreement score null. It reports action transitions with their available denominator, explicit-condition agreement, secondary dimensions and pass-two repetition separately. Invalid responses exclude four judgments; missing attempts retain their scheduled positions. Stop conditions preserve raw output and produce a manifest. Probability repair and automatic retries are absent.
 
 The [preserved mock rehearsal](mock-001/report.json) contains eight uniform mock responses and zero live requests. It was executed during implementation in a dirty checkout; exact source snapshots and hashes identify its inputs. It is not a clean live execution or research finding.
+
+The [first live result](LIVE-RESULTS.md) preserves all eight attempts and reports the unavailable primary comparison.
