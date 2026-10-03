@@ -25,3 +25,4 @@ jobs:
         run: |
           python -B -m unittest discover -s tests -v
           python -B verify_archive.py
+          python -B build_evidence_appendices.py --check --output evidence-appendices/v0.1

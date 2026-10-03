@@ -27,3 +27,7 @@ Disposition: proceed with technical environment testing and source selection. Ke
 ## Completed handbook/catalog review
 
 The handbook sections 1–4 require the declared boundary, actor-authority matrix and bounded evidence claims before findings. Sections 5–7 distinguish missing evidence from affirmative absence and require qualifying harm before Repair findings. Catalog version 0.4.0 uses the same six dimensions and integrity ordering as the normative contract. Its non-claims include runtime enforcement and causal effectiveness. Disposition: evidence packaging may proceed; a synthetic controller cannot be presented as a named human authority. See APPLICATION-BOUNDARY.md.
+
+## Applied decision
+
+[ADMISSIBILITY.md](ADMISSIBILITY.md) records the next gate: permit technical evidence appendices, withhold full TAE/HIT findings under the present synthetic boundary, and preserve method-specific requirements. The [appendix builder](build_evidence_appendices.py) reads supplied packet fields without consuming private outcome records. This does not reinterpret operational-test provisions as a blanket prohibition on future properly bounded tests.

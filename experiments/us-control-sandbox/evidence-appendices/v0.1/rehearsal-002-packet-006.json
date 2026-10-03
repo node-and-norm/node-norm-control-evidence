@@ -1,0 +1,38 @@
+{
+  "evidence_origin": "authored synthetic development fixture",
+  "format": "node-norm-technical-evidence-appendix/0.1",
+  "limitations": [
+    "Records and observer share the authored fixture origin; no independent corroboration.",
+    "Public development packet; no blinding or held-out status.",
+    "Matching a recorded hash does not establish completeness or truth.",
+    "No human authority, comprehension, judgment, correction or repair finding."
+  ],
+  "method_assessment": {
+    "eligibility": "technical appendix only; no human or institutional unit",
+    "hit_scoring_enabled": false,
+    "tae_scoring_enabled": false
+  },
+  "observations": [
+    {
+      "locator": "/downstream/action",
+      "proposition": "The supplied downstream record contains this value.",
+      "value": "executed"
+    },
+    {
+      "locator": "/downstream/internal_record",
+      "proposition": "The supplied downstream record contains this value.",
+      "value": "original"
+    },
+    {
+      "locator": "/downstream/recipient_record",
+      "proposition": "The supplied downstream record contains this value.",
+      "value": "original"
+    }
+  ],
+  "source": {
+    "git_revision": "8a792f69df95d7c96481871d960fe420385bb885",
+    "path": "runs/rehearsal-002/assessment-packets/packet-006.json",
+    "sha256": "ecdf3d5cd5b0c3338adffe361789678b8fd5d54c4be4987330e3ab91bdff2f01"
+  },
+  "unresolved": []
+}

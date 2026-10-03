@@ -30,3 +30,16 @@ Verify artifacts with `python3 -B verify_run.py runs/recovery-001`. Hashes detec
 Outcome and assessment files are separated by directory, not access control. Source and expected results are public. There is no assessor blinding or independent evaluation. Scripted actors cannot establish human comprehension, authority or exercised judgment. The original methods' workstreams are preserved; see PROTOCOL.md, RECONCILIATION.md, CONTRACT-REVIEW.md and APPLICATION-BOUNDARY.md.
 
 TAE owns its [control protocol](https://github.com/node-and-norm/trust-autonomy-evidence); HIT owns its [assessment contract](https://github.com/node-and-norm/human-influence-telemetry). This experiment supplies candidate evidence for future admissibility review. Its records are not imported into CEC schemas, assessed under either method, or approved for an empirical release.
+
+## Evidence eligibility checkpoint
+
+[The admissibility decision](ADMISSIBILITY.md) permits a technical appendix for each supplied packet. A full TAE/HIT assessment needs an eligible human/institutional boundary and the required evidence. The appendix format records observations and unresolved downstream evidence with scoring disabled.
+
+[Sixteen reproducible appendices](evidence-appendices/README.md) are generated solely from the saved packet bytes and their recorded hashes. The builder does not read expected case labels, databases or hidden outcome files. It cannot establish the truth or completeness of the supplied record.
+
+```sh
+python3 -B build_evidence_appendices.py --check --output evidence-appendices/v0.1
+python3 -B build_evidence_appendices.py --output build/appendices-new
+```
+
+The second command requires a new directory. Nine additional boundary tests bring the current sandbox suite to twenty-eight tests. The prior nineteen-test container checkpoint remains an unchanged historical record; the new appendix checks run locally and in repository CI.
