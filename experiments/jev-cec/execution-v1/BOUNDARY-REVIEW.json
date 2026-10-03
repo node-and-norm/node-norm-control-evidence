@@ -1,0 +1,285 @@
+{
+  "review_id": "live-001-boundary-review-001",
+  "date": "2026-10-03",
+  "reviewer_kind": "ai",
+  "exposure": "Post-output review with access to all responses, original reference and earlier results interpretation. No independent or sealed human review.",
+  "source_report_sha256": "13590083d5ed15c57b746a8178a2b2579bb1f46c8858f68c5fd99d2bb087274f",
+  "scope": "All 22 mismatches grouped into nine card-dimension issues; selective review is not a full reference validation.",
+  "items": [
+    {
+      "card_id": "C03",
+      "dimension": "outcome_mitigation",
+      "attempt_ids": [
+        "P1-C03",
+        "P2-C03",
+        "P3-C03"
+      ],
+      "original_reference": "not_reported",
+      "observed_choices": [
+        {
+          "attempt_id": "P1-C03",
+          "choice": "yes"
+        },
+        {
+          "attempt_id": "P2-C03",
+          "choice": "yes"
+        },
+        {
+          "attempt_id": "P3-C03",
+          "choice": "yes"
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "provisional_assessment": "construct_ambiguity",
+      "basis": "E2 establishes cancellation before execution, beyond receipt alone. The objective is interruption, but the mitigation question never names a consequence distinct from cancellation. The reference assumes that distinction.",
+      "successor_requirement": "Specify the consequence and its observation window separately from the stop objective. Include cancellation with and without consequence evidence.",
+      "adjudication_status": "unresolved",
+      "replacement_label": null
+    },
+    {
+      "card_id": "C04",
+      "dimension": "outcome_mitigation",
+      "attempt_ids": [
+        "P1-C04",
+        "P2-C04"
+      ],
+      "original_reference": "not_reported",
+      "observed_choices": [
+        {
+          "attempt_id": "P1-C04",
+          "choice": "no"
+        },
+        {
+          "attempt_id": "P2-C04",
+          "choice": "no"
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "provisional_assessment": "construct_ambiguity",
+      "basis": "E2 establishes non-delivery. No observed consequence is specified. A failed necessary route may support absence of effect through that route, but the packet does not define exclusivity or the outcome proposition sufficiently to settle that inference.",
+      "successor_requirement": "Specify the bounded consequence, possible alternative routes and what affirmative failure evidence is required.",
+      "adjudication_status": "unresolved",
+      "replacement_label": null
+    },
+    {
+      "card_id": "C05",
+      "dimension": "action",
+      "attempt_ids": [
+        "P1-C05",
+        "P2-C05",
+        "P3-C05"
+      ],
+      "original_reference": "yes",
+      "observed_choices": [
+        {
+          "attempt_id": "P1-C05",
+          "choice": "conflicting"
+        },
+        {
+          "attempt_id": "P2-C05",
+          "choice": "conflicting"
+        },
+        {
+          "attempt_id": "P3-C05",
+          "choice": "conflicting"
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "provisional_assessment": "reference_supported_provisionally",
+      "basis": "E1 records sending. E2 and E3 conflict over receipt and execution; neither contradicts the console attempt. The action question explicitly includes attempts.",
+      "successor_requirement": "Preserve the attempt/receipt distinction and add a separate case with an actual contradiction about issuance.",
+      "adjudication_status": "unresolved",
+      "replacement_label": null
+    },
+    {
+      "card_id": "C05",
+      "dimension": "outcome_mitigation",
+      "attempt_ids": [
+        "P1-C05",
+        "P2-C05",
+        "P3-C05"
+      ],
+      "original_reference": "not_reported",
+      "observed_choices": [
+        {
+          "attempt_id": "P1-C05",
+          "choice": "conflicting"
+        },
+        {
+          "attempt_id": "P2-C05",
+          "choice": "conflicting"
+        },
+        {
+          "attempt_id": "P3-C05",
+          "choice": "conflicting"
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "provisional_assessment": "construct_ambiguity",
+      "basis": "E2 and E3 contradict cancellation versus execution. That is outcome-relevant if cancellation is the selected outcome. No separate consequence is defined, so the original reference depends on an unstated boundary.",
+      "successor_requirement": "Separate trajectory change from the specified consequence and test conflict at each level.",
+      "adjudication_status": "unresolved",
+      "replacement_label": null
+    },
+    {
+      "card_id": "C06",
+      "dimension": "propagation",
+      "attempt_ids": [
+        "P1-C06",
+        "P3-C06"
+      ],
+      "original_reference": "not_reported",
+      "observed_choices": [
+        {
+          "attempt_id": "P1-C06",
+          "choice": "partial"
+        },
+        {
+          "attempt_id": "P3-C06",
+          "choice": "partial"
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "provisional_assessment": "reference_supported_with_rule_gap",
+      "basis": "E1-E3 repeat sending and supply no receipt. The reference is supported by the intended downstream-receipt reading, but partial could be read as one segment of a transmission path. The extent of the proposition needs explicit scope.",
+      "successor_requirement": "Define partial over named downstream targets or required subclaims; sending alone does not establish any target receipt. Compare C02 and C06 prospectively.",
+      "adjudication_status": "unresolved",
+      "replacement_label": null
+    },
+    {
+      "card_id": "C08",
+      "dimension": "outcome_mitigation",
+      "attempt_ids": [
+        "P1-C08",
+        "P2-C08"
+      ],
+      "original_reference": "not_reported",
+      "observed_choices": [
+        {
+          "attempt_id": "P1-C08",
+          "choice": "not_observable"
+        },
+        {
+          "attempt_id": "P2-C08",
+          "choice": "not_observable"
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "provisional_assessment": "missingness_scope_ambiguity",
+      "basis": "E2 restricts receipt records. It does not identify withheld consequence records. The reference uses dimension-specific silence, while the model may propagate an upstream evidence barrier to the whole causal claim. The rule does not explicitly resolve overlapping missingness.",
+      "successor_requirement": "Record barriers by dimension and specify treatment when causal linkage and outcome observation have different missingness states.",
+      "adjudication_status": "unresolved",
+      "replacement_label": null
+    },
+    {
+      "card_id": "C09",
+      "dimension": "propagation",
+      "attempt_ids": [
+        "P1-C09",
+        "P2-C09"
+      ],
+      "original_reference": "unknown",
+      "observed_choices": [
+        {
+          "attempt_id": "P1-C09",
+          "choice": "not_observable"
+        },
+        {
+          "attempt_id": "P2-C09",
+          "choice": "not_observable"
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "provisional_assessment": "missingness_scope_ambiguity",
+      "basis": "E2 is supplied but its identity fields are unreadable. The reference treats linkage as residual ambiguity; the codebook also allows unresolved states under documented access conditions. Unreadability is not cleanly separated from restricted access.",
+      "successor_requirement": "Define treatment of damaged or unreadable fields separately from withheld records, with paired cases.",
+      "adjudication_status": "unresolved",
+      "replacement_label": null
+    },
+    {
+      "card_id": "C09",
+      "dimension": "outcome_mitigation",
+      "attempt_ids": [
+        "P1-C09",
+        "P2-C09"
+      ],
+      "original_reference": "not_reported",
+      "observed_choices": [
+        {
+          "attempt_id": "P1-C09",
+          "choice": "not_observable"
+        },
+        {
+          "attempt_id": "P2-C09",
+          "choice": "not_observable"
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "provisional_assessment": "missingness_scope_ambiguity",
+      "basis": "E2 reports unreadable receipt identity fields and no mapping. Consequences are not reported. A barrier to linking the action does not specify whether consequence evidence exists. The missingness precedence is incomplete.",
+      "successor_requirement": "Specify dimension-local missingness and preserve multiple limitations in rationale rather than automatically copying a label downstream.",
+      "adjudication_status": "unresolved",
+      "replacement_label": null
+    },
+    {
+      "card_id": "C10",
+      "dimension": "outcome_mitigation",
+      "attempt_ids": [
+        "P1-C10",
+        "P2-C10",
+        "P3-C10"
+      ],
+      "original_reference": "not_reported",
+      "observed_choices": [
+        {
+          "attempt_id": "P1-C10",
+          "choice": "partial"
+        },
+        {
+          "attempt_id": "P2-C10",
+          "choice": "partial"
+        },
+        {
+          "attempt_id": "P3-C10",
+          "choice": "partial"
+        }
+      ],
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "provisional_assessment": "reference_supported_provisionally",
+      "basis": "E2 records receipt at W only. It reports neither cancellation nor a consequence at either worker. The question expressly says downstream acknowledgement does not establish mitigation.",
+      "successor_requirement": "Retain this boundary; add receipt-only, executed-stop and observed-consequence variants for the same named outcome.",
+      "adjudication_status": "unresolved",
+      "replacement_label": null
+    }
+  ]
+}
