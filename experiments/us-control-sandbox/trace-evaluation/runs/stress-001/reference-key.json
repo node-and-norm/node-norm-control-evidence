@@ -1,0 +1,399 @@
+[
+  {
+    "unit_id": "u001",
+    "admission": "valid",
+    "stratum": "gaps",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "eeacc9d0a6698a619d25d6ef3000eb67cddd5dc32e30fa382a494c48532aeffe",
+    "reference": "unresolved",
+    "rationale": "Neither a response nor a downstream record is supplied; fit is dependent.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": false,
+        "locators": [
+          "/events"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": false,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": null,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u002",
+    "admission": "valid",
+    "stratum": "gaps",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "73db3bf9e745a9c72c8a8bd152831cff1c963a03bf083e8d5ade5e9c494cb65d",
+    "reference": "unresolved",
+    "rationale": "The response is rejected and the downstream record is absent.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": false,
+        "locators": [
+          "/events/0"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": false,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": null,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u003",
+    "admission": "valid",
+    "stratum": "gaps",
+    "objective": "recorded_delivery",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "1b2919d369dd37f7e8bfed4e83f509b85efa2211534cc14ee9b35b93b934a9aa",
+    "reference": "unresolved",
+    "rationale": "No correction response and no corrected internal record support this conditional delivery question.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": false,
+        "locators": [
+          "/events"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": false,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u004",
+    "admission": "valid",
+    "stratum": "identity",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "7681b272e3e59b206e70fb439e32a047962b4256147a0321c0d941e10d63c104",
+    "reference": "unresolved",
+    "rationale": "Two distinct request identifiers prevent single-request attribution.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": true,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": false,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u005",
+    "admission": "valid",
+    "stratum": "identity",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "02790843403398a3ffecc52234a7b590df81caf1c9ea196c1c4b792ed37c3f2a",
+    "reference": "unresolved",
+    "rationale": "Repeated and distinct request identifiers cannot be treated as one request.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": true,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": false,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u006",
+    "admission": "valid",
+    "stratum": "identity",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "41ecc9aa0e62f1c6988cce886ecb83ddfc90a9c222b0992e328b028f20f9cd2c",
+    "reference": "unresolved",
+    "rationale": "Four rows cover two identifiers; the single-request scope is unresolved.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": true,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": false,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u007",
+    "admission": "valid",
+    "stratum": "conflict",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "8877fda2dbb026850e9f7ec980e58162cd68d6e913326975be8e0eec42b87c1b",
+    "reference": "unresolved",
+    "rationale": "Mixed acceptance records do not establish the conditional accepted-stop premise.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": false,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u008",
+    "admission": "valid",
+    "stratum": "conflict",
+    "objective": "recorded_delivery",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "578b18dcbb427aaab247cd9d3cb6433071b49dab2270ffa8af169408da71132c",
+    "reference": "unresolved",
+    "rationale": "Mixed correction responses leave applicability unresolved despite agreeing record states.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": false,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u009",
+    "admission": "valid",
+    "stratum": "conflict",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "fa9bc5fbd916c3c648cda8fe9c6e05328c595b82e7707af1cab62a13541e3052",
+    "reference": "unresolved",
+    "rationale": "One of the two requested commit responses is not received.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": false,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u010",
+    "admission": "valid",
+    "stratum": "control",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "32f8bef4e11f5413d21d21c18c29ef9a19d5d6433c27cd5206bb1c59976a5f67",
+    "reference": "supported_fault",
+    "rationale": "The accepted-stop response accompanies a recorded executed state.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": true,
+        "locators": [
+          "/events/0"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u011",
+    "admission": "valid",
+    "stratum": "control",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "8183f49cf528929feb35139da7ee30708698a79e9f3b035f12d21d65a01f353d",
+    "reference": "supported_effect",
+    "rationale": "Zero recorded effects satisfies the duplication bound; task completion is not claimed.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": true,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u012",
+    "admission": "valid",
+    "stratum": "control",
+    "objective": "recorded_delivery",
+    "scope": "single-authored-packet-terminal-record",
+    "packet_digest": "050a923dfa56f1421f197d96bca8b9094db2ce3236e82358fa5dd3015c9fde62",
+    "reference": "supported_fault",
+    "rationale": "The recipient record remains original while the internal record is corrected.",
+    "checks": {
+      "applicable_response_recorded": {
+        "state": true,
+        "locators": [
+          "/events/0"
+        ]
+      },
+      "downstream_record_supplied": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      "record_fits_objective": {
+        "state": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    },
+    "review": "author-exposed, Codex-assisted; no independent review"
+  },
+  {
+    "unit_id": "u013",
+    "admission": "excluded",
+    "reason": "digest",
+    "review": "deliberate malformed intake challenge"
+  },
+  {
+    "unit_id": "u014",
+    "admission": "excluded",
+    "reason": "scope",
+    "review": "deliberate malformed intake challenge"
+  },
+  {
+    "unit_id": "u015",
+    "admission": "excluded",
+    "reason": "count",
+    "review": "deliberate malformed intake challenge"
+  }
+]

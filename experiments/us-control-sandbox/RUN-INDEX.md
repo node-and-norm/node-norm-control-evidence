@@ -15,10 +15,14 @@ Recorded on 2 October 2026 in America/New_York. Some engine timestamps fall on 3
 
 The recovery controls exposed the declared volatile-stop and duplicate-effect defects. Matching those expected failures is a successful fixture check while the control objective remains violated. A separate condition withholds evidence despite an effective stop. Its observer record does not authorize an assessor who lacks that record to conclude the stop worked.
 
-Run `python3 -B verify_archive.py` from this directory to verify the five saved artifact manifests, the initial rehearsal's source hash and the expanded test suite's source snapshot hashes. The public-copy provenance manifest records editorial and path changes separately. All these hashes are change-detection aids, not signatures or proof of truth.
+Run `python3 -B verify_archive.py` from this directory to verify the six saved artifact manifests, the initial rehearsal's source hash and the expanded test suite's source snapshot hashes. The public-copy provenance manifest records editorial and path changes separately. All these hashes are change-detection aids, not signatures or proof of truth.
 
 The original local and container records are development checkpoints. New executions must use fresh output directories and retain errors. The current protocol's complete-attempt preservation rule applies going forward; historical gaps are disclosed in [the publication record](PUBLICATION.md).
 
 ## Paired procedure demonstration
 
 [development-001](procedure-runs/development-001/summary.json) re-presents seven previously published packets to the checklist and full-trace procedures. Their labels agree on all seven by the shared rule design. Thirteen artifacts, including input envelopes, both outputs and source snapshots, are retained under a manifest. There is no independent answer key or accuracy estimate. This adds no new study cases to the sixteen development conditions.
+
+## Trace-quality stress evaluation
+
+[stress-001](trace-evaluation/RESULTS.md) compares both procedures on twelve authored valid packets and three intake failures, under a plan committed before construction. All original outputs and the separate key are retained in twelve hashed artifacts. These are author-exposed packet combinations and controls, not additional independent system executions or a held-out study.
