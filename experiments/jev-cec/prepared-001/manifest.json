@@ -1,0 +1,19 @@
+{
+  "artifacts": {
+    "CODEBOOK.txt": "42d37414c97d24665a547223a5f6e83ac88419b99f12c301cb4c823d20246259",
+    "PLAN.txt": "705516bc95a8038d020337905f7cf7e11c577b32b7d021ca3c1d4395c796aa2f",
+    "input-1.json": "5dfa32cc6b1ee5db4c1abf68e54f1b518d5a62263141ebaf184b2db3985d9c01",
+    "input-2.json": "80863175fff6db5d80086b4eceb6018e9a552047f8b28d83a8cfee41e95b9311",
+    "input-3.json": "0da19dcc7e90989d947d8a9460590a27c7f9017d8d6762b83fab920656b09e9c",
+    "prepare.py": "60c4471c7993b359467dadcd6e2e8c23de857b9092f9e87c19d9906deb7d59e0",
+    "provenance.json": "eea04480e4e1553eef2c3e41f8a42a879f34ff2afabd6f75632176cf9faa4214",
+    "questions.json": "4f47e1c2dae54e05c572dadc4e5985a1cd685d9b883209ae19b24213ed79bfa5",
+    "requests.json": "12d14e6c0cfdee90fcae77595965981f111917c0dc57ae730e2d5073ce7de4a1"
+  },
+  "model_requested": "jev-1.13.0",
+  "model_resolved": null,
+  "requests_prepared": 3,
+  "requests_sent": 0,
+  "research_status": "author-exposed synthetic preparation; no model results",
+  "status": "prepared-only"
+}

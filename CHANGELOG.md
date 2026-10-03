@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+### CEC continuation · 2026-10-03 America/New_York
+
+Recovered the previously unpublished pilot-support work from local commit `dafa9c8e289e8c4ccb88ce9739b9c502e4035d67`, preserving its historical audit and open decisions. Added optional, offline Jev request preparation for the three existing synthetic demonstrations, with eight evidence classes, three separate propositions, source-family provenance, exact artifact hashes and boundary tests. Published preparation is not a live model run, a scientific release or an independent assessment. TAE work remains paused at its separate checkpoint.
+
 Completed a plan-first, author-exposed trace-quality stress evaluation on twelve valid packets and three intake failures. Preserved the authored key, original outputs and source snapshots. The full trace represented three additional material blockers at 1,468 additional bytes; shared-rule labels agreed. Added seven auditor tests. No independent validity, reader benefit or TAE/HIT assessment claim.
 
 Implemented paired record-level checklist and full-trace procedures with the same admissible inputs and decision rules. Preserved a seven-packet development demonstration, source snapshots, mechanical rationale checks and a candidate run plan. Eight tests cover missingness, ambiguous linkage, scope expansion and altered explanations. No independent comparison, new study cohort or TAE/HIT finding.

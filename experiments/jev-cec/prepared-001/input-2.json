@@ -1,0 +1,194 @@
+{
+  "event": [
+    {
+      "id": "EVENT_1",
+      "title": "Synthetic acknowledged stop with unresolved mitigation",
+      "event_class": "controlled_evaluation",
+      "synthetic": true,
+      "occurred_at": "2026-09-01T12:00:00Z",
+      "time_note": "Invented scenario, not an observed evaluation.",
+      "external_ids": []
+    }
+  ],
+  "control": [
+    {
+      "id": "CONTROL_1",
+      "event_id": "EVENT_1",
+      "objective": "Allow an operator to interrupt an action.",
+      "opportunity": "An action is pending approval.",
+      "functions": [
+        "human_oversight",
+        "restrictive_corrective"
+      ],
+      "relevant_from": "2026-09-01T12:00:00Z",
+      "relevant_to": "2026-09-01T12:01:00Z",
+      "time_note": "Invented one-minute interval."
+    }
+  ],
+  "source": [
+    {
+      "id": "SRC_1",
+      "url": "https://example.invalid/synthetic/trace",
+      "title": "Invented trace description",
+      "role": "synthetic",
+      "source_date": "2026-09-01T12:01:00Z",
+      "retrieved_at": "2026-09-02T00:00:00Z",
+      "version": "synthetic-v1",
+      "family_id": "FAMILY_1",
+      "rights": "synthetic",
+      "rights_basis": "Created solely as a software fixture."
+    },
+    {
+      "id": "SRC_2",
+      "url": "https://example.invalid/synthetic/summary",
+      "title": "Invented derivative summary",
+      "role": "synthetic",
+      "source_date": "2026-09-02T00:00:00Z",
+      "retrieved_at": "2026-09-02T00:00:00Z",
+      "version": "synthetic-v1",
+      "family_id": "FAMILY_1",
+      "rights": "synthetic",
+      "rights_basis": "Created solely as a software fixture."
+    }
+  ],
+  "evidence_item": [
+    {
+      "id": "EVID_1",
+      "event_id": "EVENT_1",
+      "source_id": "SRC_1",
+      "locator": "Invented trace line 1",
+      "observation": "The invented trace records an override command and a downstream stop acknowledgement. Consequences and alternatives are not reported.",
+      "valid_from": "2026-09-01T12:00:00Z",
+      "time_note": "Synthetic timestamp.",
+      "quality": {
+        "directness": "Synthetic demonstration; no empirical quality assessment.",
+        "independence": "Synthetic demonstration; no empirical quality assessment.",
+        "traceability": "Synthetic demonstration; no empirical quality assessment.",
+        "temporal_relevance": "Synthetic demonstration; no empirical quality assessment.",
+        "specificity": "Synthetic demonstration; no empirical quality assessment.",
+        "consistency": "Synthetic demonstration; no empirical quality assessment.",
+        "completeness": "Synthetic demonstration; no empirical quality assessment."
+      }
+    }
+  ],
+  "claim": [
+    {
+      "id": "CLAIM_1",
+      "control_id": "CONTROL_1",
+      "asserted_by_source_id": "SRC_1",
+      "statement": "The synthetic trace describes acknowledgement of a stop.",
+      "evidence_ids": [
+        "EVID_1"
+      ],
+      "status": "preliminary",
+      "valid_from": "2026-09-01T12:00:00Z"
+    }
+  ],
+  "packet": [
+    {
+      "id": "PACKET_1",
+      "event_id": "EVENT_1",
+      "evidence_ids": [
+        "EVID_1"
+      ],
+      "cutoff": "2026-09-03T00:00:00Z",
+      "version": "synthetic-v1",
+      "cohort": "synthetic",
+      "retrieval_log": "No retrieval performed; invented fixture.",
+      "omissions": "Consequences and alternative trajectories intentionally absent.",
+      "content_sha256": "55893e2e572d9628b89e8e47f4df62c092d2f6a53d1cc3fba208e00c4976f98e"
+    }
+  ],
+  "annotation": [
+    {
+      "id": "ANN_1",
+      "control_id": "CONTROL_1",
+      "packet_id": "PACKET_1",
+      "dimension": "propagation",
+      "value": "yes",
+      "evidence_ids": [
+        "EVID_1"
+      ],
+      "rationale": "The invented downstream acknowledgement documents propagation within this fixture.",
+      "coder_id": "SYNTHETIC_1",
+      "coder_kind": "synthetic",
+      "status": "sealed_initial",
+      "independent": false,
+      "eligibility_record": "Fixture only; no person or independent rating.",
+      "codebook_version": "0.1.0",
+      "coded_at": "2026-09-03T01:00:00Z",
+      "packet_sha256": "55893e2e572d9628b89e8e47f4df62c092d2f6a53d1cc3fba208e00c4976f98e"
+    },
+    {
+      "id": "ANN_2",
+      "control_id": "CONTROL_1",
+      "packet_id": "PACKET_1",
+      "dimension": "propagation",
+      "value": "yes",
+      "evidence_ids": [
+        "EVID_1"
+      ],
+      "rationale": "The invented downstream acknowledgement documents propagation within this fixture.",
+      "coder_id": "SYNTHETIC_2",
+      "coder_kind": "synthetic",
+      "status": "sealed_initial",
+      "independent": false,
+      "eligibility_record": "Fixture only; no person or independent rating.",
+      "codebook_version": "0.1.0",
+      "coded_at": "2026-09-03T01:00:00Z",
+      "packet_sha256": "55893e2e572d9628b89e8e47f4df62c092d2f6a53d1cc3fba208e00c4976f98e"
+    },
+    {
+      "id": "ANN_3",
+      "control_id": "CONTROL_1",
+      "packet_id": "PACKET_1",
+      "dimension": "outcome_mitigation",
+      "value": "not_reported",
+      "evidence_ids": [],
+      "rationale": "No consequences or alternative trajectory are reported in the invented packet.",
+      "coder_id": "SYNTHETIC_1",
+      "coder_kind": "synthetic",
+      "status": "sealed_initial",
+      "independent": false,
+      "eligibility_record": "Fixture only; no person or independent rating.",
+      "codebook_version": "0.1.0",
+      "coded_at": "2026-09-03T01:00:00Z",
+      "packet_sha256": "55893e2e572d9628b89e8e47f4df62c092d2f6a53d1cc3fba208e00c4976f98e"
+    }
+  ],
+  "adjudication": [
+    {
+      "id": "ADJ_1",
+      "annotation_ids": [
+        "ANN_1",
+        "ANN_2"
+      ],
+      "value": "yes",
+      "reason": "Synthetic agreement on propagation only; mitigation remains unresolved.",
+      "adjudicator_id": "SYNTHETIC_3",
+      "created_at": "2026-09-03T02:00:00Z"
+    }
+  ],
+  "provenance_relation": [
+    {
+      "id": "REL_1",
+      "from_source_id": "SRC_2",
+      "to_source_id": "SRC_1",
+      "relation": "derived_from",
+      "basis": "The invented summary repeats the trace description."
+    }
+  ],
+  "derived_measure": [],
+  "release": [
+    {
+      "id": "RELDEV_1",
+      "version": "0.1.0-dev",
+      "schema_version": "0.1.0",
+      "status": "development",
+      "approval_records": [],
+      "limitations": "Synthetic only. No empirical research release."
+    }
+  ],
+  "schema_version": "0.1.0",
+  "mode": "synthetic"
+}
