@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Preserved the first frozen four-question live run: 90 attempts, 76 valid responses, 14 invalid, no retries. Primary agreement 76/92 at 92/120 coverage; all 62 mismatches remain unresolved. No independent accuracy or v1 improvement claim.
+
 Implemented the separate four-question runner, strict validation, 90-request accounting, pair availability and descriptive analysis. Froze exact source inputs and added nine offline failure/analysis tests. No successor live inference or independent finding.
 
 Added four prevention-chain contrast packets with sixteen located proposed judgments, a prospective four-question execution contract and an offline 90-request schedule. Disclosed the shared baseline and 29 unique states. No inference or execution freeze.

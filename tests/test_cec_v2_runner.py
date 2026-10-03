@@ -116,3 +116,19 @@ class V2RunnerTests(unittest.TestCase):
         for k,v in actual.items():self.assertEqual(v,saved[k])
         self.assertEqual(saved['live_requests_sent'],0)
         self.assertFalse(json.loads((p/'metadata.json').read_text())['working_tree_dirty'])
+
+    def test_preserved_live_reproduction(self):
+        p=ROOT/'experiments/jev-cec/execution-v2/live-001'
+        self.assertEqual(runner.verify(p)['mode'],'live')
+        rows=json.loads((p/'schedule.json').read_text())
+        records=json.loads((p/'attempts.json').read_text())
+        for r in records:
+            if r['status']=='valid':r['response_raw']=(p/'responses'/f'{r["attempt_id"]}.bin').read_bytes()
+        key=json.loads((p/'source/execution-v2/reference-key.json').read_text())
+        actual=runner.summarize(rows,records,key,'live')
+        saved=json.loads((p/'report.json').read_text())
+        for k,v in actual.items():self.assertEqual(v,saved[k])
+        self.assertEqual(saved['live_requests_sent'],90)
+        self.assertEqual(saved['request_counts']['invalid'],14)
+        self.assertEqual(saved['passes']['1']['overall']['matches'],76)
+        self.assertFalse(json.loads((p/'metadata.json').read_text())['working_tree_dirty'])
