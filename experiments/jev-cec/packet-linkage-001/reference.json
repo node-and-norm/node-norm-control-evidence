@@ -1,0 +1,97 @@
+{
+  "conditions": {
+    "explicit": {
+      "V2-12-A": {
+        "action": {
+          "basis": "E1 explicitly identifies issuance of stop request R for job J.",
+          "label": "yes",
+          "status": "proposed"
+        },
+        "outcome_mitigation": {
+          "basis": "E2 reports no outcome information (A), or a specific outcome-record access restriction (B).",
+          "label": "not_reported",
+          "status": "proposed"
+        },
+        "propagation": {
+          "basis": "E1 says receipt records are absent.",
+          "label": "not_reported",
+          "status": "proposed"
+        },
+        "trajectory_effect": {
+          "basis": "E1 says execution records are absent.",
+          "label": "not_reported",
+          "status": "proposed"
+        }
+      },
+      "V2-12-B": {
+        "action": {
+          "basis": "E1 explicitly identifies issuance of stop request R for job J.",
+          "label": "yes",
+          "status": "proposed"
+        },
+        "outcome_mitigation": {
+          "basis": "E2 reports no outcome information (A), or a specific outcome-record access restriction (B).",
+          "label": "not_observable",
+          "status": "proposed"
+        },
+        "propagation": {
+          "basis": "E1 says receipt records are absent.",
+          "label": "not_reported",
+          "status": "proposed"
+        },
+        "trajectory_effect": {
+          "basis": "E1 says execution records are absent.",
+          "label": "not_reported",
+          "status": "proposed"
+        }
+      }
+    },
+    "original": {
+      "V2-12-A": {
+        "action": {
+          "basis": "R is not explicitly identified as the scoped intervention.",
+          "label": null,
+          "status": "unresolved"
+        },
+        "outcome_mitigation": {
+          "basis": "E2 reports no outcome information (A), or a specific outcome-record access restriction (B).",
+          "label": "not_reported",
+          "status": "proposed"
+        },
+        "propagation": {
+          "basis": "E1 says receipt records are absent.",
+          "label": "not_reported",
+          "status": "proposed"
+        },
+        "trajectory_effect": {
+          "basis": "E1 says execution records are absent.",
+          "label": "not_reported",
+          "status": "proposed"
+        }
+      },
+      "V2-12-B": {
+        "action": {
+          "basis": "R is not explicitly identified as the scoped intervention.",
+          "label": null,
+          "status": "unresolved"
+        },
+        "outcome_mitigation": {
+          "basis": "E2 reports no outcome information (A), or a specific outcome-record access restriction (B).",
+          "label": "not_observable",
+          "status": "proposed"
+        },
+        "propagation": {
+          "basis": "E1 says receipt records are absent.",
+          "label": "not_reported",
+          "status": "proposed"
+        },
+        "trajectory_effect": {
+          "basis": "E1 says execution records are absent.",
+          "label": "not_reported",
+          "status": "proposed"
+        }
+      }
+    }
+  },
+  "status": "prospective AI-authored proposals; no independent adjudication"
+}
