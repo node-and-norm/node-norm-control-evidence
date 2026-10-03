@@ -1,0 +1,13 @@
+{
+  "version": "cec-challenge-v1",
+  "date": "2026-10-03",
+  "status": "ai-authored synthetic development; no independent review",
+  "model_outputs_observed_for_this_cec_set": false,
+  "artifacts": {
+    "cards.json": "ca46a2754850248120db4e0a3cbe762c40c85c336288453ec3752192f1c72b3f",
+    "reference-key.json": "8873c1a6b30bf1b9f05516f17f760750db1722931b87fb5d5159de985a4a95c2",
+    "questions.json": "4f47e1c2dae54e05c572dadc4e5985a1cd685d9b883209ae19b24213ed79bfa5",
+    "CODEBOOK.txt": "42d37414c97d24665a547223a5f6e83ac88419b99f12c301cb4c823d20246259",
+    "README.md": "51bddfefd773fddaf38327b81b97cd747110ad2a4ce9fa96d8e75e22b8fa52e2"
+  }
+}

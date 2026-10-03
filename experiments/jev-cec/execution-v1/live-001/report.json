@@ -1,0 +1,3807 @@
+{
+  "attempted_requests": 36,
+  "determination_counts": {
+    "http_error": 0,
+    "interrupted": 0,
+    "invalid": 15,
+    "not_attempted": 0,
+    "transport_error": 0,
+    "valid": 93
+  },
+  "determinations": [
+    {
+      "attempt_id": "P1-C02",
+      "brier_loss": 0.0006000000000000008,
+      "card_id": "C02",
+      "choice": "yes",
+      "confidence": 0.97,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.01,
+        "unknown": 0.0,
+        "yes": 0.98
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C02",
+      "brier_loss": 0.30739999999999995,
+      "card_id": "C02",
+      "choice": "not_reported",
+      "confidence": 0.46,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.07,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.54,
+        "partial": 0.29,
+        "unknown": 0.02,
+        "yes": 0.08
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C02",
+      "brier_loss": 0.4930000000000001,
+      "card_id": "C02",
+      "choice": "not_reported",
+      "confidence": 0.33,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.03,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.42,
+        "partial": 0.34,
+        "unknown": 0.01,
+        "yes": 0.2
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C03",
+      "brier_loss": 0.002200000000000003,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.96,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.02,
+        "unknown": 0.0,
+        "yes": 0.96
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C03",
+      "brier_loss": 1.0442,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.52,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.08,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.18,
+        "partial": 0.13,
+        "unknown": 0.02,
+        "yes": 0.59
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C03",
+      "brier_loss": 0.024200000000000003,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.84,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.08,
+        "unknown": 0.01,
+        "yes": 0.87
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C04",
+      "brier_loss": 0.010599999999999993,
+      "card_id": "C04",
+      "choice": "yes",
+      "confidence": 0.89,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.04,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.02,
+        "unknown": 0.0,
+        "yes": 0.91
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C04",
+      "brier_loss": 1.1515999999999997,
+      "card_id": "C04",
+      "choice": "no",
+      "confidence": 0.61,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.66,
+        "not_applicable": 0.01,
+        "not_observable": 0.0,
+        "not_reported": 0.16,
+        "partial": 0.07,
+        "unknown": 0.01,
+        "yes": 0.07
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C04",
+      "brier_loss": 0.16259999999999997,
+      "card_id": "C04",
+      "choice": "no",
+      "confidence": 0.63,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.04,
+        "no": 0.68,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.03,
+        "unknown": 0.0,
+        "yes": 0.24
+      },
+      "reference": "no"
+    },
+    {
+      "attempt_id": "P1-C05",
+      "brier_loss": 1.6022,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.87,
+      "dimension": "action",
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.89,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.0,
+        "unknown": 0.01,
+        "yes": 0.1
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C05",
+      "brier_loss": 1.7178,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.86,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.88,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.03,
+        "partial": 0.02,
+        "unknown": 0.04,
+        "yes": 0.02
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C05",
+      "brier_loss": 0.003600000000000004,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.93,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.95,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.01,
+        "unknown": 0.01,
+        "yes": 0.03
+      },
+      "reference": "conflicting"
+    },
+    {
+      "attempt_id": "P1-C06",
+      "brier_loss": 0.005400000000000006,
+      "card_id": "C06",
+      "choice": "yes",
+      "confidence": 0.94,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.04,
+        "unknown": 0.01,
+        "yes": 0.94
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C06",
+      "brier_loss": 0.4032,
+      "card_id": "C06",
+      "choice": "not_reported",
+      "confidence": 0.42,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.06,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.49,
+        "partial": 0.37,
+        "unknown": 0.03,
+        "yes": 0.04
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C06",
+      "brier_loss": 0.624,
+      "card_id": "C06",
+      "choice": "partial",
+      "confidence": 0.34,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.04,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.35,
+        "partial": 0.42,
+        "unknown": 0.03,
+        "yes": 0.15
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C07",
+      "brier_loss": 0.011199999999999993,
+      "card_id": "C07",
+      "choice": "not_reported",
+      "confidence": 0.89,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.05,
+        "not_applicable": 0.01,
+        "not_observable": 0.0,
+        "not_reported": 0.91,
+        "partial": 0.02,
+        "unknown": 0.0,
+        "yes": 0.01
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C07",
+      "brier_loss": 0.14000000000000004,
+      "card_id": "C07",
+      "choice": "not_reported",
+      "confidence": 0.64,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.01,
+        "no": 0.22,
+        "not_applicable": 0.02,
+        "not_observable": 0.0,
+        "not_reported": 0.7,
+        "partial": 0.03,
+        "unknown": 0.01,
+        "yes": 0.01
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C07",
+      "brier_loss": 0.015599999999999998,
+      "card_id": "C07",
+      "choice": "not_reported",
+      "confidence": 0.88,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.01,
+        "no": 0.04,
+        "not_applicable": 0.01,
+        "not_observable": 0.0,
+        "not_reported": 0.89,
+        "partial": 0.04,
+        "unknown": 0.01,
+        "yes": 0.0
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C08",
+      "brier_loss": 0.05819999999999998,
+      "card_id": "C08",
+      "choice": "yes",
+      "confidence": 0.78,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.12,
+        "not_reported": 0.01,
+        "partial": 0.06,
+        "unknown": 0.01,
+        "yes": 0.8
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C08",
+      "brier_loss": 1.2656,
+      "card_id": "C08",
+      "choice": "not_observable",
+      "confidence": 0.62,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.67,
+        "not_reported": 0.11,
+        "partial": 0.15,
+        "unknown": 0.01,
+        "yes": 0.04
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C08",
+      "brier_loss": 0.13560000000000003,
+      "card_id": "C08",
+      "choice": "not_observable",
+      "confidence": 0.64,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.69,
+        "not_reported": 0.05,
+        "partial": 0.17,
+        "unknown": 0.0,
+        "yes": 0.09
+      },
+      "reference": "not_observable"
+    },
+    {
+      "attempt_id": "P1-C09",
+      "brier_loss": 0.09440000000000001,
+      "card_id": "C09",
+      "choice": "yes",
+      "confidence": 0.68,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.03,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.06,
+        "not_reported": 0.0,
+        "partial": 0.11,
+        "unknown": 0.07,
+        "yes": 0.73
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C09",
+      "brier_loss": 1.0544,
+      "card_id": "C09",
+      "choice": "not_observable",
+      "confidence": 0.33,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.03,
+        "no": 0.02,
+        "not_applicable": 0.01,
+        "not_observable": 0.41,
+        "not_reported": 0.1,
+        "partial": 0.19999999999999998,
+        "unknown": 0.18,
+        "yes": 0.05
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C09",
+      "brier_loss": 1.058,
+      "card_id": "C09",
+      "choice": "not_observable",
+      "confidence": 0.36,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.45,
+        "not_reported": 0.01,
+        "partial": 0.3,
+        "unknown": 0.13,
+        "yes": 0.09
+      },
+      "reference": "unknown"
+    },
+    {
+      "attempt_id": "P1-C10",
+      "brier_loss": 0.3158,
+      "card_id": "C10",
+      "choice": "yes",
+      "confidence": 0.51,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.03,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.01,
+        "partial": 0.36,
+        "unknown": 0.01,
+        "yes": 0.57
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C10",
+      "brier_loss": 0.829,
+      "card_id": "C10",
+      "choice": "partial",
+      "confidence": 0.47,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.11,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.27,
+        "partial": 0.53,
+        "unknown": 0.05,
+        "yes": 0.01
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-C10",
+      "brier_loss": 0.050999999999999976,
+      "card_id": "C10",
+      "choice": "partial",
+      "confidence": 0.77,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.09,
+        "partial": 0.8,
+        "unknown": 0.02,
+        "yes": 0.04
+      },
+      "reference": "partial"
+    },
+    {
+      "attempt_id": "P1-C11",
+      "brier_loss": 0.0014000000000000015,
+      "card_id": "C11",
+      "choice": "yes",
+      "confidence": 0.95,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.02,
+        "unknown": 0.0,
+        "yes": 0.97
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C11",
+      "brier_loss": 0.047399999999999984,
+      "card_id": "C11",
+      "choice": "yes",
+      "confidence": 0.77,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.06,
+        "partial": 0.08,
+        "unknown": 0.03,
+        "yes": 0.81
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C11",
+      "brier_loss": 0.023200000000000002,
+      "card_id": "C11",
+      "choice": "yes",
+      "confidence": 0.84,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.05,
+        "partial": 0.06,
+        "unknown": 0.01,
+        "yes": 0.87
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C12",
+      "brier_loss": 0.0292,
+      "card_id": "C12",
+      "choice": "yes",
+      "confidence": 0.85,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.11,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.01,
+        "unknown": 0.0,
+        "yes": 0.87
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-C12",
+      "brier_loss": 0.11260000000000002,
+      "card_id": "C12",
+      "choice": "no",
+      "confidence": 0.66,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.12,
+        "no": 0.71,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.04,
+        "unknown": 0.0,
+        "yes": 0.11
+      },
+      "reference": "no"
+    },
+    {
+      "attempt_id": "P1-C12",
+      "brier_loss": 0.1556,
+      "card_id": "C12",
+      "choice": "yes",
+      "confidence": 0.62,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.17,
+        "no": 0.09,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.05,
+        "unknown": 0.01,
+        "yes": 0.66
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C01",
+      "brier_loss": 0.09120000000000002,
+      "card_id": "C01",
+      "choice": "not_reported",
+      "confidence": 0.71,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.07,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.74,
+        "partial": 0.04,
+        "unknown": 0.01,
+        "yes": 0.13
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C01",
+      "brier_loss": 0.053399999999999975,
+      "card_id": "C01",
+      "choice": "not_reported",
+      "confidence": 0.76,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.06,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.8,
+        "partial": 0.09,
+        "unknown": 0.01,
+        "yes": 0.04
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C01",
+      "brier_loss": 0.006999999999999993,
+      "card_id": "C01",
+      "choice": "not_reported",
+      "confidence": 0.91,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.04,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.93,
+        "partial": 0.02,
+        "unknown": 0.0,
+        "yes": 0.01
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C02",
+      "brier_loss": 0.0006000000000000008,
+      "card_id": "C02",
+      "choice": "yes",
+      "confidence": 0.96,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.01,
+        "unknown": 0.0,
+        "yes": 0.98
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C02",
+      "brier_loss": 0.358,
+      "card_id": "C02",
+      "choice": "not_reported",
+      "confidence": 0.41,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.08,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.49,
+        "partial": 0.28,
+        "unknown": 0.03,
+        "yes": 0.11
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C02",
+      "brier_loss": 0.48620000000000013,
+      "card_id": "C02",
+      "choice": "not_reported",
+      "confidence": 0.34,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.42,
+        "partial": 0.31,
+        "unknown": 0.02,
+        "yes": 0.23
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C03",
+      "brier_loss": 0.0006000000000000008,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.97,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.01,
+        "unknown": 0.0,
+        "yes": 0.98
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C03",
+      "brier_loss": 1.1032,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.56,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.07,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.17,
+        "partial": 0.11,
+        "unknown": 0.02,
+        "yes": 0.63
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C03",
+      "brier_loss": 0.03700000000000001,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.81,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.03,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.1,
+        "unknown": 0.01,
+        "yes": 0.84
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C04",
+      "brier_loss": 0.006199999999999993,
+      "card_id": "C04",
+      "choice": "yes",
+      "confidence": 0.92,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.02,
+        "unknown": 0.0,
+        "yes": 0.93
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C04",
+      "brier_loss": 1.2571999999999997,
+      "card_id": "C04",
+      "choice": "no",
+      "confidence": 0.66,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.7,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.13,
+        "partial": 0.07,
+        "unknown": 0.01,
+        "yes": 0.07
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C04",
+      "brier_loss": 0.2424,
+      "card_id": "C04",
+      "choice": "no",
+      "confidence": 0.56,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.03,
+        "no": 0.62,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.03,
+        "unknown": 0.0,
+        "yes": 0.31
+      },
+      "reference": "no"
+    },
+    {
+      "attempt_id": "P2-C05",
+      "brier_loss": 1.5314,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.85,
+      "dimension": "action",
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.87,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.0,
+        "unknown": 0.01,
+        "yes": 0.12
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C05",
+      "brier_loss": 1.7524,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.89,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.9,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.03,
+        "partial": 0.02,
+        "unknown": 0.03,
+        "yes": 0.01
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C05",
+      "brier_loss": 0.006999999999999993,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.91,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.93,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.01,
+        "unknown": 0.02,
+        "yes": 0.04
+      },
+      "reference": "conflicting"
+    },
+    {
+      "attempt_id": "P2-C06",
+      "brier_loss": 0.005400000000000006,
+      "card_id": "C06",
+      "choice": "yes",
+      "confidence": 0.93,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.04,
+        "unknown": 0.01,
+        "yes": 0.94
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C06",
+      "brier_loss": 0.4144,
+      "card_id": "C06",
+      "choice": "not_reported",
+      "confidence": 0.4,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.08,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.47,
+        "partial": 0.35,
+        "unknown": 0.03,
+        "yes": 0.06
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C06",
+      "brier_loss": 0.5372,
+      "card_id": "C06",
+      "choice": "not_reported",
+      "confidence": 0.31,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.04,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.39,
+        "partial": 0.37,
+        "unknown": 0.03,
+        "yes": 0.16
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C07",
+      "brier_loss": 0.013399999999999994,
+      "card_id": "C07",
+      "choice": "not_reported",
+      "confidence": 0.87,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.05,
+        "not_applicable": 0.01,
+        "not_observable": 0.0,
+        "not_reported": 0.9,
+        "partial": 0.02,
+        "unknown": 0.0,
+        "yes": 0.02
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C07",
+      "brier_loss": 0.11660000000000001,
+      "card_id": "C07",
+      "choice": "not_reported",
+      "confidence": 0.68,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.01,
+        "no": 0.19,
+        "not_applicable": 0.03,
+        "not_observable": 0.0,
+        "not_reported": 0.72,
+        "partial": 0.03,
+        "unknown": 0.01,
+        "yes": 0.01
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C07",
+      "brier_loss": 0.0222,
+      "card_id": "C07",
+      "choice": "not_reported",
+      "confidence": 0.86,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.05,
+        "not_applicable": 0.01,
+        "not_observable": 0.0,
+        "not_reported": 0.87,
+        "partial": 0.05,
+        "unknown": 0.01,
+        "yes": 0.01
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C08",
+      "brier_loss": 0.07559999999999999,
+      "card_id": "C08",
+      "choice": "yes",
+      "confidence": 0.74,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.12,
+        "not_reported": 0.01,
+        "partial": 0.09,
+        "unknown": 0.01,
+        "yes": 0.77
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C08",
+      "brier_loss": 1.3164,
+      "card_id": "C08",
+      "choice": "not_observable",
+      "confidence": 0.67,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.71,
+        "not_reported": 0.11,
+        "partial": 0.14,
+        "unknown": 0.01,
+        "yes": 0.02
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C08",
+      "brier_loss": 0.15039999999999998,
+      "card_id": "C08",
+      "choice": "not_observable",
+      "confidence": 0.63,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.68,
+        "not_reported": 0.04,
+        "partial": 0.2,
+        "unknown": 0.0,
+        "yes": 0.08
+      },
+      "reference": "not_observable"
+    },
+    {
+      "attempt_id": "P2-C09",
+      "brier_loss": 0.09380000000000002,
+      "card_id": "C09",
+      "choice": "yes",
+      "confidence": 0.69,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.03,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.08,
+        "not_reported": 0.0,
+        "partial": 0.1,
+        "unknown": 0.06,
+        "yes": 0.73
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C09",
+      "brier_loss": 1.0986000000000002,
+      "card_id": "C09",
+      "choice": "not_observable",
+      "confidence": 0.39,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.47000000000000003,
+        "not_reported": 0.1,
+        "partial": 0.22,
+        "unknown": 0.13,
+        "yes": 0.04
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C09",
+      "brier_loss": 1.1404,
+      "card_id": "C09",
+      "choice": "not_observable",
+      "confidence": 0.43,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.51,
+        "not_reported": 0.01,
+        "partial": 0.29,
+        "unknown": 0.11,
+        "yes": 0.06
+      },
+      "reference": "unknown"
+    },
+    {
+      "attempt_id": "P2-C10",
+      "brier_loss": 0.2404,
+      "card_id": "C10",
+      "choice": "yes",
+      "confidence": 0.58,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.03,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.32,
+        "unknown": 0.01,
+        "yes": 0.63
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C10",
+      "brier_loss": 0.861,
+      "card_id": "C10",
+      "choice": "partial",
+      "confidence": 0.47,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.08,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.26,
+        "partial": 0.55,
+        "unknown": 0.06,
+        "yes": 0.02
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-C10",
+      "brier_loss": 0.06079999999999999,
+      "card_id": "C10",
+      "choice": "partial",
+      "confidence": 0.76,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.03,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.09,
+        "partial": 0.78,
+        "unknown": 0.02,
+        "yes": 0.05
+      },
+      "reference": "partial"
+    },
+    {
+      "attempt_id": "P2-C11",
+      "brier_loss": 0.0014000000000000015,
+      "card_id": "C11",
+      "choice": "yes",
+      "confidence": 0.96,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.02,
+        "unknown": 0.0,
+        "yes": 0.97
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C11",
+      "brier_loss": 0.038600000000000016,
+      "card_id": "C11",
+      "choice": "yes",
+      "confidence": 0.81,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.05,
+        "partial": 0.08,
+        "unknown": 0.02,
+        "yes": 0.83
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C11",
+      "brier_loss": 0.019799999999999998,
+      "card_id": "C11",
+      "choice": "yes",
+      "confidence": 0.86,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.04,
+        "partial": 0.06,
+        "unknown": 0.01,
+        "yes": 0.88
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C12",
+      "brier_loss": 0.018199999999999994,
+      "card_id": "C12",
+      "choice": "yes",
+      "confidence": 0.88,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.09,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.01,
+        "unknown": 0.0,
+        "yes": 0.9
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-C12",
+      "brier_loss": 0.10260000000000001,
+      "card_id": "C12",
+      "choice": "no",
+      "confidence": 0.68,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.1,
+        "no": 0.72,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.04,
+        "unknown": 0.01,
+        "yes": 0.11
+      },
+      "reference": "no"
+    },
+    {
+      "attempt_id": "P2-C12",
+      "brier_loss": 0.12960000000000005,
+      "card_id": "C12",
+      "choice": "yes",
+      "confidence": 0.66,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.16,
+        "no": 0.07,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.05,
+        "unknown": 0.01,
+        "yes": 0.69
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C02",
+      "brier_loss": 0.0006000000000000008,
+      "card_id": "C02",
+      "choice": "yes",
+      "confidence": 0.97,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.01,
+        "unknown": 0.0,
+        "yes": 0.98
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C02",
+      "brier_loss": 0.37560000000000004,
+      "card_id": "C02",
+      "choice": "not_reported",
+      "confidence": 0.4,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.09,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.48,
+        "partial": 0.29,
+        "unknown": 0.03,
+        "yes": 0.11
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C02",
+      "brier_loss": 0.32799999999999996,
+      "card_id": "C02",
+      "choice": "not_reported",
+      "confidence": 0.45,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.52,
+        "partial": 0.22,
+        "unknown": 0.02,
+        "yes": 0.22
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C03",
+      "brier_loss": 0.0006000000000000008,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.97,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.01,
+        "unknown": 0.0,
+        "yes": 0.98
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C03",
+      "brier_loss": 1.1434,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.6,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.07,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.16,
+        "partial": 0.1,
+        "unknown": 0.02,
+        "yes": 0.65
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C03",
+      "brier_loss": 0.03340000000000001,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.82,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.1,
+        "unknown": 0.01,
+        "yes": 0.85
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C05",
+      "brier_loss": 1.4966,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.84,
+      "dimension": "action",
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.86,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.0,
+        "unknown": 0.01,
+        "yes": 0.13
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C05",
+      "brier_loss": 1.7899999999999998,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.9,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.91,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.02,
+        "unknown": 0.03,
+        "yes": 0.01
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C05",
+      "brier_loss": 0.0022000000000000027,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.94,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.96,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.01,
+        "unknown": 0.01,
+        "yes": 0.02
+      },
+      "reference": "conflicting"
+    },
+    {
+      "attempt_id": "P3-C06",
+      "brier_loss": 0.010199999999999994,
+      "card_id": "C06",
+      "choice": "yes",
+      "confidence": 0.91,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.06,
+        "unknown": 0.01,
+        "yes": 0.92
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C06",
+      "brier_loss": 0.3804,
+      "card_id": "C06",
+      "choice": "not_reported",
+      "confidence": 0.43,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.07,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.5,
+        "partial": 0.35,
+        "unknown": 0.02,
+        "yes": 0.05
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C06",
+      "brier_loss": 0.5616000000000001,
+      "card_id": "C06",
+      "choice": "partial",
+      "confidence": 0.31,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.04,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.38,
+        "partial": 0.39,
+        "unknown": 0.03,
+        "yes": 0.15
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C07",
+      "brier_loss": 0.015999999999999997,
+      "card_id": "C07",
+      "choice": "not_reported",
+      "confidence": 0.87,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.05,
+        "not_applicable": 0.01,
+        "not_observable": 0.0,
+        "not_reported": 0.89,
+        "partial": 0.03,
+        "unknown": 0.0,
+        "yes": 0.02
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C07",
+      "brier_loss": 0.1048,
+      "card_id": "C07",
+      "choice": "not_reported",
+      "confidence": 0.71,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.01,
+        "no": 0.19,
+        "not_applicable": 0.02,
+        "not_observable": 0.0,
+        "not_reported": 0.74,
+        "partial": 0.02,
+        "unknown": 0.01,
+        "yes": 0.01
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C07",
+      "brier_loss": 0.0204,
+      "card_id": "C07",
+      "choice": "not_reported",
+      "confidence": 0.86,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.07,
+        "not_applicable": 0.01,
+        "not_observable": 0.0,
+        "not_reported": 0.88,
+        "partial": 0.03,
+        "unknown": 0.01,
+        "yes": 0.0
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C10",
+      "brier_loss": 0.2832,
+      "card_id": "C10",
+      "choice": "yes",
+      "confidence": 0.53,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.01,
+        "partial": 0.35,
+        "unknown": 0.01,
+        "yes": 0.6
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C10",
+      "brier_loss": 0.8368,
+      "card_id": "C10",
+      "choice": "partial",
+      "confidence": 0.47,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.01,
+        "no": 0.09,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.27,
+        "partial": 0.54,
+        "unknown": 0.06,
+        "yes": 0.02
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P3-C10",
+      "brier_loss": 0.04100000000000002,
+      "card_id": "C10",
+      "choice": "partial",
+      "confidence": 0.8,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.08,
+        "partial": 0.82,
+        "unknown": 0.02,
+        "yes": 0.03
+      },
+      "reference": "partial"
+    },
+    {
+      "attempt_id": "P3-C11",
+      "brier_loss": 0.0034000000000000046,
+      "card_id": "C11",
+      "choice": "yes",
+      "confidence": 0.95,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.02,
+        "unknown": 0.01,
+        "yes": 0.95
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C11",
+      "brier_loss": 0.038600000000000016,
+      "card_id": "C11",
+      "choice": "yes",
+      "confidence": 0.79,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.05,
+        "partial": 0.08,
+        "unknown": 0.02,
+        "yes": 0.83
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C11",
+      "brier_loss": 0.0168,
+      "card_id": "C11",
+      "choice": "yes",
+      "confidence": 0.87,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.03,
+        "partial": 0.06,
+        "unknown": 0.01,
+        "yes": 0.89
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C12",
+      "brier_loss": 0.011399999999999993,
+      "card_id": "C12",
+      "choice": "yes",
+      "confidence": 0.9,
+      "dimension": "action",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.07,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.01,
+        "unknown": 0.0,
+        "yes": 0.92
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P3-C12",
+      "brier_loss": 0.0898,
+      "card_id": "C12",
+      "choice": "no",
+      "confidence": 0.69,
+      "dimension": "outcome_mitigation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.09,
+        "no": 0.74,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.04,
+        "unknown": 0.0,
+        "yes": 0.11
+      },
+      "reference": "no"
+    },
+    {
+      "attempt_id": "P3-C12",
+      "brier_loss": 0.15219999999999997,
+      "card_id": "C12",
+      "choice": "yes",
+      "confidence": 0.62,
+      "dimension": "propagation",
+      "matches_reference": true,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.15,
+        "no": 0.1,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.06,
+        "unknown": 0.01,
+        "yes": 0.66
+      },
+      "reference": "yes"
+    }
+  ],
+  "disagreements": [
+    {
+      "attempt_id": "P1-C03",
+      "brier_loss": 1.0442,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.52,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.08,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.18,
+        "partial": 0.13,
+        "unknown": 0.02,
+        "yes": 0.59
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P1-C04",
+      "brier_loss": 1.1515999999999997,
+      "card_id": "C04",
+      "choice": "no",
+      "confidence": 0.61,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.66,
+        "not_applicable": 0.01,
+        "not_observable": 0.0,
+        "not_reported": 0.16,
+        "partial": 0.07,
+        "unknown": 0.01,
+        "yes": 0.07
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P1-C05",
+      "brier_loss": 1.6022,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.87,
+      "dimension": "action",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.89,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.0,
+        "unknown": 0.01,
+        "yes": 0.1
+      },
+      "reference": "yes",
+      "reference_rationale": "The attempted command is recorded.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P1-C05",
+      "brier_loss": 1.7178,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.86,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.88,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.03,
+        "partial": 0.02,
+        "unknown": 0.04,
+        "yes": 0.02
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P1-C06",
+      "brier_loss": 0.624,
+      "card_id": "C06",
+      "choice": "partial",
+      "confidence": 0.34,
+      "dimension": "propagation",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.04,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.35,
+        "partial": 0.42,
+        "unknown": 0.03,
+        "yes": 0.15
+      },
+      "reference": "not_reported",
+      "reference_rationale": "Repetition of sending does not add a receipt record.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P1-C08",
+      "brier_loss": 1.2656,
+      "card_id": "C08",
+      "choice": "not_observable",
+      "confidence": 0.62,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.67,
+        "not_reported": 0.11,
+        "partial": 0.15,
+        "unknown": 0.01,
+        "yes": 0.04
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P1-C09",
+      "brier_loss": 1.0544,
+      "card_id": "C09",
+      "choice": "not_observable",
+      "confidence": 0.33,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.03,
+        "no": 0.02,
+        "not_applicable": 0.01,
+        "not_observable": 0.41,
+        "not_reported": 0.1,
+        "partial": 0.19999999999999998,
+        "unknown": 0.18,
+        "yes": 0.05
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P1-C09",
+      "brier_loss": 1.058,
+      "card_id": "C09",
+      "choice": "not_observable",
+      "confidence": 0.36,
+      "dimension": "propagation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.45,
+        "not_reported": 0.01,
+        "partial": 0.3,
+        "unknown": 0.13,
+        "yes": 0.09
+      },
+      "reference": "unknown",
+      "reference_rationale": "Receipt evidence exists but cannot be linked to J rather than K; this is identity ambiguity.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P1-C10",
+      "brier_loss": 0.829,
+      "card_id": "C10",
+      "choice": "partial",
+      "confidence": 0.47,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 1,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.11,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.27,
+        "partial": 0.53,
+        "unknown": 0.05,
+        "yes": 0.01
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P2-C03",
+      "brier_loss": 1.1032,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.56,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.07,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.17,
+        "partial": 0.11,
+        "unknown": 0.02,
+        "yes": 0.63
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P2-C04",
+      "brier_loss": 1.2571999999999997,
+      "card_id": "C04",
+      "choice": "no",
+      "confidence": 0.66,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.7,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.13,
+        "partial": 0.07,
+        "unknown": 0.01,
+        "yes": 0.07
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P2-C05",
+      "brier_loss": 1.5314,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.85,
+      "dimension": "action",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.87,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.0,
+        "unknown": 0.01,
+        "yes": 0.12
+      },
+      "reference": "yes",
+      "reference_rationale": "The attempted command is recorded.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P2-C05",
+      "brier_loss": 1.7524,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.89,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.9,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.03,
+        "partial": 0.02,
+        "unknown": 0.03,
+        "yes": 0.01
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P2-C08",
+      "brier_loss": 1.3164,
+      "card_id": "C08",
+      "choice": "not_observable",
+      "confidence": 0.67,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.71,
+        "not_reported": 0.11,
+        "partial": 0.14,
+        "unknown": 0.01,
+        "yes": 0.02
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P2-C09",
+      "brier_loss": 1.0986000000000002,
+      "card_id": "C09",
+      "choice": "not_observable",
+      "confidence": 0.39,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.02,
+        "not_applicable": 0.0,
+        "not_observable": 0.47000000000000003,
+        "not_reported": 0.1,
+        "partial": 0.22,
+        "unknown": 0.13,
+        "yes": 0.04
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P2-C09",
+      "brier_loss": 1.1404,
+      "card_id": "C09",
+      "choice": "not_observable",
+      "confidence": 0.43,
+      "dimension": "propagation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.51,
+        "not_reported": 0.01,
+        "partial": 0.29,
+        "unknown": 0.11,
+        "yes": 0.06
+      },
+      "reference": "unknown",
+      "reference_rationale": "Receipt evidence exists but cannot be linked to J rather than K; this is identity ambiguity.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P2-C10",
+      "brier_loss": 0.861,
+      "card_id": "C10",
+      "choice": "partial",
+      "confidence": 0.47,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 2,
+      "probabilities": {
+        "conflicting": 0.02,
+        "no": 0.08,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.26,
+        "partial": 0.55,
+        "unknown": 0.06,
+        "yes": 0.02
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P3-C03",
+      "brier_loss": 1.1434,
+      "card_id": "C03",
+      "choice": "yes",
+      "confidence": 0.6,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.07,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.16,
+        "partial": 0.1,
+        "unknown": 0.02,
+        "yes": 0.65
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P3-C05",
+      "brier_loss": 1.4966,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.84,
+      "dimension": "action",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.86,
+        "no": 0.0,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.0,
+        "partial": 0.0,
+        "unknown": 0.01,
+        "yes": 0.13
+      },
+      "reference": "yes",
+      "reference_rationale": "The attempted command is recorded.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P3-C05",
+      "brier_loss": 1.7899999999999998,
+      "card_id": "C05",
+      "choice": "conflicting",
+      "confidence": 0.9,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.91,
+        "no": 0.01,
+        "not_applicable": 0.0,
+        "not_observable": 0.0,
+        "not_reported": 0.02,
+        "partial": 0.02,
+        "unknown": 0.03,
+        "yes": 0.01
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P3-C06",
+      "brier_loss": 0.5616000000000001,
+      "card_id": "C06",
+      "choice": "partial",
+      "confidence": 0.31,
+      "dimension": "propagation",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.0,
+        "no": 0.04,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.38,
+        "partial": 0.39,
+        "unknown": 0.03,
+        "yes": 0.15
+      },
+      "reference": "not_reported",
+      "reference_rationale": "Repetition of sending does not add a receipt record.",
+      "review_disposition": "unresolved"
+    },
+    {
+      "attempt_id": "P3-C10",
+      "brier_loss": 0.8368,
+      "card_id": "C10",
+      "choice": "partial",
+      "confidence": 0.47,
+      "dimension": "outcome_mitigation",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "matches_reference": false,
+      "pass": 3,
+      "probabilities": {
+        "conflicting": 0.01,
+        "no": 0.09,
+        "not_applicable": 0.0,
+        "not_observable": 0.01,
+        "not_reported": 0.27,
+        "partial": 0.54,
+        "unknown": 0.06,
+        "yes": 0.02
+      },
+      "reference": "not_reported",
+      "reference_rationale": "The packet supplies no consequence or mitigation record; this is packet silence, not demonstrated failure.",
+      "review_disposition": "unresolved"
+    }
+  ],
+  "interpretation": "Agreement with AI-authored public reference; no independent accuracy or human-benefit finding.",
+  "known_usage_estimated_usd": "0.002898378",
+  "live_requests_sent": 36,
+  "mode": "live",
+  "passes": {
+    "1": {
+      "by_dimension": {
+        "action": {
+          "agreement": 0.9090909090909091,
+          "confusion_reference_by_prediction": {
+            "conflicting": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "no": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_applicable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_observable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_reported": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 1,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "partial": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "unknown": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "yes": {
+              "conflicting": 1,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 9
+            }
+          },
+          "coverage": 0.9166666666666666,
+          "matches": 10,
+          "mean_brier_loss": 0.19374545454545455,
+          "recall": {
+            "conflicting": null,
+            "no": null,
+            "not_applicable": null,
+            "not_observable": null,
+            "not_reported": 1.0,
+            "partial": null,
+            "unknown": null,
+            "yes": 0.9
+          },
+          "scheduled_determinations": 12,
+          "valid_determinations": 11
+        },
+        "outcome_mitigation": {
+          "agreement": 0.45454545454545453,
+          "confusion_reference_by_prediction": {
+            "conflicting": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "no": {
+              "conflicting": 0,
+              "no": 1,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_applicable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_observable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_reported": {
+              "conflicting": 1,
+              "no": 1,
+              "not_applicable": 0,
+              "not_observable": 2,
+              "not_reported": 3,
+              "partial": 1,
+              "unknown": 0,
+              "yes": 1
+            },
+            "partial": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "unknown": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "yes": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 1
+            }
+          },
+          "coverage": 0.9166666666666666,
+          "matches": 5,
+          "mean_brier_loss": 0.7339272727272728,
+          "recall": {
+            "conflicting": null,
+            "no": 1.0,
+            "not_applicable": null,
+            "not_observable": null,
+            "not_reported": 0.3333333333333333,
+            "partial": null,
+            "unknown": null,
+            "yes": 1.0
+          },
+          "scheduled_determinations": 12,
+          "valid_determinations": 11
+        },
+        "propagation": {
+          "agreement": 0.8181818181818182,
+          "confusion_reference_by_prediction": {
+            "conflicting": {
+              "conflicting": 1,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "no": {
+              "conflicting": 0,
+              "no": 1,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_applicable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_observable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 1,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_reported": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 2,
+              "partial": 1,
+              "unknown": 0,
+              "yes": 0
+            },
+            "partial": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 1,
+              "unknown": 0,
+              "yes": 0
+            },
+            "unknown": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 1,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "yes": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 3
+            }
+          },
+          "coverage": 0.9166666666666666,
+          "matches": 9,
+          "mean_brier_loss": 0.24967272727272735,
+          "recall": {
+            "conflicting": 1.0,
+            "no": 1.0,
+            "not_applicable": null,
+            "not_observable": 1.0,
+            "not_reported": 0.6666666666666666,
+            "partial": 1.0,
+            "unknown": 0.0,
+            "yes": 1.0
+          },
+          "scheduled_determinations": 12,
+          "valid_determinations": 11
+        }
+      },
+      "overall": {
+        "agreement": 0.7272727272727273,
+        "confusion_reference_by_prediction": {
+          "conflicting": {
+            "conflicting": 1,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "no": {
+            "conflicting": 0,
+            "no": 2,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "not_applicable": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "not_observable": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 1,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "not_reported": {
+            "conflicting": 1,
+            "no": 1,
+            "not_applicable": 0,
+            "not_observable": 2,
+            "not_reported": 6,
+            "partial": 2,
+            "unknown": 0,
+            "yes": 1
+          },
+          "partial": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 1,
+            "unknown": 0,
+            "yes": 0
+          },
+          "unknown": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 1,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "yes": {
+            "conflicting": 1,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 13
+          }
+        },
+        "coverage": 0.9166666666666666,
+        "matches": 24,
+        "mean_brier_loss": 0.39244848484848477,
+        "recall": {
+          "conflicting": 1.0,
+          "no": 1.0,
+          "not_applicable": null,
+          "not_observable": 1.0,
+          "not_reported": 0.46153846153846156,
+          "partial": 1.0,
+          "unknown": 0.0,
+          "yes": 0.9285714285714286
+        },
+        "scheduled_determinations": 36,
+        "valid_determinations": 33
+      }
+    },
+    "2": {
+      "by_dimension": {
+        "action": {
+          "agreement": 0.9166666666666666,
+          "confusion_reference_by_prediction": {
+            "conflicting": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "no": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_applicable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_observable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_reported": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 2,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "partial": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "unknown": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "yes": {
+              "conflicting": 1,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 9
+            }
+          },
+          "coverage": 1.0,
+          "matches": 11,
+          "mean_brier_loss": 0.17318333333333333,
+          "recall": {
+            "conflicting": null,
+            "no": null,
+            "not_applicable": null,
+            "not_observable": null,
+            "not_reported": 1.0,
+            "partial": null,
+            "unknown": null,
+            "yes": 0.9
+          },
+          "scheduled_determinations": 12,
+          "valid_determinations": 12
+        },
+        "outcome_mitigation": {
+          "agreement": 0.5,
+          "confusion_reference_by_prediction": {
+            "conflicting": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "no": {
+              "conflicting": 0,
+              "no": 1,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_applicable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_observable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_reported": {
+              "conflicting": 1,
+              "no": 1,
+              "not_applicable": 0,
+              "not_observable": 2,
+              "not_reported": 4,
+              "partial": 1,
+              "unknown": 0,
+              "yes": 1
+            },
+            "partial": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "unknown": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "yes": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 1
+            }
+          },
+          "coverage": 1.0,
+          "matches": 6,
+          "mean_brier_loss": 0.7060333333333334,
+          "recall": {
+            "conflicting": null,
+            "no": 1.0,
+            "not_applicable": null,
+            "not_observable": null,
+            "not_reported": 0.4,
+            "partial": null,
+            "unknown": null,
+            "yes": 1.0
+          },
+          "scheduled_determinations": 12,
+          "valid_determinations": 12
+        },
+        "propagation": {
+          "agreement": 0.9166666666666666,
+          "confusion_reference_by_prediction": {
+            "conflicting": {
+              "conflicting": 1,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "no": {
+              "conflicting": 0,
+              "no": 1,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_applicable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_observable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 1,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_reported": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 4,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "partial": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 1,
+              "unknown": 0,
+              "yes": 0
+            },
+            "unknown": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 1,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "yes": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 3
+            }
+          },
+          "coverage": 1.0,
+          "matches": 11,
+          "mean_brier_loss": 0.2366666666666667,
+          "recall": {
+            "conflicting": 1.0,
+            "no": 1.0,
+            "not_applicable": null,
+            "not_observable": 1.0,
+            "not_reported": 1.0,
+            "partial": 1.0,
+            "unknown": 0.0,
+            "yes": 1.0
+          },
+          "scheduled_determinations": 12,
+          "valid_determinations": 12
+        }
+      },
+      "overall": {
+        "agreement": 0.7777777777777778,
+        "confusion_reference_by_prediction": {
+          "conflicting": {
+            "conflicting": 1,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "no": {
+            "conflicting": 0,
+            "no": 2,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "not_applicable": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "not_observable": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 1,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "not_reported": {
+            "conflicting": 1,
+            "no": 1,
+            "not_applicable": 0,
+            "not_observable": 2,
+            "not_reported": 10,
+            "partial": 1,
+            "unknown": 0,
+            "yes": 1
+          },
+          "partial": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 1,
+            "unknown": 0,
+            "yes": 0
+          },
+          "unknown": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 1,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "yes": {
+            "conflicting": 1,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 13
+          }
+        },
+        "coverage": 1.0,
+        "matches": 28,
+        "mean_brier_loss": 0.37196111111111113,
+        "recall": {
+          "conflicting": 1.0,
+          "no": 1.0,
+          "not_applicable": null,
+          "not_observable": 1.0,
+          "not_reported": 0.625,
+          "partial": 1.0,
+          "unknown": 0.0,
+          "yes": 0.9285714285714286
+        },
+        "scheduled_determinations": 36,
+        "valid_determinations": 36
+      }
+    },
+    "3": {
+      "by_dimension": {
+        "action": {
+          "agreement": 0.875,
+          "confusion_reference_by_prediction": {
+            "conflicting": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "no": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_applicable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_observable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_reported": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 1,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "partial": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "unknown": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "yes": {
+              "conflicting": 1,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 6
+            }
+          },
+          "coverage": 0.6666666666666666,
+          "matches": 7,
+          "mean_brier_loss": 0.22775,
+          "recall": {
+            "conflicting": null,
+            "no": null,
+            "not_applicable": null,
+            "not_observable": null,
+            "not_reported": 1.0,
+            "partial": null,
+            "unknown": null,
+            "yes": 0.8571428571428571
+          },
+          "scheduled_determinations": 12,
+          "valid_determinations": 8
+        },
+        "outcome_mitigation": {
+          "agreement": 0.625,
+          "confusion_reference_by_prediction": {
+            "conflicting": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "no": {
+              "conflicting": 0,
+              "no": 1,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_applicable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_observable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_reported": {
+              "conflicting": 1,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 3,
+              "partial": 1,
+              "unknown": 0,
+              "yes": 1
+            },
+            "partial": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "unknown": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "yes": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 1
+            }
+          },
+          "coverage": 0.6666666666666666,
+          "matches": 5,
+          "mean_brier_loss": 0.594925,
+          "recall": {
+            "conflicting": null,
+            "no": 1.0,
+            "not_applicable": null,
+            "not_observable": null,
+            "not_reported": 0.5,
+            "partial": null,
+            "unknown": null,
+            "yes": 1.0
+          },
+          "scheduled_determinations": 12,
+          "valid_determinations": 8
+        },
+        "propagation": {
+          "agreement": 0.875,
+          "confusion_reference_by_prediction": {
+            "conflicting": {
+              "conflicting": 1,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "no": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_applicable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_observable": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "not_reported": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 2,
+              "partial": 1,
+              "unknown": 0,
+              "yes": 0
+            },
+            "partial": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 1,
+              "unknown": 0,
+              "yes": 0
+            },
+            "unknown": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 0
+            },
+            "yes": {
+              "conflicting": 0,
+              "no": 0,
+              "not_applicable": 0,
+              "not_observable": 0,
+              "not_reported": 0,
+              "partial": 0,
+              "unknown": 0,
+              "yes": 3
+            }
+          },
+          "coverage": 0.6666666666666666,
+          "matches": 7,
+          "mean_brier_loss": 0.14445,
+          "recall": {
+            "conflicting": 1.0,
+            "no": null,
+            "not_applicable": null,
+            "not_observable": null,
+            "not_reported": 0.6666666666666666,
+            "partial": 1.0,
+            "unknown": null,
+            "yes": 1.0
+          },
+          "scheduled_determinations": 12,
+          "valid_determinations": 8
+        }
+      },
+      "overall": {
+        "agreement": 0.7916666666666666,
+        "confusion_reference_by_prediction": {
+          "conflicting": {
+            "conflicting": 1,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "no": {
+            "conflicting": 0,
+            "no": 1,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "not_applicable": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "not_observable": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "not_reported": {
+            "conflicting": 1,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 6,
+            "partial": 2,
+            "unknown": 0,
+            "yes": 1
+          },
+          "partial": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 1,
+            "unknown": 0,
+            "yes": 0
+          },
+          "unknown": {
+            "conflicting": 0,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 0
+          },
+          "yes": {
+            "conflicting": 1,
+            "no": 0,
+            "not_applicable": 0,
+            "not_observable": 0,
+            "not_reported": 0,
+            "partial": 0,
+            "unknown": 0,
+            "yes": 10
+          }
+        },
+        "coverage": 0.6666666666666666,
+        "matches": 19,
+        "mean_brier_loss": 0.322375,
+        "recall": {
+          "conflicting": 1.0,
+          "no": 1.0,
+          "not_applicable": null,
+          "not_observable": null,
+          "not_reported": 0.6,
+          "partial": 1.0,
+          "unknown": null,
+          "yes": 0.9090909090909091
+        },
+        "scheduled_determinations": 36,
+        "valid_determinations": 24
+      }
+    }
+  },
+  "primary_pass": 1,
+  "repeatability": {
+    "agreement": 0.9583333333333334,
+    "all_three_same": 23,
+    "eligible_triplets": 24,
+    "excluded_triplets": 12,
+    "scheduled_triplets": 36
+  },
+  "request_counts": {
+    "http_error": 0,
+    "interrupted": 0,
+    "invalid": 5,
+    "not_attempted": 0,
+    "transport_error": 0,
+    "valid": 31
+  },
+  "scheduled_requests": 36,
+  "stop_reason": null,
+  "unknown_usage": false
+}

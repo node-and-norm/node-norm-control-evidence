@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Preserved the first CEC Jev live run: 36 attempts, 31 valid responses and five probability-sum rejections, with no retries or repaired outputs. Primary-pass agreement is 24/33 valid determinations at 33/36 coverage. Added a bounded results interpretation and archive/report reproduction check; all 22 mismatches remain unresolved. No canonical ratings or independent-validity claim.
+
 Implemented the bounded CEC Jev runner and descriptive analysis: fixed schedule, preserved raw attempts, strict stop rules, per-pass agreement/coverage/Brier arithmetic, repeatability exclusions and unresolved disagreement records. Added twelve offline service/analysis tests. Preserved a clearly labeled mock run; no live API calls or research findings.
 
 Defined the CEC Jev execution protocol before inference: three fixed passes, bounded requests and proposed spending, strict response acceptance, retained failures and separate primary/repeatability reporting. Added offline scheduling and eight validator tests. No API calls or model results.

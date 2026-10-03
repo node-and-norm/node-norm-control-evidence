@@ -77,7 +77,7 @@ Each analytical observation binds **one event, one control objective, one opport
 
 ## Optional model-assisted preparation
 
-[Jev request preparation](experiments/jev-cec/README.md) projects the three synthetic demonstrations into bounded questions about action, propagation and mitigation. The inspectable requests preserve missingness categories and exclude existing ratings. No CEC model calls or performance results are recorded. See the [preparation decision](experiments/jev-cec/PLAN.md) for the proposed evaluation and its limits.
+[Jev request preparation](experiments/jev-cec/README.md) projects the three synthetic demonstrations into bounded questions about action, propagation and mitigation. The inspectable requests preserve missingness categories and exclude existing ratings. The [first live synthetic run](experiments/jev-cec/execution-v1/LIVE-RESULTS.md) records agreement with an AI-authored reference, invalid responses and unresolved disagreements; it supplies no independent accuracy finding. See the [preparation decision](experiments/jev-cec/PLAN.md) for the proposed evaluation and its limits.
 
 ## Run the demonstration
 

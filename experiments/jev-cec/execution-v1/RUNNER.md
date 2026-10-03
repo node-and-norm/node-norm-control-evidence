@@ -51,3 +51,7 @@ The output contains the complete schedule, exact request and response bytes, sta
 Each pass has its own agreement, valid/scheduled coverage, confusion counts, recall and mean multiclass Brier loss. Repeated-run agreement uses only complete triplets and reports exclusions. All mismatches remain `unresolved` review items with reference rationales and evidence IDs. An AI-authored reference can be wrong. No result automatically becomes a corpus annotation or closes a human-review decision.
 
 Before publishing any live result, verify hashes, inspect raw responses for sensitive material, account for every scheduled attempt and report invalid outputs alongside valid-response agreement. Independent accuracy and human usefulness remain outside this synthetic exercise.
+
+## Subsequent live execution
+
+The existing private TAE credential was later located and authenticated without exposing it. The [first live CEC run](LIVE-RESULTS.md) was then executed under the fixed protocol. The unavailable-credential statement above describes the implementation session, not the current run status.
