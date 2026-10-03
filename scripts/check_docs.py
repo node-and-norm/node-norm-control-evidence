@@ -26,6 +26,9 @@ def check():
     errors=[]
     for path in ROOT.rglob('*.md'):
         if any(part in {'.git','.venv','private','build'} for part in path.relative_to(ROOT).parts): continue
+        # Immutable source copies retain links relative to their original checkout.
+        # Their exact contents are checked by the archived-run reproduction test.
+        if path.is_relative_to(ROOT/'experiments/jev-cec/execution-v2/mock-001/source'): continue
         text=path.read_text();body=without_fences(text)
         depth=0
         for token in re.findall(r'</?details\b[^>]*>',body):

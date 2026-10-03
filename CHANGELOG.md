@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Implemented the separate four-question runner, strict validation, 90-request accounting, pair availability and descriptive analysis. Froze exact source inputs and added nine offline failure/analysis tests. No successor live inference or independent finding.
+
 Added four prevention-chain contrast packets with sixteen located proposed judgments, a prospective four-question execution contract and an offline 90-request schedule. Disclosed the shared baseline and 29 unique states. No inference or execution freeze.
 
 Defined experimental documentary-support standard 001, including admissible inference, applicability and missingness precedence. Added four-question offline preparation and answer-isolation checks. Retained all proposed labels conditionally, preserved alternative interpretations and kept execution unfrozen. No new inference.
