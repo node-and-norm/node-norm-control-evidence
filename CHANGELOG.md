@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Prepared an eight-packet missingness-factorial design, structured question candidate and separate option-order sensitivity. Offline schedule only; no live inference or held-out evaluation.
+
 Preserved the first answer-level live run: eight attempts, 30/32 eligible answers, two sum exclusions, primary action paired coverage 1/2. Historical results unchanged; later-stage disagreements persist.
 
 Implemented separately versioned answer-level execution, located eligibility reasons, dependency-aware analysis and request-ID allowlisting. Preserved a mock rehearsal; no live requests or changes to historical runners.

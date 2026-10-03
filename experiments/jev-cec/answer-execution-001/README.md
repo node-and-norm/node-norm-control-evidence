@@ -9,3 +9,5 @@ The archived mock contains eight uniform mock responses, 32 eligible mock answer
 Future execution requires the frozen sources and live preflight. No existing result is reclassified or replaced by this implementation.
 
 The [first live result](LIVE-RESULTS.md) reports 30/32 eligible answers with incomplete primary paired coverage.
+
+Next: the offline [missingness boundary design](../missingness-boundary-001/PLAN.md) separates the remaining evidence restrictions.
