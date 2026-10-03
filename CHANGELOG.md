@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Added technical-evidence evaluation rules 0.1 and an arithmetic calculator with nine tests. The contract separates hidden execution outcomes from packet-supported conclusions, reports six measures with explicit denominators, and preserves invalid attempts. No evaluation cohort, new cases, method scores or study results were created.
+
 Added an evidence-admissibility decision and sixteen reproducible technical appendices for the shared sandbox. Nine new boundary tests check missingness, acknowledgment limits, unsupported fields, artifact changes and independence from private outcome files. Full TAE/HIT findings remain disabled under the synthetic application boundary.
 
 Added the separate TAE/HIT development sandbox: sixteen scripted conditions, nineteen verification tests, source and contract review, six selected NIST AI RMF 1.0 connections, preserved local/container records, a run index and public-copy provenance. Full reference documents are linked with acquired-byte hashes; machine-specific paths are removed from public logs. No corpus-schema change, empirical ratings, method scores, new release tag or research-approval claim.

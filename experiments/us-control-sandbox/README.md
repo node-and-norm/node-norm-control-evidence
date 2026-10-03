@@ -42,4 +42,16 @@ python3 -B build_evidence_appendices.py --check --output evidence-appendices/v0.
 python3 -B build_evidence_appendices.py --output build/appendices-new
 ```
 
-The second command requires a new directory. Nine additional boundary tests bring the current sandbox suite to twenty-eight tests. The prior nineteen-test container checkpoint remains an unchanged historical record; the new appendix checks run locally and in repository CI.
+The second command requires a new directory. The evidence-eligibility checkpoint added nine boundary tests, bringing that checkpoint to twenty-eight tests. The prior nineteen-test container checkpoint remains an unchanged historical record; the new appendix checks run locally and in repository CI.
+
+## Technical-evaluation rules
+
+[Technical-evidence evaluation 0.1](TECHNICAL-EVALUATION.md) defines the unit, evidence-sufficiency key, response labels, six separate measures, denominators and invalid-run handling before new case construction. It does not score TAE or HIT. The calculator checks submitted label arithmetic; it cannot validate a rationale or the reference key.
+
+The compact key is a JSON list of objects containing `unit_id` and `reference`; responses contain `unit_id` and `response`. Every key unit needs exactly one response. The permitted labels are in [evaluation_rules.json](evaluation_rules.json). Full key rationales, locators and excluded units remain in separate study records; these projections cannot replace them.
+
+```sh
+python3 -B evaluate_evidence.py --key build/key-projection.json --responses build/responses.json --output build/scoring-attempt-001
+```
+
+Use your declared study projections and a fresh output directory. Failed attempts retain available input bytes and an error record and return a nonzero exit. Successful arithmetic records the rule, evaluator and input hashes. No overall pass, scientific validation or composite score is emitted. No cohort has been evaluated under these rules yet; nine calculator tests bring the sandbox suite to thirty-seven tests.

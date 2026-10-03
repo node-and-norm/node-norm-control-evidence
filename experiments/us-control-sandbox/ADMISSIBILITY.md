@@ -53,3 +53,7 @@ The current public fixtures and their labels are development material. Future wi
 Continue without participants by evaluating packet preparation, documented technical effects and evidence insufficiency as an explicitly separate engineering study. This can expose weaknesses in the evidence pipeline while preserving the methods' human-control constructs.
 
 A full TAE/HIT application needs an authentic, bounded process with appropriate authority and human evidence, or a separately proposed synthetic-method extension with its own claims and validation plan. The original HIT replication and TAE prospective protocol remain separate workstreams. No live institution, human-study permission or new scoring contract is created by this document.
+
+## Evaluation-rule follow-through
+
+[TECHNICAL-EVALUATION.md](TECHNICAL-EVALUATION.md) revision 0.1 now fixes the separate technical measures, their denominators and invalid-run handling. Its calculator operates on submitted labels and cannot approve an evidence key or a method finding. Study design, paired procedures, new case families and independent validation remain subsequent work.
