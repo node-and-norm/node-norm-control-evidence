@@ -56,3 +56,29 @@ class ComparisonRunnerTests(unittest.TestCase):
             runner.verify(p);r=json.loads((p/'report.json').read_text())
             self.assertEqual(r['request_counts']['interrupted'],1)
             self.assertEqual(r['request_counts']['not_attempted'],119)
+    def test_paired_difference_direction(self):
+        rows=schedule();base=ROOT/'experiments/jev-cec/execution-v2'
+        key=json.loads((base/'reference-key.json').read_text());ref={r['id']:r['judgments'] for r in key}
+        records=[]
+        for row in rows:
+            _,raw=runner.mock_transport(encode(row['payload']));doc=json.loads(raw)
+            for dim,answer in doc['answers'].items():
+                gold=ref[row['card_id']][dim]['value']
+                choice=gold if row['condition']=='B' else next(k for k in answer['probabilities'] if k!=gold)
+                answer['choice']=choice;answer['probabilities']={k:int(k==choice) for k in answer['probabilities']}
+            records.append({'attempt_id':row['attempt_id'],'status':'valid','response_raw':encode(doc)})
+        r=runner.summarize(rows,records,key,'mock')
+        self.assertEqual(r['passes']['1']['paired']['agreement_difference'],1)
+        self.assertEqual(r['passes']['1']['paired']['counts']['B_only'],120)
+
+    def test_preserved_rehearsal_reproduces(self):
+        p=ROOT/'experiments/jev-cec/instruction-comparison-001/mock-001'
+        runner.verify(p)
+        rows=json.loads((p/'schedule.json').read_text());records=json.loads((p/'attempts.json').read_text())
+        for r in records:
+            if r['status']=='valid':r['response_raw']=(p/'responses'/f'{r["attempt_id"]}.bin').read_bytes()
+        key=json.loads((p/'source/execution-v2/reference-key.json').read_text())
+        report=runner.summarize(rows,records,key,'mock');saved=json.loads((p/'report.json').read_text())
+        for k,v in report.items():self.assertEqual(v,saved[k])
+        self.assertEqual(saved['live_requests_sent'],0)
+        self.assertFalse(json.loads((p/'metadata.json').read_text())['working_tree_dirty'])

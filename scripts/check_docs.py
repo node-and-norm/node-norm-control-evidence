@@ -29,6 +29,7 @@ def check():
         # Immutable source copies retain links relative to their original checkout.
         # Their exact contents are checked by the archived-run reproduction test.
         if any(path.is_relative_to(ROOT/f'experiments/jev-cec/execution-v2/{run}/source') for run in ('mock-001','live-001')): continue
+        if path.is_relative_to(ROOT/'experiments/jev-cec/instruction-comparison-001/mock-001/source'): continue
         text=path.read_text();body=without_fences(text)
         depth=0
         for token in re.findall(r'</?details\b[^>]*>',body):

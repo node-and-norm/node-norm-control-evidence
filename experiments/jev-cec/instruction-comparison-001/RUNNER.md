@@ -11,3 +11,5 @@ Use a new directory. Saved records include the full ordered schedule, request by
 Live mode requires a clean checkout and the dated preflight fields used by v2, with `max_requests` set to 120. The supported configuration is USD 0.042 per million input tokens, free output and a 64,000-token combined limit; recheck the official service before attesting these values. USD 1 is the client spending ceiling. The runner never retries or repairs responses. Store credentials privately; do not include them in research artifacts.
 
 This implementation changes no packet or reference. Candidate wording, length and emphasis vary together. All cases remain exposed development material; agreement cannot establish independent accuracy. Source snapshots retain original relative Markdown links and are verified as archived bytes rather than navigable documentation.
+
+The preserved [mock-001 archive](mock-001/manifest.json) records 120 local mock requests from clean commit `e3fef10`, zero live calls, and an exactly reproducible report. Its scores test arithmetic only.
