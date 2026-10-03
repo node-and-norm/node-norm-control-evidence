@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Reviewed TypeSafe response documentation and SDK 0.7.2 ChoiceAnswer source. Distinguished approximate provider sums from the frozen research tolerance; located 19 sum discrepancies across 17 responses in two archives. No rescoring or new inference.
+
 Preserved the eight-request packet-linkage live diagnostic: five valid responses, three invalid; primary paired coverage 0/2. Secondary transitions reported separately, with unresolved original references and unchanged exclusions.
 
 Implemented the eight-request packet-linkage runner, source freeze and analysis preserving unresolved references. Added six failure/accounting tests; no live inference.

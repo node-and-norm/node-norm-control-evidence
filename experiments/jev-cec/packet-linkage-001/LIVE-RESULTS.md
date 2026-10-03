@@ -38,3 +38,5 @@ The [archive manifest](live-001/manifest.json) binds requests, raw responses, me
 ## Decision
 
 Retain this diagnostic as incomplete primary evidence, with the secondary transitions visible. Further prompt or packet tuning should wait for a separately specified response-validity investigation: repeated sum failures now prevent the planned primary comparison. A future sensitivity analysis may inspect answer-level acceptance or normalization, but must retain the original exclusions and state that its rules were chosen after these outputs. No further live run is justified by a desire to obtain a complete or favorable primary result.
+
+The subsequent [response-contract review](../response-contract-001/REVIEW.md) qualifies these exclusions against the SDK documentation and preserves the original analysis.

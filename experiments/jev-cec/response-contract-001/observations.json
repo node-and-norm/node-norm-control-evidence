@@ -1,0 +1,138 @@
+{
+  "scope": "Two named archives only; descriptive sum audit, no rescoring",
+  "failing_distributions": [
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P1-V2-02-A-A",
+      "dimension": "outcome_mitigation",
+      "sum": 0.9900000000000001,
+      "response_sha256": "7d00a3787e23229964dd2a9c89e902c9c9eb57aee9668d5aa9091e4af666f4fe"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P1-V2-10-A-B",
+      "dimension": "trajectory_effect",
+      "sum": 0.9900000000000001,
+      "response_sha256": "eb86cd46f29b5d56f8635766fe1f737da28c9cfb7cd6709e3ef9219715e7fc84"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P1-V2-10-B-B",
+      "dimension": "trajectory_effect",
+      "sum": 0.9900000000000001,
+      "response_sha256": "710a1e2a6bec43c7dcf42e9e0701707be8444c9d9a770308282f4579f8f3926b"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P1-V2-12-B-A",
+      "dimension": "action",
+      "sum": 0.9900000000000001,
+      "response_sha256": "ef29e323dcd26264bb464a558763eaa0cd5ee80f0bca7a815be81730d9206780"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P1-V2-13-B-B",
+      "dimension": "trajectory_effect",
+      "sum": 0.9900000000000001,
+      "response_sha256": "a261c17ef308d9f7c4380d1352a36e7f274f323420f9d175c871028ba6f07609"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P1-V2-14-A-A",
+      "dimension": "action",
+      "sum": 0.99,
+      "response_sha256": "0f129253df3821f7fd5badf82a1a0ad0b7bc222c5abba21cf5d08591150e58cf"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P1-V2-14-A-B",
+      "dimension": "propagation",
+      "sum": 0.9900000000000001,
+      "response_sha256": "2a03adff88b723db8378622f97974b3475d225a6091f865fe83d9e45fda711db"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P2-V2-09-A-B",
+      "dimension": "outcome_mitigation",
+      "sum": 0.9900000000000001,
+      "response_sha256": "034204e475fd683b0a035b67e2b53db778e70323df284556117c9976e47db8cf"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P2-V2-11-B-A",
+      "dimension": "outcome_mitigation",
+      "sum": 0.9900000000000001,
+      "response_sha256": "769810598e4fbe3731a859286e36cf9a3eb5198e520972ec734fee393dfba472"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P2-V2-12-A-A",
+      "dimension": "action",
+      "sum": 0.9900000000000001,
+      "response_sha256": "0e749589a321b24b6914a290a91063a58a08a96350710d13119a327cb780f9cd"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P2-V2-12-B-A",
+      "dimension": "action",
+      "sum": 0.9900000000000001,
+      "response_sha256": "3c0469d7cafc63fba39f728ba9ec6d9cdf22334ccbbfb0860310481d441de757"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P2-V2-12-B-B",
+      "dimension": "trajectory_effect",
+      "sum": 0.9900000000000001,
+      "response_sha256": "757372abb0581a9558d7c430b41c75df13b2e699689f5eec27edd8ffc774974e"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P2-V2-14-A-B",
+      "dimension": "propagation",
+      "sum": 0.9900000000000001,
+      "response_sha256": "3b5041a89f4eba37af7a8ffdcf4a7c412f7c2704a7bb639d2f59e61dfeb2da3f"
+    },
+    {
+      "archive": "instruction-comparison-001/live-001",
+      "attempt_id": "P2-V2-15-B-B",
+      "dimension": "action",
+      "sum": 0.99,
+      "response_sha256": "e0e8436aef98bc007d3f979c0f255c52c56782c61cba608a5e679790e14a2310"
+    },
+    {
+      "archive": "packet-linkage-001/live-001",
+      "attempt_id": "P1-V2-12-A-explicit",
+      "dimension": "action",
+      "sum": 0.9900000000000001,
+      "response_sha256": "c5c1d79468469d4fc90a9b95af3572e33baa46c1123d07a5bad7c1798024b1cd"
+    },
+    {
+      "archive": "packet-linkage-001/live-001",
+      "attempt_id": "P1-V2-12-B-explicit",
+      "dimension": "propagation",
+      "sum": 0.99,
+      "response_sha256": "e7c5d51953321b221fa8cf1b44e361c803998b5a71d7aa6ef125a72648363b34"
+    },
+    {
+      "archive": "packet-linkage-001/live-001",
+      "attempt_id": "P1-V2-12-B-explicit",
+      "dimension": "trajectory_effect",
+      "sum": 0.9900000000000001,
+      "response_sha256": "e7c5d51953321b221fa8cf1b44e361c803998b5a71d7aa6ef125a72648363b34"
+    },
+    {
+      "archive": "packet-linkage-001/live-001",
+      "attempt_id": "P1-V2-12-B-original",
+      "dimension": "action",
+      "sum": 0.9900000000000001,
+      "response_sha256": "03de21cf7caef98ebe3f0496debefb30a3258e56a4ea5e44f5db7d5d9d71329c"
+    },
+    {
+      "archive": "packet-linkage-001/live-001",
+      "attempt_id": "P1-V2-12-B-original",
+      "dimension": "trajectory_effect",
+      "sum": 0.9900000000000001,
+      "response_sha256": "03de21cf7caef98ebe3f0496debefb30a3258e56a4ea5e44f5db7d5d9d71329c"
+    }
+  ]
+}
