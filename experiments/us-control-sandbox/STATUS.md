@@ -28,9 +28,13 @@ No Hugging Face dataset, hosted model or LangChain application has been evaluate
 
 ## Next gates
 
-1. Complete source packets and prospective assessment admissibility; synthetic permission does not establish human authority.
-2. Define how a permitted assessment should distinguish justified findings, false reassurance and unresolved evidence. Do not derive these classifications from the simulator's hidden answer key.
+1. Complete source packets. Current synthetic-evidence eligibility is resolved for technical appendices only in ADMISSIBILITY.md; full TAE/HIT application remains ineligible under this boundary.
+2. Freeze rules for a separate technical-evidence evaluation: supported observations, unsupported reassurance and justified unresolved findings. ADMISSIBILITY.md sets the distinction; quantitative denominators and an independent evidence-sufficiency answer key remain to be designed.
 3. Design new held-out case families, separate assessor access from outcome access and freeze the study protocol before evaluation.
 4. Add concurrency, interrupted writes or external-service integration only with explicit new objectives and failure models.
 
 High reasoning is appropriate for source and contract decisions. Medium is sufficient for implementation against settled acceptance rules. Additional model review does not constitute independent validation.
+
+## Evidence eligibility checkpoint
+
+The method revisions were rechecked and remain unchanged. Sixteen technical appendices now preserve packet locators, source hashes, observations and missing downstream records without method findings. Nine new boundary tests bring the sandbox suite to twenty-eight. Historical run outcomes and source snapshots are unchanged. No blinded or held-out evaluation has begun.

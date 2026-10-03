@@ -1,0 +1,51 @@
+{
+  "evidence_origin": "authored synthetic development fixture",
+  "format": "node-norm-technical-evidence-appendix/0.1",
+  "limitations": [
+    "Records and observer share the authored fixture origin; no independent corroboration.",
+    "Public development packet; no blinding or held-out status.",
+    "Matching a recorded hash does not establish completeness or truth.",
+    "No human authority, comprehension, judgment, correction or repair finding."
+  ],
+  "method_assessment": {
+    "eligibility": "technical appendix only; no human or institutional unit",
+    "hit_scoring_enabled": false,
+    "tae_scoring_enabled": false
+  },
+  "observations": [
+    {
+      "locator": "/events/0",
+      "proposition": "The supplied response record contains this event.",
+      "value": {
+        "event": "commit_response",
+        "received": true
+      }
+    },
+    {
+      "locator": "/events/1",
+      "proposition": "The supplied response record contains this event.",
+      "value": {
+        "event": "commit_response",
+        "received": true
+      }
+    },
+    {
+      "locator": "/downstream/effect_count",
+      "proposition": "The supplied downstream record contains this value.",
+      "value": 1
+    },
+    {
+      "locator": "/downstream/request_ids",
+      "proposition": "The supplied downstream record contains this value.",
+      "value": [
+        "request-1"
+      ]
+    }
+  ],
+  "source": {
+    "git_revision": "8a792f69df95d7c96481871d960fe420385bb885",
+    "path": "runs/recovery-001/assessment-packets/recovery-004.json",
+    "sha256": "604a3679fd39374084c7e030d598eb57213eb5594d62906dcbc66900426681cb"
+  },
+  "unresolved": []
+}
