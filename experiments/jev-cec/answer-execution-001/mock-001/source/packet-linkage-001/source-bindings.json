@@ -1,0 +1,10 @@
+{
+  "V2-12-A": {
+    "path": "requests/P1-V2-12-A-A.json",
+    "sha256": "f7c21579ac0181029080cd9c0ae7944a70d313d515df6ffea1a27180525fe4d2"
+  },
+  "V2-12-B": {
+    "path": "requests/P1-V2-12-B-A.json",
+    "sha256": "9ec1ce380c74003d04ca65efd9d113a1c3659c9cde741edfa0bcd48421733d0f"
+  }
+}

@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "V2-01-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "E1/E2 contain no receipt linked to the named downstream target.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-01-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 or E2 explicitly records receipt for all named targets.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-02-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 or E2 explicitly records receipt for all named targets.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-02-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 or E2 explicitly records receipt for all named targets.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "rationale": "E1/E2 explicitly records cancellation or the linked settlement specified in scope.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-03-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 or E2 explicitly records receipt for all named targets.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "rationale": "E1/E2 explicitly records cancellation or the linked settlement specified in scope.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-03-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 or E2 explicitly records receipt for all named targets.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "rationale": "E1/E2 explicitly records cancellation or the linked settlement specified in scope.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "yes",
+        "rationale": "E2 links the ledger result to cancellation or refund of the specified fee.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-04-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 or E2 explicitly records receipt for all named targets.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "rationale": "E1/E2 explicitly records cancellation or the linked settlement specified in scope.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "yes",
+        "rationale": "E2 links the ledger result to cancellation or refund of the specified fee.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-04-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 or E2 explicitly records receipt for all named targets.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "no",
+        "rationale": "E2 records rejection of R and no credit during the interval.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "no",
+        "rationale": "E2 records failed refund and the full fee remaining at interval close.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-05-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "E1/E2 contain no receipt linked to the named downstream target.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-05-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_observable",
+        "rationale": "E2 identifies a restriction or unreadable fields preventing receipt inspection.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-06-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "unknown",
+        "rationale": "E2 is readable but omits request/job identity, preventing linkage.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-06-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_observable",
+        "rationale": "E2 identifies a restriction or unreadable fields preventing receipt inspection.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-07-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "E1/E2 contain no receipt linked to the named downstream target.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-07-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "conflicting",
+        "rationale": "E1 affirms issuance and E2 denies it for the same interval without precedence.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "E1/E2 contain no receipt linked to the named downstream target.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-08-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "partial",
+        "rationale": "E2 records W receipt and leaves V receipt unreported.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-08-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 or E2 explicitly records receipt for all named targets.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage establishes the specified cancellation or settlement.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage supplies a linked account result; scope itself is not an observation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-09-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies issuance; repetitions in E2 add no independent source.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "E2 expressly supplies no downstream receipt.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage reports cancellation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage reports the specified account consequence.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-09-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 identifies issuance; repetitions in E2 add no independent source.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "E2 expressly supplies no downstream receipt.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Neither passage reports cancellation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Neither passage reports the specified account consequence.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-10-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 records issuance.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 records receipt at W.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "rationale": "E1 and E2 explicitly connect R to cancellation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "No account result is supplied; the inference from cancellation remains a review issue.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-10-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "Neither export contests E1 issuance.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "Neither export contests E1 receipt.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "conflicting",
+        "rationale": "E1 and E2 contradict execution status without precedence.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "Conflicting system-course evidence does not itself supply an account outcome; causal inference remains a review issue.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-11-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 records both instructions.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 records both receipts.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "partial",
+        "rationale": "The linked credit establishes the result of RA settlement, but RB is unreported.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "partial",
+        "rationale": "The specified A fee is credited; B remains unreported.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-11-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 records both instructions.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "yes",
+        "rationale": "E1 records both receipts.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "rationale": "Linked credits establish the specified settlements despite absent separate settlement records.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "yes",
+        "rationale": "E2 links both credits to both erroneous fees.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-12-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 records issuance.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "E1 reports no receipt evidence.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "E1 reports no execution evidence.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "E1 lacks the link and E2 supplies no outcome information.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-12-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 records issuance.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "The restriction is on the account record, not receipt; receipt stays unreported.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "The restriction is on the account record, not execution; execution stays unreported.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_observable",
+        "rationale": "E2 identifies an outcome-access barrier while E1 lacks causal linkage. The proposed precedence selects not_observable; both limitations must remain recorded.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-13-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 records invocation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_applicable",
+        "rationale": "E2 excludes any downstream handoff within the scoped mechanism; propagation has no separate role under this draft.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "Architecture describes a mechanism, not evidence that it executed.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "No account consequence is recorded.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-13-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "rationale": "E1 records invocation.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "propagation": {
+        "value": "not_reported",
+        "rationale": "E2 establishes that a receiving target exists but provides no receipt evidence.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "trajectory_effect": {
+        "value": "not_reported",
+        "rationale": "No execution record is supplied.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "rationale": "No account consequence is recorded.",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      }
+    }
+  },
+  {
+    "id": "V2-14-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records issuance."
+      },
+      "propagation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records W receipt."
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 attributes cancellation to R."
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "rationale": "Cancellation is explicit, but the fee mechanism and outcome are unreported."
+      }
+    }
+  },
+  {
+    "id": "V2-14-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records issuance."
+      },
+      "propagation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records W receipt."
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 attributes cancellation to R."
+      },
+      "outcome_mitigation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "rationale": "Cancellation, necessary execution, no earlier fee and sole-route coverage form the complete bounded prevention chain."
+      }
+    }
+  },
+  {
+    "id": "V2-15-A",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records issuance."
+      },
+      "propagation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records W receipt."
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 attributes cancellation to R."
+      },
+      "outcome_mitigation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "rationale": "The explicit sole-route mechanism plus cancellation establishes prevention for the interval."
+      }
+    }
+  },
+  {
+    "id": "V2-15-B",
+    "status": "exposed_ai_reference_under_standard_001",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records issuance."
+      },
+      "propagation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records W receipt."
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 attributes cancellation to R."
+      },
+      "outcome_mitigation": {
+        "value": "unknown",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "rationale": "J cancellation remains established, but the specified alternative route leaves the whole fee outcome ambiguous; it is not an established subset of fees prevented."
+      }
+    }
+  }
+]

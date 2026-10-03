@@ -1,0 +1,880 @@
+{
+  "attempted_requests": 8,
+  "determinations": [
+    {
+      "attempt_id": "P1-V2-12-A-original",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "action",
+      "matches_reference": null,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": null
+    },
+    {
+      "attempt_id": "P1-V2-12-A-original",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-V2-12-A-original",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-V2-12-A-original",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "trajectory_effect",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-V2-12-A-explicit",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "action",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-V2-12-A-explicit",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-V2-12-A-explicit",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-V2-12-A-explicit",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "trajectory_effect",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-V2-12-B-explicit",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "action",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P1-V2-12-B-explicit",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_observable"
+    },
+    {
+      "attempt_id": "P1-V2-12-B-explicit",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-V2-12-B-explicit",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "trajectory_effect",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-V2-12-B-original",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "action",
+      "matches_reference": null,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": null
+    },
+    {
+      "attempt_id": "P1-V2-12-B-original",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_observable"
+    },
+    {
+      "attempt_id": "P1-V2-12-B-original",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P1-V2-12-B-original",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "trajectory_effect",
+      "matches_reference": false,
+      "pass_id": 1,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-A-explicit",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "action",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-V2-12-A-explicit",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-A-explicit",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-A-explicit",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "trajectory_effect",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-A-original",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "action",
+      "matches_reference": null,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": null
+    },
+    {
+      "attempt_id": "P2-V2-12-A-original",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-A-original",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-A-original",
+      "card_id": "V2-12-A",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "trajectory_effect",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-B-original",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "action",
+      "matches_reference": null,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": null
+    },
+    {
+      "attempt_id": "P2-V2-12-B-original",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_observable"
+    },
+    {
+      "attempt_id": "P2-V2-12-B-original",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-B-original",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "original",
+      "confidence": 0,
+      "dimension": "trajectory_effect",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-B-explicit",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "action",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "yes"
+    },
+    {
+      "attempt_id": "P2-V2-12-B-explicit",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "outcome_mitigation",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_observable"
+    },
+    {
+      "attempt_id": "P2-V2-12-B-explicit",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "propagation",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    },
+    {
+      "attempt_id": "P2-V2-12-B-explicit",
+      "card_id": "V2-12-B",
+      "choice": "unknown",
+      "condition": "explicit",
+      "confidence": 0,
+      "dimension": "trajectory_effect",
+      "matches_reference": false,
+      "pass_id": 2,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "reference": "not_reported"
+    }
+  ],
+  "eligibility_counts": {
+    "eligible": 32,
+    "excluded": 0,
+    "scheduled": 32
+  },
+  "interpretation": "Mock plumbing only",
+  "known_usage_estimated_usd": "0.000033600",
+  "live_requests_sent": 0,
+  "mode": "mock",
+  "passes": {
+    "1": {
+      "action_transitions": [
+        {
+          "available": true,
+          "card_id": "V2-12-A",
+          "explicit": "unknown",
+          "original": "unknown"
+        },
+        {
+          "available": true,
+          "card_id": "V2-12-B",
+          "explicit": "unknown",
+          "original": "unknown"
+        }
+      ],
+      "by_dimension": {
+        "explicit": {
+          "action": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "outcome_mitigation": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "propagation": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "trajectory_effect": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          }
+        },
+        "original": {
+          "action": {
+            "agreement": null,
+            "coverage": 1.0,
+            "matches": null,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "outcome_mitigation": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "propagation": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "trajectory_effect": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          }
+        }
+      },
+      "eligible": 2,
+      "scheduled_pairs": 2,
+      "unavailable": 0
+    },
+    "2": {
+      "action_transitions": [
+        {
+          "available": true,
+          "card_id": "V2-12-A",
+          "explicit": "unknown",
+          "original": "unknown"
+        },
+        {
+          "available": true,
+          "card_id": "V2-12-B",
+          "explicit": "unknown",
+          "original": "unknown"
+        }
+      ],
+      "by_dimension": {
+        "explicit": {
+          "action": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "outcome_mitigation": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "propagation": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "trajectory_effect": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          }
+        },
+        "original": {
+          "action": {
+            "agreement": null,
+            "coverage": 1.0,
+            "matches": null,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "outcome_mitigation": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "propagation": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          },
+          "trajectory_effect": {
+            "agreement": 0.0,
+            "coverage": 1.0,
+            "matches": 0,
+            "scheduled": 2,
+            "valid": 2
+          }
+        }
+      },
+      "eligible": 2,
+      "scheduled_pairs": 2,
+      "unavailable": 0
+    }
+  },
+  "primary_pass": 1,
+  "repetition": {
+    "explicit": {
+      "agreement": 1.0,
+      "eligible": 2,
+      "excluded": 0,
+      "same": 2,
+      "scheduled": 2
+    },
+    "original": {
+      "agreement": 1.0,
+      "eligible": 2,
+      "excluded": 0,
+      "same": 2,
+      "scheduled": 2
+    }
+  },
+  "request_counts": {
+    "http_error": 0,
+    "interrupted": 0,
+    "invalid": 0,
+    "not_attempted": 0,
+    "partial": 0,
+    "transport_error": 0,
+    "valid": 8
+  },
+  "scheduled_requests": 8,
+  "stop_reason": null,
+  "unknown_usage": false,
+  "whole_response_eligible_judgments": 32
+}
