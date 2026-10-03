@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Prepared a separate eight-request packet-linkage diagnostic with hash-bound source requests, unresolved original action references and invariant tests. No live requests or revised historical scores.
+
 Reviewed all 14 comparison validity failures with response-hash verification and a reproducible register. Documented pair-12 reference ambiguity and a separate packet-linkage diagnostic. No rescoring, relabeling or new live inference.
 
 Preserved the frozen instruction comparison: 120 requests, 106 valid and 14 invalid responses. Primary paired difference 0/96, with 24 unavailable pairs; secondary pass reported separately. No candidate promotion or independent accuracy claim.

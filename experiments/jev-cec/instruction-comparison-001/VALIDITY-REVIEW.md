@@ -37,3 +37,5 @@ Document the prospective comparison, exact edits, admissible conclusions and res
 For response validity, retain the strict rule and seek a documented explanation or an independently specified sensitivity analysis before changing it. No provider fault mechanism, rounding explanation or preferred repair is established by this archive.
 
 TAE and HIT remain unchanged. These findings concern a development classifier's response format and the evidence supplied to it; they do not measure real human intervention or validate the core methods.
+
+The prospective [packet-linkage diagnostic](../packet-linkage-001/PLAN.md) now records the exact clarification, unresolved reference treatment and offline schedule.
