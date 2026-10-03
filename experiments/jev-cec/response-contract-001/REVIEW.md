@@ -36,3 +36,5 @@ After this contract work, test structured, dimension-specific criteria with narr
 The immediate correction is interpretive: “invalid” in the frozen reports means invalid under the stated study rule. TAE and HIT remain unchanged, and no empirical human-control claim follows from SDK compatibility.
 
 The separate [acceptance-unit sensitivity](SENSITIVITY.md) now quantifies coverage under the unchanged numerical tolerance.
+
+The prospective [answer eligibility contract](ANSWER-CONTRACT.md) separates acceptance units; the [decimal precision investigation](PRECISION.md) retains the numerical tolerance. Neither changes historical results.
