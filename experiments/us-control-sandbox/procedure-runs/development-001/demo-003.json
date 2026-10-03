@@ -1,0 +1,110 @@
+{
+  "source": {
+    "path": "runs/recovery-001/assessment-packets/recovery-004.json",
+    "sha256": "604a3679fd39374084c7e030d598eb57213eb5594d62906dcbc66900426681cb",
+    "revision": "8a792f69df95d7c96481871d960fe420385bb885"
+  },
+  "envelope": {
+    "unit_id": "demo-003",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "commit_response",
+          "received": true
+        },
+        {
+          "event": "commit_response",
+          "received": true
+        }
+      ],
+      "downstream": {
+        "effect_count": 1,
+        "request_ids": [
+          "request-1"
+        ]
+      }
+    },
+    "packet_digest": "284c8c5500cbc6bd60673d01b92636e2fdf20c40f6c24d51d22be39c270c5aa1"
+  },
+  "checklist": {
+    "version": "paired-record-procedures/0.1",
+    "procedure": "checklist",
+    "unit_id": "demo-003",
+    "objective": "at_most_one_effect",
+    "claim_scope": "single-authored-packet-terminal-record",
+    "packet_digest": "284c8c5500cbc6bd60673d01b92636e2fdf20c40f6c24d51d22be39c270c5aa1",
+    "response": "effect_supported",
+    "reason": "The supplied terminal record supports the stated record-level objective.",
+    "checks": [
+      {
+        "check": "applicable_response_recorded",
+        "satisfied": true,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      {
+        "check": "downstream_record_supplied",
+        "satisfied": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      {
+        "check": "record_fits_objective",
+        "satisfied": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    ],
+    "outcome_locator": "/downstream",
+    "limits": [
+      "No human-control or institutional finding.",
+      "Source completeness and truth are not independently established."
+    ]
+  },
+  "trace": {
+    "version": "paired-record-procedures/0.1",
+    "procedure": "trace",
+    "unit_id": "demo-003",
+    "objective": "at_most_one_effect",
+    "claim_scope": "single-authored-packet-terminal-record",
+    "packet_digest": "284c8c5500cbc6bd60673d01b92636e2fdf20c40f6c24d51d22be39c270c5aa1",
+    "response": "effect_supported",
+    "reason": "The supplied terminal record supports the stated record-level objective.",
+    "checks": [
+      {
+        "check": "applicable_response_recorded",
+        "satisfied": true,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      {
+        "check": "downstream_record_supplied",
+        "satisfied": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      {
+        "check": "record_fits_objective",
+        "satisfied": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    ],
+    "outcome_locator": "/downstream",
+    "limits": [
+      "No human-control or institutional finding.",
+      "Source completeness and truth are not independently established."
+    ],
+    "blockers": []
+  }
+}

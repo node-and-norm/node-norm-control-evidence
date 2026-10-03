@@ -55,3 +55,16 @@ python3 -B evaluate_evidence.py --key build/key-projection.json --responses buil
 ```
 
 Use your declared study projections and a fresh output directory. Failed attempts retain available input bytes and an error record and return a nonzero exit. Successful arithmetic records the rule, evaluator and input hashes. No overall pass, scientific validation or composite score is emitted. No cohort has been evaluated under these rules yet; nine calculator tests bring the sandbox suite to thirty-seven tests.
+
+## Paired procedure checkpoint
+
+The [procedure specification](PROCEDURES.md) and [candidate run plan](RUN-PLAN.md) define a short checklist and a complete trace using the same facts and rules. Their shared implementation means label agreement is expected and supplies no independent validation or comparative accuracy result.
+
+The [preserved development demonstration](procedure-runs/development-001/summary.json) reuses seven public packets. It includes the envelopes, both outputs, source locators and hashes, and source snapshots. No new study cases or reference key were created. Eight new tests bring the sandbox suite to forty-five tests.
+
+```sh
+python3 -B run_paired_demo.py --output build/paired-attempt-new
+python3 -B verify_run.py procedure-runs/development-001
+```
+
+The first command needs a fresh directory. The next research-design task is to specify trace-quality measures and burden, fix the cohort and access plan, then create new author-exposed case families. Independent blinding is not claimed.

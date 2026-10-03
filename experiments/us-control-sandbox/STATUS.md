@@ -29,7 +29,7 @@ No Hugging Face dataset, hosted model or LangChain application has been evaluate
 ## Next gates
 
 1. Complete source packets. Current synthetic-evidence eligibility is resolved for technical appendices only in ADMISSIBILITY.md; full TAE/HIT application remains ineligible under this boundary.
-2. Implement the paired technical-evidence procedures and complete the prospective run plan. TECHNICAL-EVALUATION.md revision 0.1 now defines separate measures and denominators; the full evidence-sufficiency key, cohort, rationale-review process and claim-specific study thresholds remain open.
+2. Complete the prospective run plan. The paired procedures are implemented; specify trace-quality and burden measures before constructing new cases. TECHNICAL-EVALUATION.md revision 0.1 now defines separate measures and denominators; the full evidence-sufficiency key, cohort, rationale-review process and claim-specific study thresholds remain open.
 3. Design new held-out case families, separate assessor access from outcome access and freeze the study protocol before evaluation.
 4. Add concurrency, interrupted writes or external-service integration only with explicit new objectives and failure models.
 
@@ -42,3 +42,7 @@ The method revisions were rechecked and remain unchanged. Sixteen technical appe
 ## Technical-evaluation rules checkpoint
 
 Revision 0.1 defines the observation unit, three technical-evidence reference states, response labels, six measures and whole-run rejection of invalid submissions. A standalone calculator preserves failed attempts and produces label arithmetic only. Nine added tests bring the sandbox suite to thirty-seven. No new case families, model calls or actual evaluation cohort were created. The original TAE/HIT methods and their research gates remain unchanged.
+
+## Paired procedure checkpoint
+
+Checklist and full-trace procedures 0.1 now share the same input validation, fact extraction and decision rule. The distinction is explanatory coverage. Seven existing public packets are re-presented with saved source snapshots and both outputs; agreement is expected by construction. Eight new tests bring the sandbox suite to forty-five. No new evaluation cohort, independent reference key, comparative performance result or TAE/HIT finding was produced. PROCEDURES.md and RUN-PLAN.md set out the limits and next decisions.

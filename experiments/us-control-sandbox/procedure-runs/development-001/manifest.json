@@ -1,0 +1,18 @@
+{
+  "status": "development demonstration",
+  "artifacts": {
+    "demo-001.json": "6688e0ac108c988556acd3308718a5e90476a6721449c1c042359a0e6cd6d530",
+    "demo-002.json": "05e4c7319042cd65ae1a39cb9c3c84e926ec4cd3f8f16cd8b6d92b97ecf3aa16",
+    "demo-003.json": "e96ddc3b4818fe795f987301acf4fa5fea9e750626ac26b04b244deaa242e74d",
+    "demo-004.json": "99953a54cbdcbbbc01d5b9e52d69530796c34c3a7fbdba9bf1af7e656f79ea00",
+    "demo-005.json": "bd5c8db6bd855fa02fb714f192d1bc3bbbf573bdc08040c4b19be143cf395327",
+    "demo-006.json": "18200689d05cc48ff4e97473f90f57e3f670b98068a4ccd46e06be28d2ed93ab",
+    "demo-007.json": "8dc1b90d8ce3f7dcf8379928ddd8567a352644d762b8677c61aa6682c7a0911f",
+    "source/PROCEDURES.md": "fb40067fb463ad7d68b7010e996225666840fa2c4efeae3ae675193888fa5b6d",
+    "source/RUN-PLAN.md": "ff289e45b618808ede9b88b8dc1e125d09bc27e26eeff8c71a65f99c6a9e611e",
+    "source/build_evidence_appendices.py": "94f71b7d84a2fe09bc1e74eae1724051a585cc54536fddc582e09805a3f8a7fa",
+    "source/paired_procedures.py": "73bf0667b2c1e762200ce22ce8ae3b12059f3fb747c2a70748431c88bcf2d862",
+    "source/run_paired_demo.py": "8d951d7f1539f042d472bc92bc48e5da2722f656f590a543de4e09f2c8bb13e5",
+    "summary.json": "01990caa379ef5640c51c557900bac28b213554c755d1275947915c291e1dfad"
+  }
+}

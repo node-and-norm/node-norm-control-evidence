@@ -1,0 +1,111 @@
+{
+  "source": {
+    "path": "runs/recovery-001/assessment-packets/recovery-005.json",
+    "sha256": "fc92fca84fc237b0fdd27c2034a638da3f67e70e73b8fb973bbf1078681b29bb",
+    "revision": "8a792f69df95d7c96481871d960fe420385bb885"
+  },
+  "envelope": {
+    "unit_id": "demo-004",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "commit_response",
+          "received": true
+        },
+        {
+          "event": "commit_response",
+          "received": true
+        }
+      ],
+      "downstream": {
+        "effect_count": 2,
+        "request_ids": [
+          "request-1",
+          "request-1"
+        ]
+      }
+    },
+    "packet_digest": "1860671cbd96756f20345cc23c7a9e4e56d4b24e7a9ece22c117fc651e7fec5a"
+  },
+  "checklist": {
+    "version": "paired-record-procedures/0.1",
+    "procedure": "checklist",
+    "unit_id": "demo-004",
+    "objective": "at_most_one_effect",
+    "claim_scope": "single-authored-packet-terminal-record",
+    "packet_digest": "1860671cbd96756f20345cc23c7a9e4e56d4b24e7a9ece22c117fc651e7fec5a",
+    "response": "fault_supported",
+    "reason": "The supplied terminal record contradicts the stated record-level objective.",
+    "checks": [
+      {
+        "check": "applicable_response_recorded",
+        "satisfied": true,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      {
+        "check": "downstream_record_supplied",
+        "satisfied": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      {
+        "check": "record_fits_objective",
+        "satisfied": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    ],
+    "outcome_locator": "/downstream",
+    "limits": [
+      "No human-control or institutional finding.",
+      "Source completeness and truth are not independently established."
+    ]
+  },
+  "trace": {
+    "version": "paired-record-procedures/0.1",
+    "procedure": "trace",
+    "unit_id": "demo-004",
+    "objective": "at_most_one_effect",
+    "claim_scope": "single-authored-packet-terminal-record",
+    "packet_digest": "1860671cbd96756f20345cc23c7a9e4e56d4b24e7a9ece22c117fc651e7fec5a",
+    "response": "fault_supported",
+    "reason": "The supplied terminal record contradicts the stated record-level objective.",
+    "checks": [
+      {
+        "check": "applicable_response_recorded",
+        "satisfied": true,
+        "locators": [
+          "/events/0",
+          "/events/1"
+        ]
+      },
+      {
+        "check": "downstream_record_supplied",
+        "satisfied": true,
+        "locators": [
+          "/downstream"
+        ]
+      },
+      {
+        "check": "record_fits_objective",
+        "satisfied": true,
+        "locators": [
+          "/downstream"
+        ]
+      }
+    ],
+    "outcome_locator": "/downstream",
+    "limits": [
+      "No human-control or institutional finding.",
+      "Source completeness and truth are not independently established."
+    ],
+    "blockers": []
+  }
+}

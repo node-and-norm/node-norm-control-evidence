@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Implemented paired record-level checklist and full-trace procedures with the same admissible inputs and decision rules. Preserved a seven-packet development demonstration, source snapshots, mechanical rationale checks and a candidate run plan. Eight tests cover missingness, ambiguous linkage, scope expansion and altered explanations. No independent comparison, new study cohort or TAE/HIT finding.
+
 Added technical-evidence evaluation rules 0.1 and an arithmetic calculator with nine tests. The contract separates hidden execution outcomes from packet-supported conclusions, reports six measures with explicit denominators, and preserves invalid attempts. No evaluation cohort, new cases, method scores or study results were created.
 
 Added an evidence-admissibility decision and sixteen reproducible technical appendices for the shared sandbox. Nine new boundary tests check missingness, acknowledgment limits, unsupported fields, artifact changes and independence from private outcome files. Full TAE/HIT findings remain disabled under the synthetic application boundary.

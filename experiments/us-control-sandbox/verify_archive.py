@@ -9,7 +9,8 @@ ROOT = Path(__file__).resolve().parent
 
 def main():
     runs = ['runs/rehearsal-002', 'runs/recovery-001',
-            'container-runs/isolated-001/result', 'container-runs/recovery-001/result']
+            'container-runs/isolated-001/result', 'container-runs/recovery-001/result',
+            'procedure-runs/development-001']
     counts = {run: verify(ROOT/run) for run in runs}
     old = json.loads((ROOT/'runs/rehearsal-001/manifest.json').read_text())
     if hashlib.sha256((ROOT/'archive/rehearsal-v0/sandbox.py').read_bytes()).hexdigest() != old['source_sha256']:
