@@ -1,0 +1,10 @@
+{
+  "code_revision": "8259a56fd55c7a800a98e9f278e34761472a9b1a",
+  "endpoint": null,
+  "mode": "mock",
+  "model_requested": "jev-1.13.0",
+  "preflight": null,
+  "python": "3.9.6",
+  "started_at": "2026-10-03T21:45:41.300438+00:00",
+  "working_tree_dirty": true
+}
