@@ -25,3 +25,5 @@ Review the saved mock accounting and source hashes, recheck official service ava
 ## Preserved rehearsal
 
 [mock-001](mock-001/manifest.json) was produced from clean implementation commit `758ea7c` with zero live requests. All 90 mock responses passed, and a repository test reproduces the report exactly from preserved response bytes and reference. This confirms mechanical accounting only. The uniform mock service does not assess the evidence or consult the key.
+
+Archived source Markdown retains its original relative links for byte fidelity. It is excluded from repository navigation checks; use the current source tree for navigation. The archive reproduction test verifies all saved source hashes.
