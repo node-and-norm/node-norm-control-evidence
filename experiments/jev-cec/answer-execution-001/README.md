@@ -7,3 +7,5 @@ This runner implements the prospective answer contract with unchanged numerical 
 The archived mock contains eight uniform mock responses, 32 eligible mock answers and zero live requests. It was executed in a dirty development checkout. Exact source snapshots and hashes identify the implementation; this is plumbing verification, not a live finding. Tests separately inject partial responses and malformed envelopes.
 
 Future execution requires the frozen sources and live preflight. No existing result is reclassified or replaced by this implementation.
+
+The [first live result](LIVE-RESULTS.md) reports 30/32 eligible answers with incomplete primary paired coverage.

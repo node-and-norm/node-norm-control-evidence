@@ -76,3 +76,13 @@ class AnswerRunnerTests(unittest.TestCase):
         actual=runner.summarize(rows,records,key,'mock');saved=json.loads((p/'report.json').read_text())
         for k,v in actual.items():self.assertEqual(v,saved[k])
         self.assertEqual(saved['live_requests_sent'],0)
+    def test_live_archive_reproduces(self):
+        p=ROOT/'experiments/jev-cec/answer-execution-001/live-001'
+        runner.verify(p)
+        rows=json.loads((p/'schedule.json').read_text());records=json.loads((p/'attempts.json').read_text())
+        for r in records:
+            if r['status'] in ('valid','partial'):r['response_raw']=(p/'responses'/(r['attempt_id']+'.bin')).read_bytes()
+        key=json.loads((p/'source/packet-linkage-001/reference.json').read_text())
+        actual=runner.summarize(rows,records,key,'live');saved=json.loads((p/'report.json').read_text())
+        for k,v in actual.items():self.assertEqual(v,saved[k])
+        self.assertEqual(saved['live_requests_sent'],8)
