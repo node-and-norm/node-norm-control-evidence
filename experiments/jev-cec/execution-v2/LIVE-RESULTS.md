@@ -39,3 +39,5 @@ No comparison here establishes improvement over v1. The questions, cases, number
 Keep Jev outputs as inspectable proposals. Review the direct-evidence disagreements and missingness/conflict scope before designing any new prompt or sensitivity analysis. Preserve this run as the prospective result under the frozen standard. A later normalization or wording experiment must be separately identified, without replacing these failures or reference judgments.
 
 The archive was verified against its manifest, inspected for response structure and scanned for the configured credential before publication. Mechanical reproduction does not validate the reference or establish practical human control. No TAE/HIT finding, canonical annotation or empirical release gate changed.
+
+The reproduction test requires exact labels, counts and other fields, with absolute tolerance 1e-12 only for Brier arithmetic across Python versions. Saved reports and response acceptance rules are unchanged.

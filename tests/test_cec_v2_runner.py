@@ -127,7 +127,17 @@ class V2RunnerTests(unittest.TestCase):
         key=json.loads((p/'source/execution-v2/reference-key.json').read_text())
         actual=runner.summarize(rows,records,key,'live')
         saved=json.loads((p/'report.json').read_text())
-        for k,v in actual.items():self.assertEqual(v,saved[k])
+        def compare(a,b,key=''):
+            if isinstance(a,dict):
+                self.assertEqual(set(a),set(b))
+                for k in a:compare(a[k],b[k],k)
+            elif isinstance(a,list):
+                self.assertEqual(len(a),len(b))
+                for x,y in zip(a,b):compare(x,y,key)
+            elif key in ('brier_loss','mean_brier_loss') and isinstance(a,float):
+                self.assertAlmostEqual(a,b,delta=1e-12)
+            else:self.assertEqual(a,b)
+        for k,v in actual.items():compare(v,saved[k],k)
         self.assertEqual(saved['live_requests_sent'],90)
         self.assertEqual(saved['request_counts']['invalid'],14)
         self.assertEqual(saved['passes']['1']['overall']['matches'],76)
