@@ -1,0 +1,1020 @@
+[
+  {
+    "unit_id": "u001",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u001",
+        "objective": "recorded_stop",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "eeacc9d0a6698a619d25d6ef3000eb67cddd5dc32e30fa382a494c48532aeffe",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u001",
+        "objective": "recorded_stop",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "eeacc9d0a6698a619d25d6ef3000eb67cddd5dc32e30fa382a494c48532aeffe",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": false,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": null,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": [
+          "applicable_response_recorded",
+          "downstream_record_supplied",
+          "record_fits_objective"
+        ]
+      }
+    }
+  },
+  {
+    "unit_id": "u002",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u002",
+        "objective": "recorded_stop",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "73db3bf9e745a9c72c8a8bd152831cff1c963a03bf083e8d5ade5e9c494cb65d",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events/0"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u002",
+        "objective": "recorded_stop",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "73db3bf9e745a9c72c8a8bd152831cff1c963a03bf083e8d5ade5e9c494cb65d",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events/0"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": false,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": null,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": [
+          "applicable_response_recorded",
+          "downstream_record_supplied",
+          "record_fits_objective"
+        ]
+      }
+    }
+  },
+  {
+    "unit_id": "u003",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u003",
+        "objective": "recorded_delivery",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "1b2919d369dd37f7e8bfed4e83f509b85efa2211534cc14ee9b35b93b934a9aa",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u003",
+        "objective": "recorded_delivery",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "1b2919d369dd37f7e8bfed4e83f509b85efa2211534cc14ee9b35b93b934a9aa",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": false,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": [
+          "applicable_response_recorded",
+          "record_fits_objective"
+        ]
+      }
+    }
+  },
+  {
+    "unit_id": "u004",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u004",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "7681b272e3e59b206e70fb439e32a047962b4256147a0321c0d941e10d63c104",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": false,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u004",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "7681b272e3e59b206e70fb439e32a047962b4256147a0321c0d941e10d63c104",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": false,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": [
+          "record_fits_objective"
+        ]
+      }
+    }
+  },
+  {
+    "unit_id": "u005",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u005",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "02790843403398a3ffecc52234a7b590df81caf1c9ea196c1c4b792ed37c3f2a",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": false,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u005",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "02790843403398a3ffecc52234a7b590df81caf1c9ea196c1c4b792ed37c3f2a",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": false,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": [
+          "record_fits_objective"
+        ]
+      }
+    }
+  },
+  {
+    "unit_id": "u006",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u006",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "41ecc9aa0e62f1c6988cce886ecb83ddfc90a9c222b0992e328b028f20f9cd2c",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": false,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u006",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "41ecc9aa0e62f1c6988cce886ecb83ddfc90a9c222b0992e328b028f20f9cd2c",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": false,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": [
+          "record_fits_objective"
+        ]
+      }
+    }
+  },
+  {
+    "unit_id": "u007",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u007",
+        "objective": "recorded_stop",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "8877fda2dbb026850e9f7ec980e58162cd68d6e913326975be8e0eec42b87c1b",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u007",
+        "objective": "recorded_stop",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "8877fda2dbb026850e9f7ec980e58162cd68d6e913326975be8e0eec42b87c1b",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": [
+          "applicable_response_recorded"
+        ]
+      }
+    }
+  },
+  {
+    "unit_id": "u008",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u008",
+        "objective": "recorded_delivery",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "578b18dcbb427aaab247cd9d3cb6433071b49dab2270ffa8af169408da71132c",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u008",
+        "objective": "recorded_delivery",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "578b18dcbb427aaab247cd9d3cb6433071b49dab2270ffa8af169408da71132c",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": [
+          "applicable_response_recorded"
+        ]
+      }
+    }
+  },
+  {
+    "unit_id": "u009",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u009",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "fa9bc5fbd916c3c648cda8fe9c6e05328c595b82e7707af1cab62a13541e3052",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u009",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "fa9bc5fbd916c3c648cda8fe9c6e05328c595b82e7707af1cab62a13541e3052",
+        "response": "unresolved",
+        "reason": "A required record condition is unresolved.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": false,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": null,
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": [
+          "applicable_response_recorded"
+        ]
+      }
+    }
+  },
+  {
+    "unit_id": "u010",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u010",
+        "objective": "recorded_stop",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "32f8bef4e11f5413d21d21c18c29ef9a19d5d6433c27cd5206bb1c59976a5f67",
+        "response": "fault_supported",
+        "reason": "The supplied terminal record contradicts the stated record-level objective.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": "/downstream",
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u010",
+        "objective": "recorded_stop",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "32f8bef4e11f5413d21d21c18c29ef9a19d5d6433c27cd5206bb1c59976a5f67",
+        "response": "fault_supported",
+        "reason": "The supplied terminal record contradicts the stated record-level objective.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": "/downstream",
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": []
+      }
+    }
+  },
+  {
+    "unit_id": "u011",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u011",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "8183f49cf528929feb35139da7ee30708698a79e9f3b035f12d21d65a01f353d",
+        "response": "effect_supported",
+        "reason": "The supplied terminal record supports the stated record-level objective.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": "/downstream",
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u011",
+        "objective": "at_most_one_effect",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "8183f49cf528929feb35139da7ee30708698a79e9f3b035f12d21d65a01f353d",
+        "response": "effect_supported",
+        "reason": "The supplied terminal record supports the stated record-level objective.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0",
+              "/events/1"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": "/downstream",
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": []
+      }
+    }
+  },
+  {
+    "unit_id": "u012",
+    "checklist": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "checklist",
+        "unit_id": "u012",
+        "objective": "recorded_delivery",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "050a923dfa56f1421f197d96bca8b9094db2ce3236e82358fa5dd3015c9fde62",
+        "response": "fault_supported",
+        "reason": "The supplied terminal record contradicts the stated record-level objective.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": "/downstream",
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ]
+      }
+    },
+    "trace": {
+      "status": "responded",
+      "output": {
+        "version": "paired-record-procedures/0.1",
+        "procedure": "trace",
+        "unit_id": "u012",
+        "objective": "recorded_delivery",
+        "claim_scope": "single-authored-packet-terminal-record",
+        "packet_digest": "050a923dfa56f1421f197d96bca8b9094db2ce3236e82358fa5dd3015c9fde62",
+        "response": "fault_supported",
+        "reason": "The supplied terminal record contradicts the stated record-level objective.",
+        "checks": [
+          {
+            "check": "applicable_response_recorded",
+            "satisfied": true,
+            "locators": [
+              "/events/0"
+            ]
+          },
+          {
+            "check": "downstream_record_supplied",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          },
+          {
+            "check": "record_fits_objective",
+            "satisfied": true,
+            "locators": [
+              "/downstream"
+            ]
+          }
+        ],
+        "outcome_locator": "/downstream",
+        "limits": [
+          "No human-control or institutional finding.",
+          "Source completeness and truth are not independently established."
+        ],
+        "blockers": []
+      }
+    }
+  },
+  {
+    "unit_id": "u013",
+    "checklist": {
+      "status": "rejected",
+      "reason": "Packet digest mismatch"
+    },
+    "trace": {
+      "status": "rejected",
+      "reason": "Packet digest mismatch"
+    }
+  },
+  {
+    "unit_id": "u014",
+    "checklist": {
+      "status": "rejected",
+      "reason": "Unsupported scope; execution inference is not permitted"
+    },
+    "trace": {
+      "status": "rejected",
+      "reason": "Unsupported scope; execution inference is not permitted"
+    }
+  },
+  {
+    "unit_id": "u015",
+    "checklist": {
+      "status": "rejected",
+      "reason": "Effect count contradicts listed records"
+    },
+    "trace": {
+      "status": "rejected",
+      "reason": "Effect count contradicts listed records"
+    }
+  }
+]

@@ -68,3 +68,9 @@ python3 -B verify_run.py procedure-runs/development-001
 ```
 
 The first command needs a fresh directory. The next research-design task is to specify trace-quality measures and burden, fix the cohort and access plan, then create new author-exposed case families. Independent blinding is not claimed.
+
+## Trace-quality stress evaluation
+
+The [committed plan](trace-evaluation/PLAN.md) preceded fifteen newly authored packet-level inputs: twelve valid units and three deliberate intake failures. [The results](trace-evaluation/RESULTS.md) show twelve versus nine material blockers represented, with 1,468 added bytes for the full trace. Both procedures used the same rules and agreed on labels. No superiority or human-benefit claim follows.
+
+The separate key, original outputs, source snapshots and report are preserved under `trace-evaluation/runs/stress-001/`. Seven auditor tests bring the sandbox suite to fifty-two. These cases are author-exposed variants and combinations, not an independent holdout or new real-world data.

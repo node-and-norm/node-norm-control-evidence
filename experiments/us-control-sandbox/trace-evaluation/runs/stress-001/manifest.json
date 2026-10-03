@@ -1,0 +1,17 @@
+{
+  "status": "author-exposed evaluation record",
+  "artifacts": {
+    "inputs.json": "afbf6dfacad048ba7be3dba5bb2af53f1f8b81ad8473c5242d24da6890e0eafe",
+    "reference-key.json": "f1eaa35380d149a73e1b16a18980f7b7a14b3a27131bfdf1031563f78f1522c1",
+    "report.json": "7f0293b6b2ac44ba215ba5e99c9c7126c7eeaff3bbdb3a20db3e9db32100bb4c",
+    "responses-before-key.json": "a9e9152cbe28652b52e204c2e886a02e495fa6f9f93752382170513b541b4824",
+    "source/PLAN.md": "0b1e858e16fab8e07f8d6e7ff549e474915b4a5f09e26e866bd3ed6d07bd15eb",
+    "source/build_evidence_appendices.py": "94f71b7d84a2fe09bc1e74eae1724051a585cc54536fddc582e09805a3f8a7fa",
+    "source/build_inputs.py": "ae820e857fe200b240f1ea4258809e745e4515a95947ce5e2c77546de29ae134",
+    "source/evaluate_evidence.py": "d351c4372af0d6534f6e1a9b7779d5831597c29e83e0b4fd5efa06c241508ead",
+    "source/evaluation_rules.json": "8e6fd15a3505a56f4f68ce54ca9f195bf40fdd31c5bb6fca9edff074d46e027f",
+    "source/paired_procedures.py": "73bf0667b2c1e762200ce22ce8ae3b12059f3fb747c2a70748431c88bcf2d862",
+    "source/run_trace_evaluation.py": "2078b74325ac009ab95ecd11f601aabb348ac1cef5e0a4719a482b6272775b22",
+    "source/trace_quality.py": "d20aa5abb09caa84a3a42688083379ffaf82bf7aaf6a55a6b92984bfc2ca7a18"
+  }
+}

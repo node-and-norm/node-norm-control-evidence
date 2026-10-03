@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Completed a plan-first, author-exposed trace-quality stress evaluation on twelve valid packets and three intake failures. Preserved the authored key, original outputs and source snapshots. The full trace represented three additional material blockers at 1,468 additional bytes; shared-rule labels agreed. Added seven auditor tests. No independent validity, reader benefit or TAE/HIT assessment claim.
+
 Implemented paired record-level checklist and full-trace procedures with the same admissible inputs and decision rules. Preserved a seven-packet development demonstration, source snapshots, mechanical rationale checks and a candidate run plan. Eight tests cover missingness, ambiguous linkage, scope expansion and altered explanations. No independent comparison, new study cohort or TAE/HIT finding.
 
 Added technical-evidence evaluation rules 0.1 and an arithmetic calculator with nine tests. The contract separates hidden execution outcomes from packet-supported conclusions, reports six measures with explicit denominators, and preserves invalid attempts. No evaluation cohort, new cases, method scores or study results were created.

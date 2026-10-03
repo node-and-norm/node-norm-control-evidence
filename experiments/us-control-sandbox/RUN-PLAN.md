@@ -25,3 +25,7 @@
 The next implementation should remain a researcher-led technical study without participants. A future model adapter requires a separate versioned plan for model identity, prompts, repeated trials, costs, data rights and information access. Adding Hugging Face, LangChain or a hosted model solely as a visibility signal would not answer the current comparison question.
 
 Original TAE and HIT studies continue separately. Authentic human-control findings still require the applicable unit, authority, evidence and review required by their contracts.
+
+## Subsequent bounded evaluation
+
+The narrower author-exposed trace-quality plan was subsequently fixed in [trace-evaluation/PLAN.md](trace-evaluation/PLAN.md), followed by the recorded inputs, key and [results](trace-evaluation/RESULTS.md). It resolves the mechanical measure/cohort decisions for that exercise only. Reader usefulness, independent key validity and broader method claims remain open.

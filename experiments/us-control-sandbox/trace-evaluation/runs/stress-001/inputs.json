@@ -1,0 +1,307 @@
+[
+  {
+    "unit_id": "u001",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [],
+      "downstream": null
+    },
+    "packet_digest": "eeacc9d0a6698a619d25d6ef3000eb67cddd5dc32e30fa382a494c48532aeffe"
+  },
+  {
+    "unit_id": "u002",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "stop_response",
+          "accepted": false
+        }
+      ],
+      "downstream": null
+    },
+    "packet_digest": "73db3bf9e745a9c72c8a8bd152831cff1c963a03bf083e8d5ade5e9c494cb65d"
+  },
+  {
+    "unit_id": "u003",
+    "objective": "recorded_delivery",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [],
+      "downstream": {
+        "action": "prevented",
+        "internal_record": "original",
+        "recipient_record": "original"
+      }
+    },
+    "packet_digest": "1b2919d369dd37f7e8bfed4e83f509b85efa2211534cc14ee9b35b93b934a9aa"
+  },
+  {
+    "unit_id": "u004",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "commit_response",
+          "received": true
+        },
+        {
+          "event": "commit_response",
+          "received": true
+        }
+      ],
+      "downstream": {
+        "effect_count": 2,
+        "request_ids": [
+          "a",
+          "b"
+        ]
+      }
+    },
+    "packet_digest": "7681b272e3e59b206e70fb439e32a047962b4256147a0321c0d941e10d63c104"
+  },
+  {
+    "unit_id": "u005",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "commit_response",
+          "received": true
+        },
+        {
+          "event": "commit_response",
+          "received": true
+        }
+      ],
+      "downstream": {
+        "effect_count": 3,
+        "request_ids": [
+          "a",
+          "b",
+          "a"
+        ]
+      }
+    },
+    "packet_digest": "02790843403398a3ffecc52234a7b590df81caf1c9ea196c1c4b792ed37c3f2a"
+  },
+  {
+    "unit_id": "u006",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "commit_response",
+          "received": true
+        },
+        {
+          "event": "commit_response",
+          "received": true
+        }
+      ],
+      "downstream": {
+        "effect_count": 4,
+        "request_ids": [
+          "a",
+          "b",
+          "a",
+          "b"
+        ]
+      }
+    },
+    "packet_digest": "41ecc9aa0e62f1c6988cce886ecb83ddfc90a9c222b0992e328b028f20f9cd2c"
+  },
+  {
+    "unit_id": "u007",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "stop_response",
+          "accepted": true
+        },
+        {
+          "event": "stop_response",
+          "accepted": false
+        }
+      ],
+      "downstream": {
+        "action": "prevented",
+        "internal_record": "original",
+        "recipient_record": "original"
+      }
+    },
+    "packet_digest": "8877fda2dbb026850e9f7ec980e58162cd68d6e913326975be8e0eec42b87c1b"
+  },
+  {
+    "unit_id": "u008",
+    "objective": "recorded_delivery",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "correction_response",
+          "accepted": true
+        },
+        {
+          "event": "correction_response",
+          "accepted": false
+        }
+      ],
+      "downstream": {
+        "action": "executed",
+        "internal_record": "corrected",
+        "recipient_record": "corrected"
+      }
+    },
+    "packet_digest": "578b18dcbb427aaab247cd9d3cb6433071b49dab2270ffa8af169408da71132c"
+  },
+  {
+    "unit_id": "u009",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "commit_response",
+          "received": true
+        },
+        {
+          "event": "commit_response",
+          "received": false
+        }
+      ],
+      "downstream": {
+        "effect_count": 1,
+        "request_ids": [
+          "a"
+        ]
+      }
+    },
+    "packet_digest": "fa9bc5fbd916c3c648cda8fe9c6e05328c595b82e7707af1cab62a13541e3052"
+  },
+  {
+    "unit_id": "u010",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "stop_response",
+          "accepted": true
+        }
+      ],
+      "downstream": {
+        "action": "executed",
+        "internal_record": "original",
+        "recipient_record": "original"
+      }
+    },
+    "packet_digest": "32f8bef4e11f5413d21d21c18c29ef9a19d5d6433c27cd5206bb1c59976a5f67"
+  },
+  {
+    "unit_id": "u011",
+    "objective": "at_most_one_effect",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "commit_response",
+          "received": true
+        },
+        {
+          "event": "commit_response",
+          "received": true
+        }
+      ],
+      "downstream": {
+        "effect_count": 0,
+        "request_ids": []
+      }
+    },
+    "packet_digest": "8183f49cf528929feb35139da7ee30708698a79e9f3b035f12d21d65a01f353d"
+  },
+  {
+    "unit_id": "u012",
+    "objective": "recorded_delivery",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "correction_response",
+          "accepted": true
+        }
+      ],
+      "downstream": {
+        "action": "executed",
+        "internal_record": "corrected",
+        "recipient_record": "original"
+      }
+    },
+    "packet_digest": "050a923dfa56f1421f197d96bca8b9094db2ce3236e82358fa5dd3015c9fde62"
+  },
+  {
+    "unit_id": "u013",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "stop_response",
+          "accepted": true
+        }
+      ],
+      "downstream": {
+        "action": "executed",
+        "internal_record": "original",
+        "recipient_record": "original"
+      }
+    },
+    "packet_digest": "incorrect"
+  },
+  {
+    "unit_id": "u014",
+    "objective": "recorded_stop",
+    "scope": "actual-institutional-control",
+    "packet": {
+      "events": [
+        {
+          "event": "stop_response",
+          "accepted": true
+        }
+      ],
+      "downstream": {
+        "action": "executed",
+        "internal_record": "original",
+        "recipient_record": "original"
+      }
+    },
+    "packet_digest": "32f8bef4e11f5413d21d21c18c29ef9a19d5d6433c27cd5206bb1c59976a5f67"
+  },
+  {
+    "unit_id": "u015",
+    "objective": "recorded_stop",
+    "scope": "single-authored-packet-terminal-record",
+    "packet": {
+      "events": [
+        {
+          "event": "stop_response",
+          "accepted": true
+        }
+      ],
+      "downstream": {
+        "effect_count": 2,
+        "request_ids": [
+          "a"
+        ]
+      }
+    },
+    "packet_digest": "dd16ea7f5e4709699e486f3ee7f74b7287894741f5cb67c0463642b2d89d9932"
+  }
+]

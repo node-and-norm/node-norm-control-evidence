@@ -1,0 +1,12 @@
+{
+  "version": "technical-evidence-evaluation/0.1",
+  "date": "2026-10-02",
+  "status": "development contract; no study freeze or method assessment",
+  "reference_states": ["supported_effect", "supported_fault", "unresolved"],
+  "response_states": ["effect_supported", "fault_supported", "unresolved"],
+  "zero_denominator": null,
+  "invalid_submission": "reject whole scoring run; retain failed attempt",
+  "composite_score": false,
+  "tae_hit_scoring": false,
+  "metrics": ["unsupported_reassurance", "missed_documented_fault", "appropriate_uncertainty", "unsupported_negative", "unnecessary_abstention", "supported_effect_recognition"]
+}

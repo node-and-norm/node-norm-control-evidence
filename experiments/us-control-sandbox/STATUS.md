@@ -28,10 +28,10 @@ No Hugging Face dataset, hosted model or LangChain application has been evaluate
 
 ## Next gates
 
-1. Complete source packets. Current synthetic-evidence eligibility is resolved for technical appendices only in ADMISSIBILITY.md; full TAE/HIT application remains ineligible under this boundary.
-2. Complete the prospective run plan. The paired procedures are implemented; specify trace-quality and burden measures before constructing new cases. TECHNICAL-EVALUATION.md revision 0.1 now defines separate measures and denominators; the full evidence-sufficiency key, cohort, rationale-review process and claim-specific study thresholds remain open.
-3. Design new held-out case families, separate assessor access from outcome access and freeze the study protocol before evaluation.
-4. Add concurrency, interrupted writes or external-service integration only with explicit new objectives and failure models.
+1. Obtain separate review of the evidence-sufficiency key and the larger comparison claim before expanding conclusions. Source packets for real events remain incomplete.
+2. Decide whether to test richer linked-record evidence, model-based assessment or reader usefulness. Each needs an explicit design; the current same-rule comparison cannot establish those benefits.
+3. Preserve independent-role and authentic-authority requirements for any later TAE/HIT application. Current findings concern supplied technical records only.
+4. Continue the original TAE prospective study and HIT replication workstreams under their own gates; this technical exercise does not complete them.
 
 High reasoning is appropriate for source and contract decisions. Medium is sufficient for implementation against settled acceptance rules. Additional model review does not constitute independent validation.
 
@@ -46,3 +46,7 @@ Revision 0.1 defines the observation unit, three technical-evidence reference st
 ## Paired procedure checkpoint
 
 Checklist and full-trace procedures 0.1 now share the same input validation, fact extraction and decision rule. The distinction is explanatory coverage. Seven existing public packets are re-presented with saved source snapshots and both outputs; agreement is expected by construction. Eight new tests bring the sandbox suite to forty-five. No new evaluation cohort, independent reference key, comparative performance result or TAE/HIT finding was produced. PROCEDURES.md and RUN-PLAN.md set out the limits and next decisions.
+
+## Trace-quality evaluation checkpoint
+
+A plan was committed before packet construction and inputs/key/code before execution. Twelve valid packets and three intake challenges were evaluated without changing the procedures. The trace represented twelve of twelve material blockers; the checklist represented nine. Both agreed on labels and rejected the three invalid inputs. The trace added 1,468 bytes and twelve check entries. No check-state or locator errors were detected against the authored key. Seven auditor tests bring the sandbox suite to fifty-two. See trace-evaluation/RESULTS.md for the complete boundary and provenance.

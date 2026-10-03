@@ -1,0 +1,481 @@
+{
+  "status": "author-exposed technical stress evaluation; no independent validation",
+  "plan_commit": "829b3ab9db651410a5f167483b8d5aa667fec518",
+  "pre_run_commit": "d51312ed463c8c47874ef0170873a2a947961907",
+  "intake": {
+    "total": 15,
+    "valid": 12,
+    "excluded": 3,
+    "unexpected": 0
+  },
+  "mechanical_audit": {
+    "checklist": {
+      "material_blockers": 12,
+      "omitted_blockers": 3,
+      "incorrect_assertions": 0,
+      "reported_checks": 24,
+      "locator_errors": 0,
+      "locator_opportunities": 27,
+      "dependent_blocker_labels": 0,
+      "output_bytes": 8035,
+      "units": 12,
+      "omission_rate": 0.25,
+      "assertion_error_rate": 0.0,
+      "locator_error_rate": 0.0
+    },
+    "trace": {
+      "material_blockers": 12,
+      "omitted_blockers": 0,
+      "incorrect_assertions": 0,
+      "reported_checks": 36,
+      "locator_errors": 0,
+      "locator_opportunities": 39,
+      "dependent_blocker_labels": 2,
+      "output_bytes": 9503,
+      "units": 12,
+      "omission_rate": 0.0,
+      "assertion_error_rate": 0.0,
+      "locator_error_rate": 0.0
+    }
+  },
+  "per_unit": {
+    "checklist": [
+      {
+        "unit_id": "u001",
+        "stratum": "gaps",
+        "material_blockers": 2,
+        "omitted_blockers": 1,
+        "incorrect_assertions": 0,
+        "reported_checks": 1,
+        "locator_errors": 0,
+        "locator_opportunities": 1,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 566
+      },
+      {
+        "unit_id": "u002",
+        "stratum": "gaps",
+        "material_blockers": 2,
+        "omitted_blockers": 1,
+        "incorrect_assertions": 0,
+        "reported_checks": 1,
+        "locator_errors": 0,
+        "locator_opportunities": 1,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 568
+      },
+      {
+        "unit_id": "u003",
+        "stratum": "gaps",
+        "material_blockers": 2,
+        "omitted_blockers": 1,
+        "incorrect_assertions": 0,
+        "reported_checks": 1,
+        "locator_errors": 0,
+        "locator_opportunities": 1,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 570
+      },
+      {
+        "unit_id": "u004",
+        "stratum": "identity",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 746
+      },
+      {
+        "unit_id": "u005",
+        "stratum": "identity",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 746
+      },
+      {
+        "unit_id": "u006",
+        "stratum": "identity",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 746
+      },
+      {
+        "unit_id": "u007",
+        "stratum": "conflict",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 1,
+        "locator_errors": 0,
+        "locator_opportunities": 1,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 580
+      },
+      {
+        "unit_id": "u008",
+        "stratum": "conflict",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 1,
+        "locator_errors": 0,
+        "locator_opportunities": 1,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 584
+      },
+      {
+        "unit_id": "u009",
+        "stratum": "conflict",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 1,
+        "locator_errors": 0,
+        "locator_opportunities": 1,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 585
+      },
+      {
+        "unit_id": "u010",
+        "stratum": "control",
+        "material_blockers": 0,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 4,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 775
+      },
+      {
+        "unit_id": "u011",
+        "stratum": "control",
+        "material_blockers": 0,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 4,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 790
+      },
+      {
+        "unit_id": "u012",
+        "stratum": "control",
+        "material_blockers": 0,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 4,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 779
+      }
+    ],
+    "trace": [
+      {
+        "unit_id": "u001",
+        "stratum": "gaps",
+        "material_blockers": 2,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 1,
+        "label_matches_key": true,
+        "output_bytes": 821
+      },
+      {
+        "unit_id": "u002",
+        "stratum": "gaps",
+        "material_blockers": 2,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 1,
+        "label_matches_key": true,
+        "output_bytes": 823
+      },
+      {
+        "unit_id": "u003",
+        "stratum": "gaps",
+        "material_blockers": 2,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 796
+      },
+      {
+        "unit_id": "u004",
+        "stratum": "identity",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 779
+      },
+      {
+        "unit_id": "u005",
+        "stratum": "identity",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 779
+      },
+      {
+        "unit_id": "u006",
+        "stratum": "identity",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 779
+      },
+      {
+        "unit_id": "u007",
+        "stratum": "conflict",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 781
+      },
+      {
+        "unit_id": "u008",
+        "stratum": "conflict",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 785
+      },
+      {
+        "unit_id": "u009",
+        "stratum": "conflict",
+        "material_blockers": 1,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 3,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 786
+      },
+      {
+        "unit_id": "u010",
+        "stratum": "control",
+        "material_blockers": 0,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 4,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 785
+      },
+      {
+        "unit_id": "u011",
+        "stratum": "control",
+        "material_blockers": 0,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 4,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 800
+      },
+      {
+        "unit_id": "u012",
+        "stratum": "control",
+        "material_blockers": 0,
+        "omitted_blockers": 0,
+        "incorrect_assertions": 0,
+        "reported_checks": 3,
+        "locator_errors": 0,
+        "locator_opportunities": 4,
+        "dependent_blocker_labels": 0,
+        "label_matches_key": true,
+        "output_bytes": 789
+      }
+    ]
+  },
+  "label_arithmetic": {
+    "checklist": {
+      "status": "label arithmetic only; rationale and key not validated",
+      "rules_version": "technical-evidence-evaluation/0.1",
+      "rules_sha256": "8e6fd15a3505a56f4f68ce54ca9f195bf40fdd31c5bb6fca9edff074d46e027f",
+      "evaluator_sha256": "d351c4372af0d6534f6e1a9b7779d5831597c29e83e0b4fd5efa06c241508ead",
+      "unit_count": 12,
+      "matrix": {
+        "supported_effect": {
+          "effect_supported": 1,
+          "fault_supported": 0,
+          "unresolved": 0
+        },
+        "supported_fault": {
+          "effect_supported": 0,
+          "fault_supported": 2,
+          "unresolved": 0
+        },
+        "unresolved": {
+          "effect_supported": 0,
+          "fault_supported": 0,
+          "unresolved": 9
+        }
+      },
+      "metrics": {
+        "unsupported_reassurance": {
+          "numerator": 0,
+          "denominator": 11,
+          "rate": 0.0
+        },
+        "missed_documented_fault": {
+          "numerator": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "appropriate_uncertainty": {
+          "numerator": 9,
+          "denominator": 9,
+          "rate": 1.0
+        },
+        "unsupported_negative": {
+          "numerator": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "unnecessary_abstention": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "supported_effect_recognition": {
+          "numerator": 1,
+          "denominator": 1,
+          "rate": 1.0
+        }
+      }
+    },
+    "trace": {
+      "status": "label arithmetic only; rationale and key not validated",
+      "rules_version": "technical-evidence-evaluation/0.1",
+      "rules_sha256": "8e6fd15a3505a56f4f68ce54ca9f195bf40fdd31c5bb6fca9edff074d46e027f",
+      "evaluator_sha256": "d351c4372af0d6534f6e1a9b7779d5831597c29e83e0b4fd5efa06c241508ead",
+      "unit_count": 12,
+      "matrix": {
+        "supported_effect": {
+          "effect_supported": 1,
+          "fault_supported": 0,
+          "unresolved": 0
+        },
+        "supported_fault": {
+          "effect_supported": 0,
+          "fault_supported": 2,
+          "unresolved": 0
+        },
+        "unresolved": {
+          "effect_supported": 0,
+          "fault_supported": 0,
+          "unresolved": 9
+        }
+      },
+      "metrics": {
+        "unsupported_reassurance": {
+          "numerator": 0,
+          "denominator": 11,
+          "rate": 0.0
+        },
+        "missed_documented_fault": {
+          "numerator": 0,
+          "denominator": 2,
+          "rate": 0.0
+        },
+        "appropriate_uncertainty": {
+          "numerator": 9,
+          "denominator": 9,
+          "rate": 1.0
+        },
+        "unsupported_negative": {
+          "numerator": 0,
+          "denominator": 10,
+          "rate": 0.0
+        },
+        "unnecessary_abstention": {
+          "numerator": 0,
+          "denominator": 3,
+          "rate": 0.0
+        },
+        "supported_effect_recognition": {
+          "numerator": 1,
+          "denominator": 1,
+          "rate": 1.0
+        }
+      }
+    }
+  },
+  "added_trace_bytes": 1468,
+  "added_trace_checks": 12,
+  "limitations": [
+    "Constructed packet content, not independently observed execution.",
+    "Key and procedures share author exposure and contract assumptions.",
+    "Coverage difference is expected from the output design.",
+    "Bytes are not a measure of human reading burden or value."
+  ]
+}
