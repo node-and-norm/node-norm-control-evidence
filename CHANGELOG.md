@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Reviewed all 32 missingness proposals and clarified twelve withheld-record statements before execution. Retained labels conditionally; documented package differences, three-label scope and order confounding. No live inference.
+
 Prepared an eight-packet missingness-factorial design, structured question candidate and separate option-order sensitivity. Offline schedule only; no live inference or held-out evaluation.
 
 Preserved the first answer-level live run: eight attempts, 30/32 eligible answers, two sum exclusions, primary action paired coverage 1/2. Historical results unchanged; later-stage disagreements persist.

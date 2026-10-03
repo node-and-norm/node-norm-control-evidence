@@ -1,0 +1,529 @@
+{
+  "cards_sha256": "7c90b5275b89a3bed047f3eaed9b06dc35d7a7c815ee07ead63fdeb8df49649f",
+  "judgments": [
+    {
+      "card_id": "MB-01",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "action",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "yes"
+    },
+    {
+      "card_id": "MB-01",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "outcome_mitigation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E4",
+          "text": "No information about account outcome attributable to R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-01",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "propagation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E2",
+          "text": "No information about receipt by W of R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-01",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "trajectory_effect",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E3",
+          "text": "No information about execution of J after R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-02",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "action",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "yes"
+    },
+    {
+      "card_id": "MB-02",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "outcome_mitigation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E4",
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-02",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "propagation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E2",
+          "text": "No information about receipt by W of R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-02",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "trajectory_effect",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E3",
+          "text": "No information about execution of J after R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-03",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "action",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "yes"
+    },
+    {
+      "card_id": "MB-03",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "outcome_mitigation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E4",
+          "text": "No information about account outcome attributable to R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-03",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "propagation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E2",
+          "text": "No information about receipt by W of R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-03",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "trajectory_effect",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E3",
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-04",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "action",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "yes"
+    },
+    {
+      "card_id": "MB-04",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "outcome_mitigation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E4",
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-04",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "propagation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E2",
+          "text": "No information about receipt by W of R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-04",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "trajectory_effect",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E3",
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-05",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "action",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "yes"
+    },
+    {
+      "card_id": "MB-05",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "outcome_mitigation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E4",
+          "text": "No information about account outcome attributable to R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-05",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "propagation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E2",
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-05",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "trajectory_effect",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E3",
+          "text": "No information about execution of J after R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-06",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "action",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "yes"
+    },
+    {
+      "card_id": "MB-06",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "outcome_mitigation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E4",
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-06",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "propagation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E2",
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-06",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "trajectory_effect",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E3",
+          "text": "No information about execution of J after R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-07",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "action",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "yes"
+    },
+    {
+      "card_id": "MB-07",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "outcome_mitigation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E4",
+          "text": "No information about account outcome attributable to R is supplied. No access restriction to this information is reported."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_reported"
+    },
+    {
+      "card_id": "MB-07",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "propagation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E2",
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-07",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "trajectory_effect",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E3",
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-08",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "action",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E1",
+          "text": "The console issued stop request R targeting fee job J."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "yes"
+    },
+    {
+      "card_id": "MB-08",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "outcome_mitigation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E4",
+          "text": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-08",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "propagation",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E2",
+          "text": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    },
+    {
+      "card_id": "MB-08",
+      "condition": "Under documentary-support standard 001; restriction concerns evidence about a proposition and does not establish that proposition.",
+      "dimension": "trajectory_effect",
+      "disposition": "conditionally_retained",
+      "evidence": [
+        {
+          "id": "E3",
+          "text": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable."
+        }
+      ],
+      "independent_adjudication": false,
+      "proposed_label": "not_observable"
+    }
+  ],
+  "packet_clarifications": [
+    {
+      "after": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of account outcome attributable to R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-02",
+      "evidence_id": "E4"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of execution of J after R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-03",
+      "evidence_id": "E3"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of execution of J after R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-04",
+      "evidence_id": "E3"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of account outcome attributable to R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-04",
+      "evidence_id": "E4"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of receipt by W of R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-05",
+      "evidence_id": "E2"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of receipt by W of R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-06",
+      "evidence_id": "E2"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of account outcome attributable to R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-06",
+      "evidence_id": "E4"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of receipt by W of R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-07",
+      "evidence_id": "E2"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of execution of J after R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-07",
+      "evidence_id": "E3"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether W received R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of receipt by W of R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-08",
+      "evidence_id": "E2"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether R changed the execution of J but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of execution of J after R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-08",
+      "evidence_id": "E3"
+    },
+    {
+      "after": "The custodian identifies a record addressing whether R prevented, reduced or remedied the specified debit from J but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "before": "The custodian identifies the record of account outcome attributable to R but withholds it under an explicit access restriction. Its contents are unavailable.",
+      "card_id": "MB-08",
+      "evidence_id": "E4"
+    }
+  ],
+  "reference_sha256": "1a02fe50d189af627f98708c8ec51fc7fa072d584cc817f4802d98d56e1e911d",
+  "status": "Exposed AI-assisted review before execution; no independent adjudication"
+}

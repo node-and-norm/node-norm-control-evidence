@@ -27,3 +27,7 @@ Use the new answer-level contract, unchanged sum tolerance, and unresolved-refer
 Run `python3 experiments/jev-cec/missingness-boundary-001/prepare.py --output build/missingness-boundary-001` from the repository root. The preparer has no network transport and emits an answer-free schedule with source hashes. Local card IDs and reference labels stay outside payloads. Payload hashes preserve option order.
 
 Review reference ambiguity and candidate semantic changes before implementing a runner. Specify the complete paired analysis, budgets, stopping rules and a source freeze before dispatch; this preparation is not an execution freeze. A later evaluation set must be developed separately and kept out of tuning, with independence limitations disclosed. No private or independent holdout exists yet. Stop this development sequence if revisions merely fit these eight examples without resolving a defined boundary.
+
+## Pre-execution review
+
+The [wording and reference review](REVIEW.md) retains all 32 proposals conditionally and clarifies twelve withheld-record statements to avoid implying observed outcomes. Its edit ledger preserves the earlier text. Implementation should use the revised packets and disclose the three-label coverage and instruction-package differences.
