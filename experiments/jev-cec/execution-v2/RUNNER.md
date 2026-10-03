@@ -21,3 +21,7 @@ A changed price, limit or model requires amendment before dispatch. The client r
 Normalized reference values come from the exposed review and prevention proposals under standard 001. Frozen values remain contestable; a freeze preserves the comparison rather than validating it. The missingness and applicability decisions remain experimental. Human review requirements are still open.
 
 Review the saved mock accounting and source hashes, recheck official service availability and prices, then run a separately identified live archive under the fixed contract. Preserve all failures and keep the first pass primary. Any subsequent amendment must keep this source freeze and earlier outputs recoverable in Git history.
+
+## Preserved rehearsal
+
+[mock-001](mock-001/manifest.json) was produced from clean implementation commit `758ea7c` with zero live requests. All 90 mock responses passed, and a repository test reproduces the report exactly from preserved response bytes and reference. This confirms mechanical accounting only. The uniform mock service does not assess the evidence or consult the key.
