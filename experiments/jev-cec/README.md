@@ -33,3 +33,7 @@ The [runner guide](execution-v1/RUNNER.md) documents the implemented bounded tra
 ## Successor development
 
 The [four-question development draft](development-v2/README.md) supplies sixteen paired cases and proposed reference labels. It remains unrun and unfrozen. See the [results figure and formulas](../../docs/figures/README.md) for the original run.
+
+## Four-question implementation
+
+The [v2 runner checkpoint](execution-v2/RUNNER.md) implements the prospective contract and source freeze. Mock validation makes no new model calls; the v1 live findings remain separate.

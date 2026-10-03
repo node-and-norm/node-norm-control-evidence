@@ -25,3 +25,9 @@ All discrepancies remain unresolved review items. No rescoring of v1, canonical 
 This tranche supplies an offline schedule only. The v1 runner remains a three-question implementation and must not execute this schedule. Before live work, implement and test four-question response validation, accounting, arithmetic, budget enforcement and interruption handling using an in-memory service.
 
 Then freeze exact cards, questions, normalized proposed references, decision documents, implementation and analysis hashes together at a committed revision. The current schedule hashes request bytes but is not that full freeze. It must not be described as ready for dispatch. Preserve raw request/response bytes, attempts, source snapshots and a manifest in a new exclusive output directory; never record credentials. Publication requires artifact verification and a secret scan.
+
+## Implementation checkpoint before successor inference
+
+The v2 implementation now uses separate modules and a normalized reference derived from the exposed review plus prevention proposals. Values are unchanged; standard 001 supplies their conditional interpretation. The source freeze covers inputs, operational decisions, normalized reference, scheduler, validator, analysis and runner. The mock transport returns uniform probabilities without consulting the reference.
+
+The implementation's preflight requires input pricing of USD 0.042 per million, zero output charge and a 64,000-token combined limit, checked on the live execution date. These are supported configurations, not a fresh assertion of provider pricing. The 90-request planning bound is USD 0.24192 at those settings. Any difference requires amendment before dispatch. Live execution additionally requires a clean committed checkout. No live run is reported at this checkpoint.
