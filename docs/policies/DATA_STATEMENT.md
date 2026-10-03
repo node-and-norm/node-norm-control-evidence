@@ -8,7 +8,7 @@ This development version contains three synthetic event-control examples and no 
 
 The separate [TAE/HIT sandbox](../../experiments/us-control-sandbox/README.md) contains sixteen authored conditions and saved execution records, including deliberate faults and evidence-withholding cases. They remain outside the empirical corpus and are not coded CEC observations. Full reference documents are excluded from publication; source links and locally acquired-byte hashes remain. See its [publication record](../../experiments/us-control-sandbox/PUBLICATION.md).
 
-The separate [Jev experiment](../../experiments/jev-cec/README.md) preserves twelve invented packets, 36 live attempts, raw outputs and an exposed AI-assisted boundary review. The [successor draft](../../experiments/jev-cec/development-v2/README.md) contains sixteen original unrun packets and a ten-packet expansion, with proposed labels and a separate exposed review of all 104 judgments. Neither collection is an empirical corpus or independent validation set.
+The separate [Jev experiment](../../experiments/jev-cec/README.md) preserves twelve invented packets, 36 live attempts, raw outputs and an exposed AI-assisted boundary review. The [successor draft](../../experiments/jev-cec/development-v2/README.md) contains sixteen original unrun packets and a ten-packet expansion, with proposed labels and a separate exposed review of those 104 judgments. Four further prevention contrasts add sixteen located proposals, bringing the candidate set to 30 cards (29 unique states). Neither collection is an empirical corpus or independent validation set.
 
 ## Intended data and inference
 

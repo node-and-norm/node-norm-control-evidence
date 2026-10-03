@@ -47,3 +47,7 @@ Before a run, create service-compatible questions without the reference, validat
 ## Operational evidence standard
 
 [Standard 001](standard-001/DECISION.md) makes the documentary evidence threshold explicit and records the disputed alternatives. It supplies four-question offline preparation while preserving all prior proposals and exposed review concerns. Run `python experiments/jev-cec/development-v2/prepare_standard.py --output build/cec-standard-001` to inspect requests. Execution remains unfrozen.
+
+## Prevention contrasts and execution contract
+
+[Prevention 001](prevention-001/README.md) adds four packets, bringing the candidate set to 30 cards with 29 unique states. The [four-question contract](../execution-v2/PROTOCOL.md) defines a 90-request prospective schedule. Its offline preparer is separate from the older 26-card preparer. Live implementation and a full source freeze remain pending.

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "V2-14-A",
+    "pair_id": "chain_completeness",
+    "synthetic": true,
+    "scope": {
+      "objective": "Prevent the specified ten-dollar fee on account A during the interval.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent that fee on A, including any alternate posting route.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur in this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued R for J; W received R and records that R cancelled J before execution. No account statement is supplied."
+      },
+      {
+        "id": "E2",
+        "text": "The packet supplies no mechanism connecting J to the fee and no account outcome information."
+      }
+    ]
+  },
+  {
+    "id": "V2-14-B",
+    "pair_id": "chain_completeness",
+    "synthetic": true,
+    "scope": {
+      "objective": "Prevent the specified ten-dollar fee on account A during the interval.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent that fee on A, including any alternate posting route.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur in this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued R for J; W received R and records that R cancelled J before execution. No account statement is supplied."
+      },
+      {
+        "id": "E2",
+        "text": "The mechanism record states J can post the fee only upon execution; no fee was posted before R, and J is the sole fee-posting route throughout the interval."
+      }
+    ]
+  },
+  {
+    "id": "V2-15-A",
+    "pair_id": "competing_route",
+    "synthetic": true,
+    "scope": {
+      "objective": "Prevent the specified ten-dollar fee on account A during the interval.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent that fee on A, including any alternate posting route.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur in this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued R for J; W received R and records that R cancelled J before execution. No account statement is supplied."
+      },
+      {
+        "id": "E2",
+        "text": "The mechanism record states J can post the fee only upon execution; no fee was posted before R, and J is the sole fee-posting route throughout the interval."
+      }
+    ]
+  },
+  {
+    "id": "V2-15-B",
+    "pair_id": "competing_route",
+    "synthetic": true,
+    "scope": {
+      "objective": "Prevent the specified ten-dollar fee on account A during the interval.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution.",
+      "consequence": "Prevent that fee on A, including any alternate posting route.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur in this interval."
+    },
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued R for J; W received R and records that R cancelled J before execution. No account statement is supplied."
+      },
+      {
+        "id": "E2",
+        "text": "The mechanism record states J can post the fee only upon execution; no fee was posted before R. A separate process K could post the same fee during the interval; its execution status and effect are unresolved in the supplied record."
+      }
+    ]
+  }
+]
