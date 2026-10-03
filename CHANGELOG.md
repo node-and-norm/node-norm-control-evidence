@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Defined experimental documentary-support standard 001, including admissible inference, applicability and missingness precedence. Added four-question offline preparation and answer-isolation checks. Retained all proposed labels conditionally, preserved alternative interpretations and kept execution unfrozen. No new inference.
+
 Added ten successor development packets covering the five documented gaps and an exposed review of all 104 proposed judgments across 26 packets. Recorded unresolved cancellation-to-consequence and applicability issues; original labels and archives remain unchanged. No inference or new release.
 
 ## v0.2.0-dev · 2026-10-03 UTC

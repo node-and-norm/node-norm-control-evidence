@@ -43,3 +43,7 @@ Before a run, create service-compatible questions without the reference, validat
 ## Subsequent expansion and full reference review
 
 [Expansion 001](expansion-001/README.md) adds ten packets for the five listed gaps and reviews all 104 judgments across the combined 26 packets. The original sixteen cards above remain intact. All eight labels now occur, but construct issues remain open and execution remains unfrozen.
+
+## Operational evidence standard
+
+[Standard 001](standard-001/DECISION.md) makes the documentary evidence threshold explicit and records the disputed alternatives. It supplies four-question offline preparation while preserving all prior proposals and exposed review concerns. Run `python experiments/jev-cec/development-v2/prepare_standard.py --output build/cec-standard-001` to inspect requests. Execution remains unfrozen.
