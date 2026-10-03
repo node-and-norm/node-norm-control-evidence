@@ -1,0 +1,98 @@
+{
+  "action": {
+    "criteria": {
+      "conflicting": "Material evidence supports incompatible readings which the coding rule cannot resolve.",
+      "no": "Evidence affirmatively supports its absence or negation. Silence does not establish no.",
+      "not_applicable": "The proposition has no role for this particular control mechanism.",
+      "not_observable": {
+        "definition": "An explicit access barrier prevents inspecting evidence necessary for this proposition.",
+        "exclusion": "Do not apply because an unrelated record is restricted."
+      },
+      "not_reported": {
+        "definition": "Necessary information for this proposition is absent from the packet, without a stated access barrier to that information.",
+        "exclusion": "A restriction on evidence for a different proposition does not change this label."
+      },
+      "partial": "Evidence establishes an identified subset of the proposition while another part remains unsupported.",
+      "unknown": "Available evidence leaves a residual ambiguity after more specific missingness categories are considered.",
+      "yes": "Evidence affirmatively supports the complete proposition in the specified period."
+    },
+    "instructions": {
+      "evidence_rule": "Use supplied evidence only. Scope specifies the claim to inspect, not an observed outcome. Evaluate this proposition separately. An access restriction applies only to evidence necessary for this proposition. Do not infer a receipt, execution change or account consequence from issuance.",
+      "proposition": "Classify this proposition: Evidence identifies the specified intervention issued or attempted during the interval.",
+      "support_rule": "Accept explicit attribution or a complete supplied chain. Do not invent missing links. Preserve conflict, partial support and applicability distinctions."
+    },
+    "type": "choice"
+  },
+  "outcome_mitigation": {
+    "criteria": {
+      "conflicting": "Material evidence supports incompatible readings which the coding rule cannot resolve.",
+      "no": "Evidence affirmatively supports its absence or negation. Silence does not establish no.",
+      "not_applicable": "The proposition has no role for this particular control mechanism.",
+      "not_observable": {
+        "definition": "An explicit access barrier prevents inspecting evidence necessary for this proposition.",
+        "exclusion": "Do not apply because an unrelated record is restricted."
+      },
+      "not_reported": {
+        "definition": "Necessary information for this proposition is absent from the packet, without a stated access barrier to that information.",
+        "exclusion": "A restriction on evidence for a different proposition does not change this label."
+      },
+      "partial": "Evidence establishes an identified subset of the proposition while another part remains unsupported.",
+      "unknown": "Available evidence leaves a residual ambiguity after more specific missingness categories are considered.",
+      "yes": "Evidence affirmatively supports the complete proposition in the specified period."
+    },
+    "instructions": {
+      "evidence_rule": "Use supplied evidence only. Scope specifies the claim to inspect, not an observed outcome. Evaluate this proposition separately. An access restriction applies only to evidence necessary for this proposition. Do not infer a receipt, execution change or account consequence from issuance.",
+      "proposition": "Classify this proposition: Evidence links the intervention to prevention, reduction or remedy of the named consequence within the interval.",
+      "support_rule": "Accept explicit attribution or a complete supplied chain. Do not invent missing links. Preserve conflict, partial support and applicability distinctions."
+    },
+    "type": "choice"
+  },
+  "propagation": {
+    "criteria": {
+      "conflicting": "Material evidence supports incompatible readings which the coding rule cannot resolve.",
+      "no": "Evidence affirmatively supports its absence or negation. Silence does not establish no.",
+      "not_applicable": "The proposition has no role for this particular control mechanism.",
+      "not_observable": {
+        "definition": "An explicit access barrier prevents inspecting evidence necessary for this proposition.",
+        "exclusion": "Do not apply because an unrelated record is restricted."
+      },
+      "not_reported": {
+        "definition": "Necessary information for this proposition is absent from the packet, without a stated access barrier to that information.",
+        "exclusion": "A restriction on evidence for a different proposition does not change this label."
+      },
+      "partial": "Evidence establishes an identified subset of the proposition while another part remains unsupported.",
+      "unknown": "Available evidence leaves a residual ambiguity after more specific missingness categories are considered.",
+      "yes": "Evidence affirmatively supports the complete proposition in the specified period."
+    },
+    "instructions": {
+      "evidence_rule": "Use supplied evidence only. Scope specifies the claim to inspect, not an observed outcome. Evaluate this proposition separately. An access restriction applies only to evidence necessary for this proposition. Do not infer a receipt, execution change or account consequence from issuance.",
+      "proposition": "Classify this proposition: Evidence establishes receipt at all named downstream targets during the interval.",
+      "support_rule": "Accept explicit attribution or a complete supplied chain. Do not invent missing links. Preserve conflict, partial support and applicability distinctions."
+    },
+    "type": "choice"
+  },
+  "trajectory_effect": {
+    "criteria": {
+      "conflicting": "Material evidence supports incompatible readings which the coding rule cannot resolve.",
+      "no": "Evidence affirmatively supports its absence or negation. Silence does not establish no.",
+      "not_applicable": "The proposition has no role for this particular control mechanism.",
+      "not_observable": {
+        "definition": "An explicit access barrier prevents inspecting evidence necessary for this proposition.",
+        "exclusion": "Do not apply because an unrelated record is restricted."
+      },
+      "not_reported": {
+        "definition": "Necessary information for this proposition is absent from the packet, without a stated access barrier to that information.",
+        "exclusion": "A restriction on evidence for a different proposition does not change this label."
+      },
+      "partial": "Evidence establishes an identified subset of the proposition while another part remains unsupported.",
+      "unknown": "Available evidence leaves a residual ambiguity after more specific missingness categories are considered.",
+      "yes": "Evidence affirmatively supports the complete proposition in the specified period."
+    },
+    "instructions": {
+      "evidence_rule": "Use supplied evidence only. Scope specifies the claim to inspect, not an observed outcome. Evaluate this proposition separately. An access restriction applies only to evidence necessary for this proposition. Do not infer a receipt, execution change or account consequence from issuance.",
+      "proposition": "Classify this proposition: Evidence links the intervention to the scoped system change during the interval, considering supplied alternatives.",
+      "support_rule": "Accept explicit attribution or a complete supplied chain. Do not invent missing links. Preserve conflict, partial support and applicability distinctions."
+    },
+    "type": "choice"
+  }
+}

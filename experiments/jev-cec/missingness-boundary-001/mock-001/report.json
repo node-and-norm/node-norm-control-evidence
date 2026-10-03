@@ -1,0 +1,3926 @@
+{
+  "mode": "mock",
+  "interpretation": "Mock plumbing only",
+  "scheduled_requests": 32,
+  "attempted_requests": 32,
+  "request_counts": {
+    "http_error": 0,
+    "interrupted": 0,
+    "invalid": 0,
+    "not_attempted": 0,
+    "partial": 0,
+    "transport_error": 0,
+    "valid": 32
+  },
+  "eligibility_counts": {
+    "eligible": 128,
+    "excluded": 0,
+    "scheduled": 128
+  },
+  "whole_response_eligible_judgments": 128,
+  "primary_order": "canonical",
+  "orders": {
+    "canonical": {
+      "conditions": {
+        "shared": {
+          "by_dimension": {
+            "action": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "outcome_mitigation": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "propagation": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "trajectory_effect": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            }
+          },
+          "edges": [
+            {
+              "cards": [
+                "MB-01",
+                "MB-02"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-01",
+                "MB-03"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-01",
+                "MB-05"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-02",
+                "MB-04"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-02",
+                "MB-06"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-03",
+                "MB-04"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-03",
+                "MB-07"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-04",
+                "MB-08"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-05",
+                "MB-06"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-05",
+                "MB-07"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-06",
+                "MB-08"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-07",
+                "MB-08"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            }
+          ],
+          "target_edges_eligible": 12,
+          "unrelated_edges_eligible": 12,
+          "scheduled_edges": 12
+        },
+        "structured": {
+          "by_dimension": {
+            "action": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "outcome_mitigation": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "propagation": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "trajectory_effect": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            }
+          },
+          "edges": [
+            {
+              "cards": [
+                "MB-01",
+                "MB-02"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-01",
+                "MB-03"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-01",
+                "MB-05"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-02",
+                "MB-04"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-02",
+                "MB-06"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-03",
+                "MB-04"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-03",
+                "MB-07"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-04",
+                "MB-08"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-05",
+                "MB-06"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-05",
+                "MB-07"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-06",
+                "MB-08"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-07",
+                "MB-08"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            }
+          ],
+          "target_edges_eligible": 12,
+          "unrelated_edges_eligible": 12,
+          "scheduled_edges": 12
+        }
+      },
+      "paired": [
+        {
+          "card_id": "MB-01",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-01",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-01",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-01",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-02",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-02",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-02",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-02",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-03",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-03",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-03",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-03",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-04",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-04",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-04",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-04",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-05",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-05",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-05",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-05",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-06",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-06",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-06",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-06",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-07",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-07",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-07",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-07",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-08",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-08",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-08",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-08",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        }
+      ],
+      "paired_counts": {
+        "neither": 32
+      },
+      "scheduled_pairs": 32
+    },
+    "reversed": {
+      "conditions": {
+        "shared": {
+          "by_dimension": {
+            "action": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "outcome_mitigation": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "propagation": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "trajectory_effect": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            }
+          },
+          "edges": [
+            {
+              "cards": [
+                "MB-01",
+                "MB-02"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-01",
+                "MB-03"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-01",
+                "MB-05"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-02",
+                "MB-04"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-02",
+                "MB-06"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-03",
+                "MB-04"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-03",
+                "MB-07"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-04",
+                "MB-08"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-05",
+                "MB-06"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-05",
+                "MB-07"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-06",
+                "MB-08"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-07",
+                "MB-08"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            }
+          ],
+          "target_edges_eligible": 12,
+          "unrelated_edges_eligible": 12,
+          "scheduled_edges": 12
+        },
+        "structured": {
+          "by_dimension": {
+            "action": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "outcome_mitigation": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "propagation": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            },
+            "trajectory_effect": {
+              "scheduled": 8,
+              "eligible": 8,
+              "scorable": 8,
+              "matches": 0,
+              "agreement": 0.0
+            }
+          },
+          "edges": [
+            {
+              "cards": [
+                "MB-01",
+                "MB-02"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-01",
+                "MB-03"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-01",
+                "MB-05"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-02",
+                "MB-04"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-02",
+                "MB-06"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-03",
+                "MB-04"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-03",
+                "MB-07"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-04",
+                "MB-08"
+              ],
+              "target_dimension": "propagation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-05",
+                "MB-06"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-05",
+                "MB-07"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-06",
+                "MB-08"
+              ],
+              "target_dimension": "trajectory_effect",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            },
+            {
+              "cards": [
+                "MB-07",
+                "MB-08"
+              ],
+              "target_dimension": "outcome_mitigation",
+              "target_eligible": true,
+              "target_choices": [
+                "unknown",
+                "unknown"
+              ],
+              "target_matches_proposals": false,
+              "unrelated_eligible": true,
+              "unrelated_changes": 0
+            }
+          ],
+          "target_edges_eligible": 12,
+          "unrelated_edges_eligible": 12,
+          "scheduled_edges": 12
+        }
+      },
+      "paired": [
+        {
+          "card_id": "MB-01",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-01",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-01",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-01",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-02",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-02",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-02",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-02",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-03",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-03",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-03",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-03",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-04",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-04",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-04",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-04",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-05",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-05",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-05",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-05",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-06",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-06",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-06",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-06",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-07",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-07",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-07",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-07",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-08",
+          "dimension": "action",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-08",
+          "dimension": "outcome_mitigation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-08",
+          "dimension": "propagation",
+          "category": "neither"
+        },
+        {
+          "card_id": "MB-08",
+          "dimension": "trajectory_effect",
+          "category": "neither"
+        }
+      ],
+      "paired_counts": {
+        "neither": 32
+      },
+      "scheduled_pairs": 32
+    }
+  },
+  "determinations": [
+    {
+      "attempt_id": "canonical-MB-01-shared",
+      "card_id": "MB-01",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-01-shared",
+      "card_id": "MB-01",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-01-shared",
+      "card_id": "MB-01",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-01-shared",
+      "card_id": "MB-01",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-01-structured",
+      "card_id": "MB-01",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-01-structured",
+      "card_id": "MB-01",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-01-structured",
+      "card_id": "MB-01",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-01-structured",
+      "card_id": "MB-01",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-02-structured",
+      "card_id": "MB-02",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-02-structured",
+      "card_id": "MB-02",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-02-structured",
+      "card_id": "MB-02",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-02-structured",
+      "card_id": "MB-02",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-02-shared",
+      "card_id": "MB-02",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-02-shared",
+      "card_id": "MB-02",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-02-shared",
+      "card_id": "MB-02",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-02-shared",
+      "card_id": "MB-02",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-03-shared",
+      "card_id": "MB-03",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-03-shared",
+      "card_id": "MB-03",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-03-shared",
+      "card_id": "MB-03",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-03-shared",
+      "card_id": "MB-03",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-03-structured",
+      "card_id": "MB-03",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-03-structured",
+      "card_id": "MB-03",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-03-structured",
+      "card_id": "MB-03",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-03-structured",
+      "card_id": "MB-03",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-04-structured",
+      "card_id": "MB-04",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-04-structured",
+      "card_id": "MB-04",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-04-structured",
+      "card_id": "MB-04",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-04-structured",
+      "card_id": "MB-04",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-04-shared",
+      "card_id": "MB-04",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-04-shared",
+      "card_id": "MB-04",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-04-shared",
+      "card_id": "MB-04",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-04-shared",
+      "card_id": "MB-04",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-05-shared",
+      "card_id": "MB-05",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-05-shared",
+      "card_id": "MB-05",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-05-shared",
+      "card_id": "MB-05",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-05-shared",
+      "card_id": "MB-05",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-05-structured",
+      "card_id": "MB-05",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-05-structured",
+      "card_id": "MB-05",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-05-structured",
+      "card_id": "MB-05",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-05-structured",
+      "card_id": "MB-05",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-06-structured",
+      "card_id": "MB-06",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-06-structured",
+      "card_id": "MB-06",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-06-structured",
+      "card_id": "MB-06",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-06-structured",
+      "card_id": "MB-06",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-06-shared",
+      "card_id": "MB-06",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-06-shared",
+      "card_id": "MB-06",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-06-shared",
+      "card_id": "MB-06",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-06-shared",
+      "card_id": "MB-06",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-07-shared",
+      "card_id": "MB-07",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-07-shared",
+      "card_id": "MB-07",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-07-shared",
+      "card_id": "MB-07",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-07-shared",
+      "card_id": "MB-07",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-07-structured",
+      "card_id": "MB-07",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-07-structured",
+      "card_id": "MB-07",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-07-structured",
+      "card_id": "MB-07",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-07-structured",
+      "card_id": "MB-07",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-08-structured",
+      "card_id": "MB-08",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-08-structured",
+      "card_id": "MB-08",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-08-structured",
+      "card_id": "MB-08",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-08-structured",
+      "card_id": "MB-08",
+      "condition": "structured",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-08-shared",
+      "card_id": "MB-08",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-08-shared",
+      "card_id": "MB-08",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-08-shared",
+      "card_id": "MB-08",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "canonical-MB-08-shared",
+      "card_id": "MB-08",
+      "condition": "shared",
+      "order": "canonical",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "conflicting": 0.125,
+        "no": 0.125,
+        "not_applicable": 0.125,
+        "not_observable": 0.125,
+        "not_reported": 0.125,
+        "partial": 0.125,
+        "unknown": 0.125,
+        "yes": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-01-structured",
+      "card_id": "MB-01",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-01-structured",
+      "card_id": "MB-01",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-01-structured",
+      "card_id": "MB-01",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-01-structured",
+      "card_id": "MB-01",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-01-shared",
+      "card_id": "MB-01",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-01-shared",
+      "card_id": "MB-01",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-01-shared",
+      "card_id": "MB-01",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-01-shared",
+      "card_id": "MB-01",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-02-shared",
+      "card_id": "MB-02",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-02-shared",
+      "card_id": "MB-02",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-02-shared",
+      "card_id": "MB-02",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-02-shared",
+      "card_id": "MB-02",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-02-structured",
+      "card_id": "MB-02",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-02-structured",
+      "card_id": "MB-02",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-02-structured",
+      "card_id": "MB-02",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-02-structured",
+      "card_id": "MB-02",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-03-structured",
+      "card_id": "MB-03",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-03-structured",
+      "card_id": "MB-03",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-03-structured",
+      "card_id": "MB-03",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-03-structured",
+      "card_id": "MB-03",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-03-shared",
+      "card_id": "MB-03",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-03-shared",
+      "card_id": "MB-03",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-03-shared",
+      "card_id": "MB-03",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-03-shared",
+      "card_id": "MB-03",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-04-shared",
+      "card_id": "MB-04",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-04-shared",
+      "card_id": "MB-04",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-04-shared",
+      "card_id": "MB-04",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-04-shared",
+      "card_id": "MB-04",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-04-structured",
+      "card_id": "MB-04",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-04-structured",
+      "card_id": "MB-04",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-04-structured",
+      "card_id": "MB-04",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-04-structured",
+      "card_id": "MB-04",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-05-structured",
+      "card_id": "MB-05",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-05-structured",
+      "card_id": "MB-05",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-05-structured",
+      "card_id": "MB-05",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-05-structured",
+      "card_id": "MB-05",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-05-shared",
+      "card_id": "MB-05",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-05-shared",
+      "card_id": "MB-05",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-05-shared",
+      "card_id": "MB-05",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-05-shared",
+      "card_id": "MB-05",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-06-shared",
+      "card_id": "MB-06",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-06-shared",
+      "card_id": "MB-06",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-06-shared",
+      "card_id": "MB-06",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-06-shared",
+      "card_id": "MB-06",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-06-structured",
+      "card_id": "MB-06",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-06-structured",
+      "card_id": "MB-06",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-06-structured",
+      "card_id": "MB-06",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-06-structured",
+      "card_id": "MB-06",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-07-structured",
+      "card_id": "MB-07",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-07-structured",
+      "card_id": "MB-07",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-07-structured",
+      "card_id": "MB-07",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-07-structured",
+      "card_id": "MB-07",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-07-shared",
+      "card_id": "MB-07",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-07-shared",
+      "card_id": "MB-07",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_reported",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-07-shared",
+      "card_id": "MB-07",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-07-shared",
+      "card_id": "MB-07",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-08-shared",
+      "card_id": "MB-08",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-08-shared",
+      "card_id": "MB-08",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-08-shared",
+      "card_id": "MB-08",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-08-shared",
+      "card_id": "MB-08",
+      "condition": "shared",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-08-structured",
+      "card_id": "MB-08",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "action",
+      "choice": "unknown",
+      "reference": "yes",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-08-structured",
+      "card_id": "MB-08",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "outcome_mitigation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-08-structured",
+      "card_id": "MB-08",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "propagation",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    },
+    {
+      "attempt_id": "reversed-MB-08-structured",
+      "card_id": "MB-08",
+      "condition": "structured",
+      "order": "reversed",
+      "dimension": "trajectory_effect",
+      "choice": "unknown",
+      "reference": "not_observable",
+      "matches_reference": false,
+      "probabilities": {
+        "yes": 0.125,
+        "unknown": 0.125,
+        "partial": 0.125,
+        "not_reported": 0.125,
+        "not_observable": 0.125,
+        "not_applicable": 0.125,
+        "no": 0.125,
+        "conflicting": 0.125
+      },
+      "confidence": 0
+    }
+  ],
+  "stop_reason": null,
+  "known_usage_estimated_usd": "0.000134400",
+  "unknown_usage": false,
+  "live_requests_sent": 0
+}

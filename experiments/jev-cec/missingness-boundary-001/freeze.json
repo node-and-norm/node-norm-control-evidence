@@ -1,0 +1,18 @@
+{
+  "status": "prospective_execution_source_freeze",
+  "artifacts": {
+    "answer-execution-001/eligibility.py": "16a2ab0ece74812d9893cd49bfb44d97c4d0375a2dbe072f9e1bb1cf2486b2d0",
+    "response-contract-001/ANSWER-CONTRACT.md": "f207e004970f9b79d2d68581a607a2c5a17f64fffa7e0d5fb3652599bd6d8696",
+    "packet-linkage-001/live-001/requests/P1-V2-12-A-explicit.json": "1f312fdb2fa6034bd61dff4602b136e0c68a60298ce1449a582a2da02c294861",
+    "missingness-boundary-001/PLAN.md": "2f3dfd3854c1dde82768512bf49748368007ec1b90f80abc77ad72b7d9306dd5",
+    "missingness-boundary-001/REVIEW.md": "af592599d432d1d90eff38380161a66cbad0dc003b92e34eb7baf7855b4a14bc",
+    "missingness-boundary-001/REVIEW.json": "fe6871954503a8268083c35dfc17af1e526ebeedbf01c40406b595d51d5f8378",
+    "missingness-boundary-001/cards.json": "7c90b5275b89a3bed047f3eaed9b06dc35d7a7c815ee07ead63fdeb8df49649f",
+    "missingness-boundary-001/reference.json": "1a02fe50d189af627f98708c8ec51fc7fa072d584cc817f4802d98d56e1e911d",
+    "missingness-boundary-001/candidate-questions.json": "b5ea9595cd982ccb81f716e410498a9164692e54b96ffaf81eae635a5f68695e",
+    "missingness-boundary-001/prepare.py": "c112cb9b9134fc52994f11d209fd8a414c479628faae500a224837bd7d1ca544",
+    "missingness-boundary-001/boundary_inputs.py": "f53655b1cc7aa3b51abd8c6dc87019186b11f3131ff68875c4506bb9e541f939",
+    "missingness-boundary-001/boundary_analysis.py": "6100eedce01958b02d7719a000b8ebf43c521a54d3eaa65ce29b27c1bbc57bc0",
+    "missingness-boundary-001/boundary_run.py": "b5a8858c7eab2bae1e709b6d36e74e16a1ae55ad68caf61b252812918d46b366"
+  }
+}

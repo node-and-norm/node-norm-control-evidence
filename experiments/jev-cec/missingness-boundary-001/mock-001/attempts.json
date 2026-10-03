@@ -1,0 +1,1442 @@
+[
+  {
+    "attempt_id": "canonical-MB-01-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.562155+00:00",
+    "request_sha256": "2b7fbd1f55b137158c95ef54d1606861581a497dbb99019bb93f272f86b2a851",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00018633399999998246,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-01-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.563724+00:00",
+    "request_sha256": "3af98937fa7a2bc8fdfdd31257e1dc25b111be161ecd7fa65fafe53aef98f98a",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00014100000000000223,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-02-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.565263+00:00",
+    "request_sha256": "026ed1f94115a28d485c85888ed6ca31a114af617bab61a4fa925083ee82b35f",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00014158300000000068,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-02-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.566771+00:00",
+    "request_sha256": "d10ebd1b879e417315e9922a90dd095c82faa007c66bf490ea2bd104b4f67e0e",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00013558299999999468,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-03-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.568386+00:00",
+    "request_sha256": "fffad639a6865f33a8fc2a6ae5e24b2200357939cc3aa410d53a107273c5832c",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00012837499999998614,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-03-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.570015+00:00",
+    "request_sha256": "8972d87e60a0b2b35a18956f35e8d3412651405c654f7b8766e44a57c711c4d1",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00013283299999999887,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-04-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.572121+00:00",
+    "request_sha256": "bd081aa36523ada80319cf6dd7d0afe3927503505a9210724766702d958fee2d",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00013504200000000188,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-04-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.574027+00:00",
+    "request_sha256": "aa49cdb2d979ddcb205070203dbfb96d12bf3b550c3b86084d26f3ed784fd467",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00012566699999999598,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-05-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.575984+00:00",
+    "request_sha256": "cbb0dc2e86c87e5c9f40f3b58387317331194cde2c219d80efe21f04d4f12a5a",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00012924999999999742,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-05-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.578069+00:00",
+    "request_sha256": "f655de7e9b88d5e569cac343dc6c18bc3c25a3ec047447b25aa19e3693cb702d",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00013358399999999215,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-06-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.580116+00:00",
+    "request_sha256": "72dc25d3d966a096df6eddb224f5c79eb081b0c56592fff4ec5e24b4378d075c",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00013258299999999168,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-06-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.582159+00:00",
+    "request_sha256": "4ec9d0f06b07c973d15e34499711cb47124c1f6e69902f2e2be821a90d4e7969",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00019724999999998216,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-07-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.584344+00:00",
+    "request_sha256": "b4962ffad4626c5b696dc2475c32d2bb4f481a602fdeed7d8750488500ef5f30",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00013062499999999533,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-07-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.586567+00:00",
+    "request_sha256": "38c867d62de502c08e2afcb36abb67b9141f5f1dd335668c420f1e401e22886a",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00013137499999998914,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-08-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.588914+00:00",
+    "request_sha256": "b1879758cd31119c1e64fa65582b501ef6ead820c8977c1e2eccd41bc66b4d46",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00012724999999999542,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "canonical-MB-08-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.591247+00:00",
+    "request_sha256": "631bf93dd1037c7ee58621cc796a842abdd5ebe71f59e738393aaf4281481a6d",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.0001296660000000005,
+    "response_sha256": "7a4e13746be443cd221ddbea22e85b5bc1c9f6a51d9d75b4c6f55732621dc857",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-01-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.594010+00:00",
+    "request_sha256": "c85d7542232171a4b8a5585d102ce45de5e910a6d234f3ed6c98e78f0ec8aed3",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.0001329169999999824,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-01-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.596617+00:00",
+    "request_sha256": "57d5c9d4b8d4b9571b758507672fc55143edf7a942f68c7f10840334feea93cc",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00012770800000000415,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-02-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.599270+00:00",
+    "request_sha256": "b1075de54a90bb83e74c0588b3c5cce97e20902821f68224abfafd97a022cd20",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00013354200000001426,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-02-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.601957+00:00",
+    "request_sha256": "148e0c417ceef59cb55018b6dcbd8e868d3bdf0e3b97cf17ec8d9d614e2aa70a",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.0001325419999999855,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-03-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.604822+00:00",
+    "request_sha256": "ab882a48bd1e151b6524fc0024b83845fd8b85919e9e51b14f042f1ffc2ac0c0",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.0001317919999999917,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-03-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.607657+00:00",
+    "request_sha256": "ec8e6a765d3dfd5fa7dc95648963baaa5e92a0460b152f8b171cfa79f72e2eeb",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.0001307500000000128,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-04-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.610611+00:00",
+    "request_sha256": "de133575946a50185633737714b030d5a5af0d67d0c7fe43d627c4d8695109b8",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00014037499999999814,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-04-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.613772+00:00",
+    "request_sha256": "5a426f74074384b8cf4c0648254bf675b60ec73c1caa439e3c6152a58a0a9cf7",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00012920800000001953,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-05-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.617067+00:00",
+    "request_sha256": "036e56ee4222f47fdfd5dc9bb9eb55ed1e988122c511a7cb27de945619960a32",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00012995799999998559,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-05-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.620530+00:00",
+    "request_sha256": "a66f8a1f6fee78f8fcba4c4e3ae84020acbb9291950ff3c0bbe1df375b2910c6",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00012704199999999388,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-06-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.623767+00:00",
+    "request_sha256": "a8991f909e52625de087cd0813206b715640aaee275dae003031e7140ef63476",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.0001255840000000119,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-06-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.627453+00:00",
+    "request_sha256": "c0152672a468c726b0e593f4e8fd70328ac1c600c776dcedad299932e57a1968",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.0002296659999999895,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-07-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.631264+00:00",
+    "request_sha256": "a83979a468f4b851e799ef85966f4c10cb58e7cfe240ddd2dadd5dc76512b592",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.0001351669999999916,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-07-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.634948+00:00",
+    "request_sha256": "f6eff9a812679d9d9825a138de738e7b4ae96c076818c736098d9f866caa7eb5",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.0001298340000000231,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-08-shared",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.638587+00:00",
+    "request_sha256": "c87a5eaceb1bb34807893dbe9015279e3a648ba334075bc0aaa540babc84b9e9",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00012741699999996303,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  },
+  {
+    "attempt_id": "reversed-MB-08-structured",
+    "status": "valid",
+    "started_at": "2026-10-03T22:58:12.642463+00:00",
+    "request_sha256": "786f83f08e6a5a9781a279f9b6864f134b9308ffdc6d97c56e29ede464343377",
+    "diagnostic_headers": {},
+    "http_status": 200,
+    "seconds": 0.00013970799999996064,
+    "response_sha256": "0cbdfdd41bfb18f61a0bfbadd715272de7de8274a260fbb2d1e2c8703a8a939d",
+    "usage": {
+      "input_tokens": 100,
+      "output_tokens": 30
+    },
+    "model_resolved": "jev-1.13.0",
+    "eligibility": {
+      "envelope_eligible": true,
+      "envelope_reasons": [],
+      "answers": {
+        "action": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "reasons": [],
+          "raw_sum": 1.0,
+          "sum_discrepancy": 0.0
+        }
+      }
+    }
+  }
+]
