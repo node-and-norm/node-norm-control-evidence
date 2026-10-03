@@ -1,0 +1,142 @@
+[
+  {
+    "id": "V2-14-A",
+    "status": "ai_authored_exposed_development_proposal",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records issuance."
+      },
+      "propagation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records W receipt."
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 attributes cancellation to R."
+      },
+      "outcome_mitigation": {
+        "value": "not_reported",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "rationale": "Cancellation is explicit, but the fee mechanism and outcome are unreported."
+      }
+    }
+  },
+  {
+    "id": "V2-14-B",
+    "status": "ai_authored_exposed_development_proposal",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records issuance."
+      },
+      "propagation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records W receipt."
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 attributes cancellation to R."
+      },
+      "outcome_mitigation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "rationale": "Cancellation, necessary execution, no earlier fee and sole-route coverage form the complete bounded prevention chain."
+      }
+    }
+  },
+  {
+    "id": "V2-15-A",
+    "status": "ai_authored_exposed_development_proposal",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records issuance."
+      },
+      "propagation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records W receipt."
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 attributes cancellation to R."
+      },
+      "outcome_mitigation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "rationale": "The explicit sole-route mechanism plus cancellation establishes prevention for the interval."
+      }
+    }
+  },
+  {
+    "id": "V2-15-B",
+    "status": "ai_authored_exposed_development_proposal",
+    "judgments": {
+      "action": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records issuance."
+      },
+      "propagation": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 records W receipt."
+      },
+      "trajectory_effect": {
+        "value": "yes",
+        "evidence_ids": [
+          "E1"
+        ],
+        "rationale": "E1 attributes cancellation to R."
+      },
+      "outcome_mitigation": {
+        "value": "unknown",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "rationale": "J cancellation remains established, but the specified alternative route leaves the whole fee outcome ambiguous; it is not an established subset of fees prevented."
+      }
+    }
+  }
+]

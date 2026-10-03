@@ -17,7 +17,7 @@
 
 ## Parallel technical development
 
-The shared sandbox, paired record procedures and first Jev run are preserved. The [successor specification](experiments/jev-cec/development-v2/README.md) now has 26 packets across thirteen pairs and a full exposed reference review. Resolve its documented construct issues, then freeze a separate execution contract before further inference. These tasks do not complete the human research gates above.
+The shared sandbox, paired record procedures and first Jev run are preserved. The [successor specification](experiments/jev-cec/development-v2/README.md) now has 30 packets across fifteen pairs (29 unique states), a documentary evidence standard and prevention contrasts. The four-question contract is documented; implement its offline-tested runner and full source freeze before inference. These tasks do not complete the human research gates above.
 
 ## Next executable research tasks
 
