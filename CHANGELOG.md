@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Implemented the bounded CEC Jev runner and descriptive analysis: fixed schedule, preserved raw attempts, strict stop rules, per-pass agreement/coverage/Brier arithmetic, repeatability exclusions and unresolved disagreement records. Added twelve offline service/analysis tests. Preserved a clearly labeled mock run; no live API calls or research findings.
+
 Defined the CEC Jev execution protocol before inference: three fixed passes, bounded requests and proposed spending, strict response acceptance, retained failures and separate primary/repeatability reporting. Added offline scheduling and eight validator tests. No API calls or model results.
 
 Added CEC documentary challenge v1: twelve invented packets, 36 separate AI-authored reference judgments, frozen questions and codebook, an offline request preparer, and six boundary tests. Seven of eight evidence classes occur; coverage gaps and dependent case families are explicit. No CEC model inference, empirical ratings or research approval.
