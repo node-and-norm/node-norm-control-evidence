@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Specified future answer-level eligibility and completed a decimal precision audit of 512 saved distributions. All 19 sum failures persist under unchanged tolerance. No provider rounding claim, runner adoption or live requests.
+
 Added post-output acceptance-unit sensitivity with unchanged tolerance: answer-level eligibility retains 49 additional judgments in two named archives. No alternative accuracy scores, normalization or new live requests.
 
 Reviewed TypeSafe response documentation and SDK 0.7.2 ChoiceAnswer source. Distinguished approximate provider sums from the frozen research tolerance; located 19 sum discrepancies across 17 responses in two archives. No rescoring or new inference.

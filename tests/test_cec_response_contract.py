@@ -43,3 +43,12 @@ class ContractReviewTests(unittest.TestCase):
         self.assertFalse(mod.accepted(answer))
         answer['confidence']=1.;answer['choice']='no'
         self.assertFalse(mod.accepted(answer))
+
+    def test_decimal_precision_audit_reproduces(self):
+        import importlib.util
+        spec=importlib.util.spec_from_file_location('cec_precision',BASE/'response-contract-001/precision.py')
+        mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
+        actual=mod.audit()
+        self.assertEqual(actual,json.loads((BASE/'response-contract-001/precision.json').read_text()))
+        self.assertEqual(sum(v['strict_sum_failures'] for v in actual['archives'].values()),19)
+        self.assertEqual(sum(v['near_cent_grid'] for v in actual['archives'].values()),512)
