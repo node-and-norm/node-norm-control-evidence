@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Added post-output acceptance-unit sensitivity with unchanged tolerance: answer-level eligibility retains 49 additional judgments in two named archives. No alternative accuracy scores, normalization or new live requests.
+
 Reviewed TypeSafe response documentation and SDK 0.7.2 ChoiceAnswer source. Distinguished approximate provider sums from the frozen research tolerance; located 19 sum discrepancies across 17 responses in two archives. No rescoring or new inference.
 
 Preserved the eight-request packet-linkage live diagnostic: five valid responses, three invalid; primary paired coverage 0/2. Secondary transitions reported separately, with unresolved original references and unchanged exclusions.
