@@ -41,3 +41,7 @@ Keep Jev outputs as inspectable proposals. Review the direct-evidence disagreeme
 The archive was verified against its manifest, inspected for response structure and scanned for the configured credential before publication. Mechanical reproduction does not validate the reference or establish practical human control. No TAE/HIT finding, canonical annotation or empirical release gate changed.
 
 The reproduction test requires exact labels, counts and other fields, with absolute tolerance 1e-12 only for Brier arithmetic across Python versions. Saved reports and response acceptance rules are unchanged.
+
+## Subsequent review
+
+The [full disagreement review](DISAGREEMENT-REVIEW.md) traces all 62 mismatches and identifies an implicit-linkage concern in the reference alongside direct-evidence disagreements. It does not replace this report.

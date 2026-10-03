@@ -142,3 +142,25 @@ class V2RunnerTests(unittest.TestCase):
         self.assertEqual(saved['request_counts']['invalid'],14)
         self.assertEqual(saved['passes']['1']['overall']['matches'],76)
         self.assertFalse(json.loads((p/'metadata.json').read_text())['working_tree_dirty'])
+
+    def test_disagreement_review_preserves_all_outputs(self):
+        import hashlib
+        base=ROOT/'experiments/jev-cec/execution-v2'
+        review=json.loads((base/'DISAGREEMENT-REVIEW.json').read_text())
+        raw=(base/'live-001/report.json').read_bytes()
+        report=json.loads(raw)
+        self.assertEqual(review['source_report_sha256'],hashlib.sha256(raw).hexdigest())
+        expected={(d['attempt_id'],d['card_id'],d['dimension'],d['choice'],d['reference']) for d in report['disagreements']}
+        actual=[]
+        for item in review['items']:
+            self.assertEqual(item['adjudication_status'],'unresolved')
+            self.assertIsNone(item['replacement_label'])
+            for obs in item['observations']:
+                request=json.loads((base/'live-001/requests'/f'{obs["attempt_id"]}.json').read_text())
+                self.assertEqual(item['evidence'],request['state']['evidence'])
+                self.assertEqual(item['question'],request['questions'][item['dimension']]['instructions'])
+                actual.append((obs['attempt_id'],item['card_id'],item['dimension'],obs['choice'],item['reference']))
+        self.assertEqual(len(actual),62)
+        self.assertEqual(set(actual),expected)
+        self.assertEqual(len(review['items']),30)
+        self.assertEqual((base/'live-001/requests/P1-V2-14-B.json').read_bytes(),(base/'live-001/requests/P1-V2-15-A.json').read_bytes())
