@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Preserved the frozen instruction comparison: 120 requests, 106 valid and 14 invalid responses. Primary paired difference 0/96, with 24 unavailable pairs; secondary pass reported separately. No candidate promotion or independent accuracy claim.
+
 Implemented the two-condition runner, coverage-aware paired analysis and fixed secondary subsets. Added an exact-source freeze and offline failure tests. No live comparison or independent result.
 
 Prepared a two-condition instruction diagnostic holding packets, criteria and reference fixed. Added a counterbalanced 120-request offline schedule and invariant tests. The candidate changes wording, length and emphasis together; no isolated length-effect claim or inference.

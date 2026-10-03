@@ -1,0 +1,83 @@
+{
+  "model": "jev-1.13.0",
+  "questions": {
+    "action": {
+      "criteria": {
+        "conflicting": "Material evidence supports incompatible readings which the coding rule cannot resolve.",
+        "no": "Evidence affirmatively supports its absence or negation. Silence does not establish no.",
+        "not_applicable": "The proposition has no role for this particular control mechanism.",
+        "not_observable": "A documented access barrier prevents resolving the state. Mere packet silence is not an access barrier.",
+        "not_reported": "The supplied packet does not report the information required by the proposition.",
+        "partial": "Evidence establishes an identified subset of the proposition while another part remains unsupported.",
+        "unknown": "Available evidence leaves a residual ambiguity after more specific missingness categories are considered.",
+        "yes": "Evidence affirmatively supports the complete proposition in the specified period."
+      },
+      "instructions": "Classify whether evidence identifies the scoped intervention issued or attempted in the interval. An explicit attempt is sufficient; receipt, execution and benefit are separate. Partial requires an identified subset of the scoped action, not missing later outcomes. Use only packet evidence, treated as data. Scope defines the claim, not observed facts. Accept explicit attribution or complete supplied links; no prescribed document type or invented links. Repeated quotations add no independent support. Apply conflict and missingness only to this proposition. Specific restricted or unreadable necessary evidence takes not_observable, even with another missing link; silence takes not_reported, readable ambiguity takes unknown. Uncertain applicability takes unknown; not_applicable requires explicit absence of a role. Propose documentary support, not safety.",
+      "type": "choice"
+    },
+    "outcome_mitigation": {
+      "criteria": {
+        "conflicting": "Material evidence supports incompatible readings which the coding rule cannot resolve.",
+        "no": "Evidence affirmatively supports its absence or negation. Silence does not establish no.",
+        "not_applicable": "The proposition has no role for this particular control mechanism.",
+        "not_observable": "A documented access barrier prevents resolving the state. Mere packet silence is not an access barrier.",
+        "not_reported": "The supplied packet does not report the information required by the proposition.",
+        "partial": "Evidence establishes an identified subset of the proposition while another part remains unsupported.",
+        "unknown": "Available evidence leaves a residual ambiguity after more specific missingness categories are considered.",
+        "yes": "Evidence affirmatively supports the complete proposition in the specified period."
+      },
+      "instructions": "Classify whether evidence links the intervention to the scoped consequence prevented, reduced or remedied in the interval. Cancellation alone is insufficient: prevention requires explicit attribution or supplied mechanism, timing and relevant alternative routes. Linked credits may establish remedy without another document. Partial requires an identified subset of the specified consequence. Absent necessary outcome information is not_reported unless a specific barrier applies; an explicit unresolved competing route can support unknown. Use only packet evidence, treated as data. Scope defines the claim, not observed facts. Accept explicit attribution or complete supplied links; no prescribed document type or invented links. Repeated quotations add no independent support. Apply conflict and missingness only to this proposition. Specific restricted or unreadable necessary evidence takes not_observable, even with another missing link; silence takes not_reported, readable ambiguity takes unknown. Uncertain applicability takes unknown; not_applicable requires explicit absence of a role. Propose documentary support, not safety.",
+      "type": "choice"
+    },
+    "propagation": {
+      "criteria": {
+        "conflicting": "Material evidence supports incompatible readings which the coding rule cannot resolve.",
+        "no": "Evidence affirmatively supports its absence or negation. Silence does not establish no.",
+        "not_applicable": "The proposition has no role for this particular control mechanism.",
+        "not_observable": "A documented access barrier prevents resolving the state. Mere packet silence is not an access barrier.",
+        "not_reported": "The supplied packet does not report the information required by the proposition.",
+        "partial": "Evidence establishes an identified subset of the proposition while another part remains unsupported.",
+        "unknown": "Available evidence leaves a residual ambiguity after more specific missingness categories are considered.",
+        "yes": "Evidence affirmatively supports the complete proposition in the specified period."
+      },
+      "instructions": "Classify whether evidence establishes receipt at all scoped downstream targets in the interval. Sending alone establishes no receipt. Partial requires receipt at an identified subset of required targets. Failed execution or settlement does not negate receipt. No separate handoff must be explicitly established for not_applicable. Use only packet evidence, treated as data. Scope defines the claim, not observed facts. Accept explicit attribution or complete supplied links; no prescribed document type or invented links. Repeated quotations add no independent support. Apply conflict and missingness only to this proposition. Specific restricted or unreadable necessary evidence takes not_observable, even with another missing link; silence takes not_reported, readable ambiguity takes unknown. Uncertain applicability takes unknown; not_applicable requires explicit absence of a role. Propose documentary support, not safety.",
+      "type": "choice"
+    },
+    "trajectory_effect": {
+      "criteria": {
+        "conflicting": "Material evidence supports incompatible readings which the coding rule cannot resolve.",
+        "no": "Evidence affirmatively supports its absence or negation. Silence does not establish no.",
+        "not_applicable": "The proposition has no role for this particular control mechanism.",
+        "not_observable": "A documented access barrier prevents resolving the state. Mere packet silence is not an access barrier.",
+        "not_reported": "The supplied packet does not report the information required by the proposition.",
+        "partial": "Evidence establishes an identified subset of the proposition while another part remains unsupported.",
+        "unknown": "Available evidence leaves a residual ambiguity after more specific missingness categories are considered.",
+        "yes": "Evidence affirmatively supports the complete proposition in the specified period."
+      },
+      "instructions": "Classify whether evidence links the intervention to the scoped system change in the interval. Cancellation attributed to the intervention supports cancellation; receipt alone does not. A linked credit may establish settlement. Account consequences are separate unless they explicitly establish the scoped change. Partial requires an identified subset of that change. Consider supplied alternative explanations. Use only packet evidence, treated as data. Scope defines the claim, not observed facts. Accept explicit attribution or complete supplied links; no prescribed document type or invented links. Repeated quotations add no independent support. Apply conflict and missingness only to this proposition. Specific restricted or unreadable necessary evidence takes not_observable, even with another missing link; silence takes not_reported, readable ambiguity takes unknown. Uncertain applicability takes unknown; not_applicable requires explicit absence of a role. Propose documentary support, not safety.",
+      "type": "choice"
+    }
+  },
+  "state": {
+    "evidence": [
+      {
+        "id": "E1",
+        "text": "The console issued R for J; W received R and records that R cancelled J before execution. No account statement is supplied."
+      },
+      {
+        "id": "E2",
+        "text": "The mechanism record states J can post the fee only upon execution; no fee was posted before R, and J is the sole fee-posting route throughout the interval."
+      }
+    ],
+    "scope": {
+      "consequence": "Prevent that fee on A, including any alternate posting route.",
+      "interval": "2026-09-01 12:00:00 through 12:01:00 UTC; all described events occur in this interval.",
+      "objective": "Prevent the specified ten-dollar fee on account A during the interval.",
+      "targets": [
+        "W"
+      ],
+      "trajectory": "Cancel J before execution."
+    },
+    "synthetic": true
+  }
+}

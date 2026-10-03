@@ -85,6 +85,8 @@ These descriptive counts come from public synthetic packets and an AI-authored r
 
 The [four-question live result](experiments/jev-cec/execution-v2/LIVE-RESULTS.md) is now available separately from the earlier three-question figure. Different questions and cases prevent a direct improvement comparison.
 
+The [instruction comparison](experiments/jev-cec/instruction-comparison-001/LIVE-RESULTS.md) found no net primary paired agreement advantage for the shorter package, with incomplete coverage.
+
 ## Optional model-assisted preparation
 
 [Jev request preparation](experiments/jev-cec/README.md) projects the three synthetic demonstrations into bounded questions about action, propagation and mitigation. The inspectable requests preserve missingness categories and exclude existing ratings. The [first live synthetic run](experiments/jev-cec/execution-v1/LIVE-RESULTS.md) records agreement with an AI-authored reference, invalid responses and unresolved disagreements; it supplies no independent accuracy finding. See the [preparation decision](experiments/jev-cec/PLAN.md) for the proposed evaluation and its limits.

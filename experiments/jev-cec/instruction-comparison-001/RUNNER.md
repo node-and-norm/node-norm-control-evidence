@@ -13,3 +13,7 @@ Live mode requires a clean checkout and the dated preflight fields used by v2, w
 This implementation changes no packet or reference. Candidate wording, length and emphasis vary together. All cases remain exposed development material; agreement cannot establish independent accuracy. Source snapshots retain original relative Markdown links and are verified as archived bytes rather than navigable documentation.
 
 The preserved [mock-001 archive](mock-001/manifest.json) records 120 local mock requests from clean commit `e3fef10`, zero live calls, and an exactly reproducible report. Its scores test arithmetic only.
+
+## Live comparison
+
+The [first live result](LIVE-RESULTS.md) preserves 120 attempts. The primary paired agreement difference is zero on 96 jointly valid judgments; no candidate superiority is claimed.
