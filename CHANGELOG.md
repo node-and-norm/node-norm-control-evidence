@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Implemented separately versioned answer-level execution, located eligibility reasons, dependency-aware analysis and request-ID allowlisting. Preserved a mock rehearsal; no live requests or changes to historical runners.
+
 Specified future answer-level eligibility and completed a decimal precision audit of 512 saved distributions. All 19 sum failures persist under unchanged tolerance. No provider rounding claim, runner adoption or live requests.
 
 Added post-output acceptance-unit sensitivity with unchanged tolerance: answer-level eligibility retains 49 additional judgments in two named archives. No alternative accuracy scores, normalization or new live requests.
