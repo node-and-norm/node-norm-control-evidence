@@ -20,7 +20,7 @@ An investigation says a human could intervene. A trace records an override comma
 **The Control Evidence Corpus (CEC) makes that evidentiary boundary inspectable.** It connects each control proposition to a dated source, a precise evidence location, and a preserved judgment. Its research question is whether independent reviewers can use those records to reconstruct control operation reliably.
 
 > [!IMPORTANT]
-> **Development infrastructure · 0.1.0-dev.** Three synthetic demonstrations and one unrated source-reconnaissance note are available. There are **zero independently coded empirical events** and **no approved corpus release**. Software checks do not establish scientific validity.
+> **Development infrastructure · 0.1.0-dev.** Three synthetic demonstrations and one unrated source-reconnaissance note are available. A separate [TAE/HIT sandbox](experiments/us-control-sandbox/README.md) adds sixteen scripted development conditions with preserved run records. There are **zero independently coded empirical events** and **no approved corpus release**. Software checks do not establish scientific validity.
 
 ## See the distinction
 
@@ -69,6 +69,7 @@ Each analytical observation binds **one event, one control objective, one opport
 | :--- | :--- | :--- |
 | Assess whether this deserves a study | [Research brief](research/README.md) | [Pressure test](research/PRESSURE_TEST_2026-09-14.md) |
 | Understand a record | [Example gallery](examples/README.md) | [Codebook](docs/methods/CODEBOOK.md) |
+| Reproduce intervention and recovery tests | [TAE/HIT sandbox](experiments/us-control-sandbox/README.md) | [Run evidence](experiments/us-control-sandbox/RUN-INDEX.md) |
 | Help run the pilot | [Pilot workbench](research/pilot/README.md) | [Sampling](docs/methods/SAMPLING_PLAN.md) · [Reliability](docs/methods/RELIABILITY_PLAN.md) |
 | Inspect or extend the implementation | [Reproducibility guide](docs/reference/REPRODUCIBILITY.md) | [Schemas](schemas/README.md) |
 | Use future findings | [Integration contract](docs/reference/INTEGRATION_CONTRACT.md) | [Data and rights](docs/policies/DATA_STATEMENT.md) |

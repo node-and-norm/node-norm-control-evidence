@@ -1,0 +1,10 @@
+{
+  "network_none": true,
+  "read_only": true,
+  "no_privileged": true,
+  "drop_all": true,
+  "memory": true,
+  "pids": true,
+  "cpu": true,
+  "mounts": true
+}

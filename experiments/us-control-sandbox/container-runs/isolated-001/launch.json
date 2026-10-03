@@ -1,0 +1,33 @@
+{
+  "command": [
+    "/opt/homebrew/bin/docker",
+    "--context",
+    "colima-node-norm-research",
+    "run",
+    "--rm",
+    "--network=none",
+    "--read-only",
+    "--cap-drop=ALL",
+    "--security-opt=no-new-privileges",
+    "--pids-limit=64",
+    "--memory=256m",
+    "--cpus=1",
+    "--user",
+    "501:20",
+    "--tmpfs",
+    "/tmp:rw,nosuid,nodev,noexec,size=64m,mode=1777",
+    "--mount",
+    "type=bind,source=$STUDY_ROOT,target=/app,readonly",
+    "--mount",
+    "type=bind,source=$STUDY_ROOT/container-runs/isolated-001,target=/output",
+    "--workdir=/app",
+    "python@sha256:dddfd7e07f9d15aeeca61529320492139d21cac7f0070c00609243e51e4e0016",
+    "python",
+    "-B",
+    "sandbox.py",
+    "--output",
+    "/output/result"
+  ],
+  "image": "python@sha256:dddfd7e07f9d15aeeca61529320492139d21cac7f0070c00609243e51e4e0016",
+  "status": "attempted; container restrictions require verification"
+}

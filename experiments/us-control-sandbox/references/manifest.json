@@ -1,0 +1,74 @@
+[
+  {
+    "file": "hit-specification.md",
+    "source": "https://github.com/node-and-norm/human-influence-telemetry/blob/74558075da0e6a8bc0c25357dac27f4428bede9e/SPECIFICATION.md",
+    "commit": "74558075da0e6a8bc0c25357dac27f4428bede9e",
+    "retrieved": "2026-10-02",
+    "sha256": "00cc5813bec33c0425f6b43827f0522599ff6d5b9e64223f759d868f3dab8184",
+    "purpose": "local research reference; retain source attribution",
+    "license_review": "required before redistribution of copied source"
+  },
+  {
+    "file": "hit-schema.json",
+    "source": "https://github.com/node-and-norm/human-influence-telemetry/blob/74558075da0e6a8bc0c25357dac27f4428bede9e/schema/hit-assessment.schema.json",
+    "commit": "74558075da0e6a8bc0c25357dac27f4428bede9e",
+    "retrieved": "2026-10-02",
+    "sha256": "bddfaccc4b6ced6bd8d586a5d846efa0234b66185f37ff5d7611b9d619769740",
+    "purpose": "local research reference; retain source attribution",
+    "license_review": "required before redistribution of copied source"
+  },
+  {
+    "file": "hit-replication.md",
+    "source": "https://github.com/node-and-norm/human-influence-telemetry/blob/74558075da0e6a8bc0c25357dac27f4428bede9e/validation/v0.7.0/README.md",
+    "commit": "74558075da0e6a8bc0c25357dac27f4428bede9e",
+    "retrieved": "2026-10-02",
+    "sha256": "23a82849f9893c98746c2627a49c66ed7fbd3d65bce0fcfb5923322bab34190f",
+    "purpose": "local research reference; retain source attribution",
+    "license_review": "required before redistribution of copied source"
+  },
+  {
+    "file": "hit-readme.md",
+    "source": "https://github.com/node-and-norm/human-influence-telemetry/blob/74558075da0e6a8bc0c25357dac27f4428bede9e/README.md",
+    "commit": "74558075da0e6a8bc0c25357dac27f4428bede9e",
+    "retrieved": "2026-10-02",
+    "sha256": "e60069246480724184ee5e6bb66b35e9fb33ace38bcde4fce6dbf348987fbfa4",
+    "purpose": "local research reference; retain source attribution",
+    "license_review": "required before redistribution of copied source"
+  },
+  {
+    "file": "tae-protocol.md",
+    "source": "https://github.com/node-and-norm/trust-autonomy-evidence/blob/ec748f1ecd902ce2b8b6783d1fabc3f9a1ccd7a0/protocols/regulatory-sandbox-validation-protocol-v0.17.0.md",
+    "commit": "ec748f1ecd902ce2b8b6783d1fabc3f9a1ccd7a0",
+    "retrieved": "2026-10-02",
+    "sha256": "0e6a0570ad4ab311aa8fd5e7e3a4fa07c60d2688946e144d98e318ece6cc22f8",
+    "purpose": "local research reference; retain source attribution",
+    "license_review": "required before redistribution of copied source"
+  },
+  {
+    "file": "tae-status.md",
+    "source": "https://github.com/node-and-norm/trust-autonomy-evidence/blob/ec748f1ecd902ce2b8b6783d1fabc3f9a1ccd7a0/RESEARCH_STATUS.md",
+    "commit": "ec748f1ecd902ce2b8b6783d1fabc3f9a1ccd7a0",
+    "retrieved": "2026-10-02",
+    "sha256": "e8ca86e351aceaec4c7a1b93d446305a788b23b67ca5a3ca2706f3ea44c60a24",
+    "purpose": "local research reference; retain source attribution",
+    "license_review": "required before redistribution of copied source"
+  },
+  {
+    "file": "hit-handbook.md",
+    "source": "https://github.com/node-and-norm/human-influence-telemetry/blob/74558075da0e6a8bc0c25357dac27f4428bede9e/docs/application-handbook.md",
+    "commit": "74558075da0e6a8bc0c25357dac27f4428bede9e",
+    "retrieved": "2026-10-02",
+    "sha256": "a5d20ac579162632ec33f9f1284fe3a9c8772e0fe23ed2b865b6bfe81435c3a5",
+    "purpose": "local research reference; retain attribution",
+    "license_review": "required before redistribution"
+  },
+  {
+    "file": "hit-catalog.json",
+    "source": "https://github.com/node-and-norm/human-influence-telemetry/blob/74558075da0e6a8bc0c25357dac27f4428bede9e/schema/hit-dimension-catalog.json",
+    "commit": "74558075da0e6a8bc0c25357dac27f4428bede9e",
+    "retrieved": "2026-10-02",
+    "sha256": "6e81ff42630175e6f370f9f73bff18be78eaad5fa2e38c9e8376121db945774f",
+    "purpose": "local research reference; retain attribution",
+    "license_review": "required before redistribution"
+  }
+]

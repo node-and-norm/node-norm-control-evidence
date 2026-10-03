@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "tick": 12,
+      "event": "correction_response",
+      "accepted": true
+    }
+  ],
+  "downstream": {
+    "action": "executed",
+    "internal_record": "corrected",
+    "recipient_record": "corrected"
+  }
+}

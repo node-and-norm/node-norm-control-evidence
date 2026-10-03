@@ -6,6 +6,8 @@
 
 This development version contains three synthetic event-control examples and no empirical corpus records. They demonstrate the object model and safeguards. A separate AI-assisted source-reconnaissance note contains bibliographic metadata and an unrated question map; it is outside the empirical corpus. It cannot support estimates about incidents, organizations, human behavior, or control effectiveness.
 
+The separate [TAE/HIT sandbox](../../experiments/us-control-sandbox/README.md) contains sixteen authored conditions and saved execution records, including deliberate faults and evidence-withholding cases. They remain outside the empirical corpus and are not coded CEC observations. Full reference documents are excluded from publication; source links and locally acquired-byte hashes remain. See its [publication record](../../experiments/us-control-sandbox/PUBLICATION.md).
+
 ## Intended data and inference
 
 Planned data comes from publicly documented events, enriched with primary evidence where available. Selection, reporting, language, access, publicity, and source-dependence biases limit inference. The initial study estimates observability within its declared frame and retrieval procedure.

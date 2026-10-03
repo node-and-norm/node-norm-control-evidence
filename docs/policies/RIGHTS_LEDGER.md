@@ -10,6 +10,7 @@ Initial entries checked 2026-09-14 UTC; the NTSB entry was added 2026-09-15 UTC.
 | Research literature | Publisher or repository pages reviewed for screening. | Bibliographic links and original short analysis only; no full-text redistribution authorized. |
 | TAE / HIT | Methodological rules inspected; no case-label import. | Cite exact source files; source-specific license review required before copying research data. |
 | NTSB HAR-19/03 | [Official PDF](https://www.ntsb.gov/investigations/AccidentReports/Reports/HAR1903.pdf), selected sections and corrected-copy note inspected. | Links, acquisition metadata, and short original analysis only. PDF and images excluded from distribution; source-specific review pending. |
+| TAE/HIT development sandbox | Author-directed, AI-assisted code, scenarios and run records; source-specific copying review remains pending. | Publish authored development artifacts and source metadata. Exclude full method references and NIST PDF; retain original local copies and hashes. Machine paths redacted in public logs. |
 | CEC synthetic fixtures | Created for this implementation. | Development export allowed; not empirical data. |
 
 Each empirical source needs a machine-readable rights decision with scope, reviewer, date, attribution, restrictions, and the inspected terms version before any public export. Unknown rights block redistribution. A general repository license must not override upstream restrictions. The maintainer has not selected a blanket corpus license.

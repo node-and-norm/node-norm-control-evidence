@@ -1,0 +1,9 @@
+{
+  "status": "passed within declared checks",
+  "image": "python@sha256:dddfd7e07f9d15aeeca61529320492139d21cac7f0070c00609243e51e4e0016",
+  "context": "colima-node-norm-research",
+  "configuration_checks": 8,
+  "probe_checks": 10,
+  "probe_source_sha256": "449e825a570e3b3083aa66e24a80fbd7cb22cbd2b346cb78e078f6e4140a5c2a",
+  "limitation": "Not a general escape-resistance or hostile-code security assessment"
+}

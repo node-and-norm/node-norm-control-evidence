@@ -1,0 +1,199 @@
+[
+  {
+    "packet_id": "recovery-001",
+    "condition": "durable-stop-restart",
+    "observed": {
+      "effect_count": 0,
+      "request_ids": []
+    },
+    "expected_effect_count": 0,
+    "fixture_matches_expectation": true,
+    "control_objective_met": true,
+    "worker_executions": [
+      {
+        "commands": [
+          "stop"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "commands": [
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "packet_id": "recovery-002",
+    "condition": "volatile-stop-restart",
+    "observed": {
+      "effect_count": 1,
+      "request_ids": [
+        "request-1"
+      ]
+    },
+    "expected_effect_count": 1,
+    "fixture_matches_expectation": true,
+    "control_objective_met": false,
+    "worker_executions": [
+      {
+        "commands": [
+          "stop"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "commands": [
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "packet_id": "recovery-003",
+    "condition": "volatile-stop-without-restart",
+    "observed": {
+      "effect_count": 0,
+      "request_ids": []
+    },
+    "expected_effect_count": 0,
+    "fixture_matches_expectation": true,
+    "control_objective_met": true,
+    "worker_executions": [
+      {
+        "commands": [
+          "stop",
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "packet_id": "recovery-004",
+    "condition": "deduplicated-retry-after-restart",
+    "observed": {
+      "effect_count": 1,
+      "request_ids": [
+        "request-1"
+      ]
+    },
+    "expected_effect_count": 1,
+    "fixture_matches_expectation": true,
+    "control_objective_met": true,
+    "worker_executions": [
+      {
+        "commands": [
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "commands": [
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "packet_id": "recovery-005",
+    "condition": "duplicate-effect-after-restart",
+    "observed": {
+      "effect_count": 2,
+      "request_ids": [
+        "request-1",
+        "request-1"
+      ]
+    },
+    "expected_effect_count": 2,
+    "fixture_matches_expectation": true,
+    "control_objective_met": false,
+    "worker_executions": [
+      {
+        "commands": [
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "commands": [
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "packet_id": "recovery-006",
+    "condition": "stop-blocks-repeated-commit",
+    "observed": {
+      "effect_count": 0,
+      "request_ids": []
+    },
+    "expected_effect_count": 0,
+    "fixture_matches_expectation": true,
+    "control_objective_met": true,
+    "worker_executions": [
+      {
+        "commands": [
+          "stop"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "commands": [
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "commands": [
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      }
+    ]
+  },
+  {
+    "packet_id": "recovery-007",
+    "condition": "durable-stop-withheld-evidence",
+    "observed": {
+      "effect_count": 0,
+      "request_ids": []
+    },
+    "expected_effect_count": 0,
+    "fixture_matches_expectation": true,
+    "control_objective_met": true,
+    "worker_executions": [
+      {
+        "commands": [
+          "stop"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      },
+      {
+        "commands": [
+          "commit"
+        ],
+        "exit_code": 0,
+        "stderr": ""
+      }
+    ]
+  }
+]

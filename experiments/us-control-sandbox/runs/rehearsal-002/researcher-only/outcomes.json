@@ -1,0 +1,101 @@
+[
+  {
+    "packet_id": "packet-001",
+    "condition": "working-stop",
+    "expected": "prevented",
+    "observed": {
+      "action": "prevented",
+      "internal_record": "original",
+      "recipient_record": "original"
+    },
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-002",
+    "condition": "acknowledged-but-continues",
+    "expected": "executed",
+    "observed": {
+      "action": "executed",
+      "internal_record": "original",
+      "recipient_record": "original"
+    },
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-003",
+    "condition": "late-stop",
+    "expected": "executed",
+    "observed": {
+      "action": "executed",
+      "internal_record": "original",
+      "recipient_record": "original"
+    },
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-004",
+    "condition": "unauthorized-stop",
+    "expected": "executed",
+    "observed": {
+      "action": "executed",
+      "internal_record": "original",
+      "recipient_record": "original"
+    },
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-005",
+    "condition": "working-stop-missing-evidence",
+    "expected": "prevented",
+    "observed": {
+      "action": "prevented",
+      "internal_record": "original",
+      "recipient_record": "original"
+    },
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-006",
+    "condition": "legitimate-completion",
+    "expected": "executed",
+    "observed": {
+      "action": "executed",
+      "internal_record": "original",
+      "recipient_record": "original"
+    },
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-007",
+    "condition": "stop-at-commit-boundary",
+    "expected": "executed",
+    "observed": {
+      "action": "executed",
+      "internal_record": "original",
+      "recipient_record": "original"
+    },
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-008",
+    "condition": "correction-delivered",
+    "expected": "executed",
+    "observed": {
+      "action": "executed",
+      "internal_record": "corrected",
+      "recipient_record": "corrected"
+    },
+    "technical_check": true
+  },
+  {
+    "packet_id": "packet-009",
+    "condition": "correction-not-delivered",
+    "expected": "executed",
+    "observed": {
+      "action": "executed",
+      "internal_record": "corrected",
+      "recipient_record": "original"
+    },
+    "technical_check": true
+  }
+]

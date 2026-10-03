@@ -1,0 +1,91 @@
+{
+  "durable-stop-restart": {
+    "stages": [
+      [
+        "stop"
+      ],
+      [
+        "commit"
+      ]
+    ],
+    "expected": 0,
+    "maximum": 0
+  },
+  "volatile-stop-restart": {
+    "stages": [
+      [
+        "stop"
+      ],
+      [
+        "commit"
+      ]
+    ],
+    "volatile": true,
+    "expected": 1,
+    "maximum": 0
+  },
+  "volatile-stop-without-restart": {
+    "stages": [
+      [
+        "stop",
+        "commit"
+      ]
+    ],
+    "volatile": true,
+    "expected": 0,
+    "maximum": 0
+  },
+  "deduplicated-retry-after-restart": {
+    "stages": [
+      [
+        "commit"
+      ],
+      [
+        "commit"
+      ]
+    ],
+    "expected": 1,
+    "maximum": 1
+  },
+  "duplicate-effect-after-restart": {
+    "stages": [
+      [
+        "commit"
+      ],
+      [
+        "commit"
+      ]
+    ],
+    "duplicates": true,
+    "expected": 2,
+    "maximum": 1
+  },
+  "stop-blocks-repeated-commit": {
+    "stages": [
+      [
+        "stop"
+      ],
+      [
+        "commit"
+      ],
+      [
+        "commit"
+      ]
+    ],
+    "expected": 0,
+    "maximum": 0
+  },
+  "durable-stop-withheld-evidence": {
+    "stages": [
+      [
+        "stop"
+      ],
+      [
+        "commit"
+      ]
+    ],
+    "retain": false,
+    "expected": 0,
+    "maximum": 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "semantic_files_compared": 8,
+  "all_equal": true,
+  "verified_artifact_counts": {
+    "runs/recovery-001": 21,
+    "container-runs/recovery-001/result": 21
+  }
+}
