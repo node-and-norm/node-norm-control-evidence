@@ -1,0 +1,402 @@
+[
+  {
+    "id": "V2-09-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_reported",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 identifies issuance; repetitions in E2 add no independent source."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E2 expressly supplies no downstream receipt."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "Neither passage reports cancellation."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "Neither passage reports the specified account consequence."
+      }
+    }
+  },
+  {
+    "id": "V2-09-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_reported",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 identifies issuance; repetitions in E2 add no independent source."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E2 expressly supplies no downstream receipt."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "Neither passage reports cancellation."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "Neither passage reports the specified account consequence."
+      }
+    }
+  },
+  {
+    "id": "V2-10-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "yes",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records issuance."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records receipt at W."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 and E2 explicitly connect R to cancellation."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "No account result is supplied; the inference from cancellation remains a review issue."
+      }
+    }
+  },
+  {
+    "id": "V2-10-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "conflicting",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "Neither export contests E1 issuance."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "Neither export contests E1 receipt."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 and E2 contradict execution status without precedence."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "Conflicting system-course evidence does not itself supply an account outcome; causal inference remains a review issue."
+      }
+    }
+  },
+  {
+    "id": "V2-11-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "partial",
+      "outcome_mitigation": "partial"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records both instructions."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records both receipts."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "The linked credit establishes the result of RA settlement, but RB is unreported."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "The specified A fee is credited; B remains unreported."
+      }
+    }
+  },
+  {
+    "id": "V2-11-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "yes",
+      "trajectory_effect": "yes",
+      "outcome_mitigation": "yes"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records both instructions."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records both receipts."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "Linked credits establish the specified settlements despite absent separate settlement records."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E2 links both credits to both erroneous fees."
+      }
+    }
+  },
+  {
+    "id": "V2-12-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_reported",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records issuance."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 reports no receipt evidence."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 reports no execution evidence."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 lacks the link and E2 supplies no outcome information."
+      }
+    }
+  },
+  {
+    "id": "V2-12-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_reported",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_observable"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records issuance."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "The restriction is on the account record, not receipt; receipt stays unreported."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "The restriction is on the account record, not execution; execution stays unreported."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E2 identifies an outcome-access barrier while E1 lacks causal linkage. The proposed precedence selects not_observable; both limitations must remain recorded."
+      }
+    }
+  },
+  {
+    "id": "V2-13-A",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_applicable",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records invocation."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E2 excludes any downstream handoff within the scoped mechanism; propagation has no separate role under this draft."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "Architecture describes a mechanism, not evidence that it executed."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "No account consequence is recorded."
+      }
+    }
+  },
+  {
+    "id": "V2-13-B",
+    "status": "ai_authored_development_proposal",
+    "expected": {
+      "action": "yes",
+      "propagation": "not_reported",
+      "trajectory_effect": "not_reported",
+      "outcome_mitigation": "not_reported"
+    },
+    "rationales": {
+      "action": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E1 records invocation."
+      },
+      "propagation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "E2 establishes that a receiving target exists but provides no receipt evidence."
+      },
+      "trajectory_effect": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "No execution record is supplied."
+      },
+      "outcome_mitigation": {
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ],
+        "text": "No account consequence is recorded."
+      }
+    }
+  }
+]

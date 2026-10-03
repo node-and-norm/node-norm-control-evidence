@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Preserved the first answer-level live run: eight attempts, 30/32 eligible answers, two sum exclusions, primary action paired coverage 1/2. Historical results unchanged; later-stage disagreements persist.
+
 Implemented separately versioned answer-level execution, located eligibility reasons, dependency-aware analysis and request-ID allowlisting. Preserved a mock rehearsal; no live requests or changes to historical runners.
 
 Specified future answer-level eligibility and completed a decimal precision audit of 512 saved distributions. All 19 sum failures persist under unchanged tolerance. No provider rounding claim, runner adoption or live requests.

@@ -1,0 +1,382 @@
+[
+  {
+    "attempt_id": "P1-V2-12-A-original",
+    "diagnostic_headers": {
+      "x-typesafe-request-id": "req_01a103e1d01e75728309f5e91db9ff3b"
+    },
+    "eligibility": {
+      "answers": {
+        "action": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        }
+      },
+      "envelope_eligible": true,
+      "envelope_reasons": []
+    },
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "f7c21579ac0181029080cd9c0ae7944a70d313d515df6ffea1a27180525fe4d2",
+    "response_sha256": "4f32a467ffb3d7b28846eb7023f1df36584c467509d2a4fcf67eed1715134a39",
+    "seconds": 0.349679,
+    "started_at": "2026-10-03T22:31:33.122921+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2427,
+      "output_tokens": 346
+    }
+  },
+  {
+    "attempt_id": "P1-V2-12-A-explicit",
+    "diagnostic_headers": {
+      "x-typesafe-request-id": "req_01a103e1d11f70bfa43e9029d648bfa4"
+    },
+    "eligibility": {
+      "answers": {
+        "action": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        }
+      },
+      "envelope_eligible": true,
+      "envelope_reasons": []
+    },
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "1f312fdb2fa6034bd61dff4602b136e0c68a60298ce1449a582a2da02c294861",
+    "response_sha256": "ec6c7c8fdbfdfcd4bd52400ab05229124b6877381677c42b069b1d3f1a267bde",
+    "seconds": 0.24558124999999997,
+    "started_at": "2026-10-03T22:31:33.476366+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2433,
+      "output_tokens": 343
+    }
+  },
+  {
+    "attempt_id": "P1-V2-12-B-explicit",
+    "diagnostic_headers": {
+      "x-typesafe-request-id": "req_01a103e1d21c742c9ef64c6e75eda112"
+    },
+    "eligibility": {
+      "answers": {
+        "action": {
+          "eligible": true,
+          "raw_sum": 0.9999999999999999,
+          "reasons": [],
+          "sum_discrepancy": -1.1102230246251565e-16
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        }
+      },
+      "envelope_eligible": true,
+      "envelope_reasons": []
+    },
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "f50994d9345479deb8e7c5428a5491c33e8c8472e19a6922afcc93e003efef3b",
+    "response_sha256": "1079e98cea553d5bf8bb24c8f4105f015adfe28fd292962ac3efe962c5f7e656",
+    "seconds": 0.27838787500000006,
+    "started_at": "2026-10-03T22:31:33.723697+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2438,
+      "output_tokens": 343
+    }
+  },
+  {
+    "attempt_id": "P1-V2-12-B-original",
+    "diagnostic_headers": {
+      "x-typesafe-request-id": "req_01a103e1d3367912b1dcfdb37ed72f9b"
+    },
+    "eligibility": {
+      "answers": {
+        "action": {
+          "eligible": false,
+          "raw_sum": 0.99,
+          "reasons": [
+            "sum_outside_tolerance"
+          ],
+          "sum_discrepancy": -0.010000000000000009
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "raw_sum": 0.9999999999999999,
+          "reasons": [],
+          "sum_discrepancy": -1.1102230246251565e-16
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        }
+      },
+      "envelope_eligible": true,
+      "envelope_reasons": []
+    },
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "9ec1ce380c74003d04ca65efd9d113a1c3659c9cde741edfa0bcd48421733d0f",
+    "response_sha256": "4392fc889d125f4331560c9a69e68874f237416271bc5f6bdd5e8e9a4e4477ea",
+    "seconds": 0.2975405,
+    "started_at": "2026-10-03T22:31:34.005383+00:00",
+    "status": "partial",
+    "usage": {
+      "input_tokens": 2432,
+      "output_tokens": 346
+    }
+  },
+  {
+    "attempt_id": "P2-V2-12-A-explicit",
+    "diagnostic_headers": {
+      "x-typesafe-request-id": "req_01a103e1d4657bf28273a19f56f7d752"
+    },
+    "eligibility": {
+      "answers": {
+        "action": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        }
+      },
+      "envelope_eligible": true,
+      "envelope_reasons": []
+    },
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "1f312fdb2fa6034bd61dff4602b136e0c68a60298ce1449a582a2da02c294861",
+    "response_sha256": "048e284e5ed00809342baf279f56831e2530a30c0a715d5de2a58595766ccfff",
+    "seconds": 0.28227554200000005,
+    "started_at": "2026-10-03T22:31:34.306360+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2433,
+      "output_tokens": 343
+    }
+  },
+  {
+    "attempt_id": "P2-V2-12-A-original",
+    "diagnostic_headers": {
+      "x-typesafe-request-id": "req_01a103e1d58e744ebb075823ea544994"
+    },
+    "eligibility": {
+      "answers": {
+        "action": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        }
+      },
+      "envelope_eligible": true,
+      "envelope_reasons": []
+    },
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "f7c21579ac0181029080cd9c0ae7944a70d313d515df6ffea1a27180525fe4d2",
+    "response_sha256": "e02ec204566c607d97b590484e88babc84e46e2b71a630f5d6dd2e89338da7cb",
+    "seconds": 0.2670104579999999,
+    "started_at": "2026-10-03T22:31:34.594253+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2427,
+      "output_tokens": 346
+    }
+  },
+  {
+    "attempt_id": "P2-V2-12-B-original",
+    "diagnostic_headers": {
+      "x-typesafe-request-id": "req_01a103e1d6ab783e996c98cfeb072921"
+    },
+    "eligibility": {
+      "answers": {
+        "action": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        }
+      },
+      "envelope_eligible": true,
+      "envelope_reasons": []
+    },
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "9ec1ce380c74003d04ca65efd9d113a1c3659c9cde741edfa0bcd48421733d0f",
+    "response_sha256": "bb8d0d404a3b5ca9b27be1f274516aa38481a41c73089fe7d3c40e0cfd379a2a",
+    "seconds": 0.2681058330000001,
+    "started_at": "2026-10-03T22:31:34.867103+00:00",
+    "status": "valid",
+    "usage": {
+      "input_tokens": 2432,
+      "output_tokens": 346
+    }
+  },
+  {
+    "attempt_id": "P2-V2-12-B-explicit",
+    "diagnostic_headers": {
+      "x-typesafe-request-id": "req_01a103e1d7b07a50b4d60730bc2d91b3"
+    },
+    "eligibility": {
+      "answers": {
+        "action": {
+          "eligible": true,
+          "raw_sum": 0.9999999999999999,
+          "reasons": [],
+          "sum_discrepancy": -1.1102230246251565e-16
+        },
+        "outcome_mitigation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "propagation": {
+          "eligible": true,
+          "raw_sum": 1.0,
+          "reasons": [],
+          "sum_discrepancy": 0.0
+        },
+        "trajectory_effect": {
+          "eligible": false,
+          "raw_sum": 0.99,
+          "reasons": [
+            "sum_outside_tolerance"
+          ],
+          "sum_discrepancy": -0.010000000000000009
+        }
+      },
+      "envelope_eligible": true,
+      "envelope_reasons": []
+    },
+    "http_status": 200,
+    "model_resolved": "jev-1.13.0",
+    "request_sha256": "f50994d9345479deb8e7c5428a5491c33e8c8472e19a6922afcc93e003efef3b",
+    "response_sha256": "5842cd96d7675ecfa7d559427dc766ce0263aca88e1e8a1d715f2ebd63e53bda",
+    "seconds": 0.2593036660000001,
+    "started_at": "2026-10-03T22:31:35.139770+00:00",
+    "status": "partial",
+    "usage": {
+      "input_tokens": 2438,
+      "output_tokens": 343
+    }
+  }
+]
