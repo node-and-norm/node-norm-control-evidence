@@ -13,14 +13,14 @@
 
 [![Infrastructure checks](https://github.com/node-and-norm/node-norm-control-evidence/actions/workflows/validate.yml/badge.svg)](https://github.com/node-and-norm/node-norm-control-evidence/actions/workflows/validate.yml)
 
-**Development release:** [v0.2.0-dev](https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.2.0-dev) · [Release history](docs/releases/README.md)
+**Development release:** [v0.3.0-dev](https://github.com/node-and-norm/node-norm-control-evidence/releases/tag/v0.3.0-dev) · [Release history](docs/releases/README.md)
 
 An investigation says a human could intervene. A trace records an override command. Neither statement, on its own, establishes that the command changed what the system did.
 
 **The Control Evidence Corpus (CEC) makes that evidentiary boundary inspectable.** It connects each control proposition to a dated source, a precise evidence location, and a preserved judgment. Its research question is whether independent reviewers can use those records to reconstruct control operation reliably.
 
 > [!IMPORTANT]
-> **Development infrastructure · 0.2.0-dev.** Three synthetic demonstrations and one unrated source-reconnaissance note are available. A separate [TAE/HIT sandbox](experiments/us-control-sandbox/README.md) adds sixteen scripted development conditions with preserved run records. There are **zero independently coded empirical events** and **no approved corpus release**. Software checks do not establish scientific validity.
+> **Development infrastructure · 0.3.0-dev.** Three synthetic demonstrations and one unrated source-reconnaissance note are available. A separate [TAE/HIT sandbox](experiments/us-control-sandbox/README.md) adds sixteen scripted development conditions with preserved run records. The CEC also includes an eight-packet missingness-boundary design and a reproducible 32-response mock rehearsal; it contains no live results for that design. There are **zero independently coded empirical events** and **no approved corpus release**. Software checks do not establish scientific validity.
 
 ## See the distinction
 
