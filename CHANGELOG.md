@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Reviewed all 14 comparison validity failures with response-hash verification and a reproducible register. Documented pair-12 reference ambiguity and a separate packet-linkage diagnostic. No rescoring, relabeling or new live inference.
+
 Preserved the frozen instruction comparison: 120 requests, 106 valid and 14 invalid responses. Primary paired difference 0/96, with 24 unavailable pairs; secondary pass reported separately. No candidate promotion or independent accuracy claim.
 
 Implemented the two-condition runner, coverage-aware paired analysis and fixed secondary subsets. Added an exact-source freeze and offline failure tests. No live comparison or independent result.

@@ -1,0 +1,176 @@
+{
+  "attempts": 120,
+  "excluded_judgments": 56,
+  "failures": [
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P1-V2-02-A-A",
+      "failing_distributions": [
+        {
+          "dimension": "outcome_mitigation",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "7d00a3787e23229964dd2a9c89e902c9c9eb57aee9668d5aa9091e4af666f4fe"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P1-V2-10-A-B",
+      "failing_distributions": [
+        {
+          "dimension": "trajectory_effect",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "eb86cd46f29b5d56f8635766fe1f737da28c9cfb7cd6709e3ef9219715e7fc84"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P1-V2-10-B-B",
+      "failing_distributions": [
+        {
+          "dimension": "trajectory_effect",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "710a1e2a6bec43c7dcf42e9e0701707be8444c9d9a770308282f4579f8f3926b"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P1-V2-12-B-A",
+      "failing_distributions": [
+        {
+          "dimension": "action",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "ef29e323dcd26264bb464a558763eaa0cd5ee80f0bca7a815be81730d9206780"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P1-V2-13-B-B",
+      "failing_distributions": [
+        {
+          "dimension": "trajectory_effect",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "a261c17ef308d9f7c4380d1352a36e7f274f323420f9d175c871028ba6f07609"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P1-V2-14-A-A",
+      "failing_distributions": [
+        {
+          "dimension": "action",
+          "sum": 0.99
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "0f129253df3821f7fd5badf82a1a0ad0b7bc222c5abba21cf5d08591150e58cf"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P1-V2-14-A-B",
+      "failing_distributions": [
+        {
+          "dimension": "propagation",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "2a03adff88b723db8378622f97974b3475d225a6091f865fe83d9e45fda711db"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P2-V2-09-A-B",
+      "failing_distributions": [
+        {
+          "dimension": "outcome_mitigation",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "034204e475fd683b0a035b67e2b53db778e70323df284556117c9976e47db8cf"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P2-V2-11-B-A",
+      "failing_distributions": [
+        {
+          "dimension": "outcome_mitigation",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "769810598e4fbe3731a859286e36cf9a3eb5198e520972ec734fee393dfba472"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P2-V2-12-A-A",
+      "failing_distributions": [
+        {
+          "dimension": "action",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "0e749589a321b24b6914a290a91063a58a08a96350710d13119a327cb780f9cd"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P2-V2-12-B-A",
+      "failing_distributions": [
+        {
+          "dimension": "action",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "3c0469d7cafc63fba39f728ba9ec6d9cdf22334ccbbfb0860310481d441de757"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P2-V2-12-B-B",
+      "failing_distributions": [
+        {
+          "dimension": "trajectory_effect",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "757372abb0581a9558d7c430b41c75df13b2e699689f5eec27edd8ffc774974e"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P2-V2-14-A-B",
+      "failing_distributions": [
+        {
+          "dimension": "propagation",
+          "sum": 0.9900000000000001
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "3b5041a89f4eba37af7a8ffdcf4a7c412f7c2704a7bb639d2f59e61dfeb2da3f"
+    },
+    {
+      "all_choices_are_maxima": true,
+      "attempt_id": "P2-V2-15-B-B",
+      "failing_distributions": [
+        {
+          "dimension": "action",
+          "sum": 0.99
+        }
+      ],
+      "rejection": "probability sum mismatch",
+      "response_sha256": "e0e8436aef98bc007d3f979c0f255c52c56782c61cba608a5e679790e14a2310"
+    }
+  ],
+  "invalid_responses": 14,
+  "scope": "Post-output descriptive review; no normalization or rescoring."
+}
