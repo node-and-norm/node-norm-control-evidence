@@ -1,0 +1,17 @@
+{
+  "code_revision": "d7985dea64d368046978017f038fba3324abaae7",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "mode": "live",
+  "model_requested": "jev-1.13.0",
+  "preflight": {
+    "checked_date_utc": "2026-10-03",
+    "input_usd_per_million": "0.042",
+    "max_requests": 90,
+    "max_usd": "1",
+    "output_usd_per_million": "0",
+    "request_token_limit": 64000
+  },
+  "python": "3.9.6",
+  "started_at": "2026-10-03T20:55:39.217591+00:00",
+  "working_tree_dirty": false
+}
