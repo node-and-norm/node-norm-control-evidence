@@ -34,3 +34,5 @@ For future live runs, capture allowlisted diagnostic headers such as the provide
 After this contract work, test structured, dimension-specific criteria with narrow propositions. The [structured-question guide](https://docs.typesafe.ai/primitives/advanced) and [citation cookbook](https://docs.typesafe.ai/cookbooks/citation_check) support separating exact source checks in code from semantic support judgments. Keep uncertainty routing outside the eight evidence labels. Evaluate option-order sensitivity separately, as recommended in the [model limitations](https://docs.typesafe.ai/model-jaggedness/jev-1.13). No cookbook threshold is adopted as a corpus standard.
 
 The immediate correction is interpretive: “invalid” in the frozen reports means invalid under the stated study rule. TAE and HIT remain unchanged, and no empirical human-control claim follows from SDK compatibility.
+
+The separate [acceptance-unit sensitivity](SENSITIVITY.md) now quantifies coverage under the unchanged numerical tolerance.
