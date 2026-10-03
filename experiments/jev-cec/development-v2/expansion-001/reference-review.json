@@ -1,0 +1,1364 @@
+{
+  "status": "exposed_ai_review_not_adjudication",
+  "independent": false,
+  "inputs": {
+    "cards.json": "a5b0e999397072fe1c4536a26e2cec40f2e07c7b28bdebbd750e2528a57fd672",
+    "proposed-reference.json": "f284c10a03efde9309deed5a6310008010de8fadb914689603d501981eb326d5",
+    "expansion-001/cards.json": "a76b0a64772468e00782ee3a192c7a47148533919e39c1dd5e4df306d96c43d3",
+    "expansion-001/proposed-reference.json": "215a2e2a37b663b67a6754a9dcf06b6ed643f3a97b6fc14e8ed6047747e61dad"
+  },
+  "judgments": [
+    {
+      "card_id": "V2-01-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-01-A",
+      "dimension": "propagation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1/E2 contain no receipt linked to the named downstream target.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-01-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-01-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-01-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-01-B",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 or E2 explicitly records receipt for all named targets.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-01-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-01-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-02-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-02-A",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 or E2 explicitly records receipt for all named targets.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-02-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-02-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-02-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-02-B",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 or E2 explicitly records receipt for all named targets.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-02-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1/E2 explicitly records cancellation or the linked settlement specified in scope.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-02-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "open_construct_issue",
+      "limitation": "Cancellation may logically prevent the specifically scoped debit from J. The documentary-only reading requires an explicit evidence standard; proposed not_reported is contestable.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-03-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-03-A",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 or E2 explicitly records receipt for all named targets.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-03-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1/E2 explicitly records cancellation or the linked settlement specified in scope.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-03-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "open_construct_issue",
+      "limitation": "Cancellation may logically prevent the specifically scoped debit from J. The documentary-only reading requires an explicit evidence standard; proposed not_reported is contestable.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-03-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-03-B",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 or E2 explicitly records receipt for all named targets.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-03-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1/E2 explicitly records cancellation or the linked settlement specified in scope.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-03-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 links the ledger result to cancellation or refund of the specified fee.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-04-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-04-A",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 or E2 explicitly records receipt for all named targets.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-04-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1/E2 explicitly records cancellation or the linked settlement specified in scope.",
+      "disposition": "open_construct_issue",
+      "limitation": "Settlement and fee reversal overlap in this mechanism. Agreement across these dimensions is not independent construct validation.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-04-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 links the ledger result to cancellation or refund of the specified fee.",
+      "disposition": "open_construct_issue",
+      "limitation": "Settlement and fee reversal overlap in this mechanism. Agreement across these dimensions is not independent construct validation.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-04-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-04-B",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 or E2 explicitly records receipt for all named targets.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-04-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "no",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 records rejection of R and no credit during the interval.",
+      "disposition": "open_construct_issue",
+      "limitation": "Settlement and fee reversal overlap in this mechanism. Agreement across these dimensions is not independent construct validation.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-04-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "no",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 records failed refund and the full fee remaining at interval close.",
+      "disposition": "open_construct_issue",
+      "limitation": "Settlement and fee reversal overlap in this mechanism. Agreement across these dimensions is not independent construct validation.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-05-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-05-A",
+      "dimension": "propagation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1/E2 contain no receipt linked to the named downstream target.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-05-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-05-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-05-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-05-B",
+      "dimension": "propagation",
+      "original_proposal": "not_observable",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 identifies a restriction or unreadable fields preventing receipt inspection.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-05-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-05-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-06-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-06-A",
+      "dimension": "propagation",
+      "original_proposal": "unknown",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 is readable but omits request/job identity, preventing linkage.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-06-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-06-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-06-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-06-B",
+      "dimension": "propagation",
+      "original_proposal": "not_observable",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 identifies a restriction or unreadable fields preventing receipt inspection.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-06-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-06-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-07-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-07-A",
+      "dimension": "propagation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1/E2 contain no receipt linked to the named downstream target.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-07-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-07-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-07-B",
+      "dimension": "action",
+      "original_proposal": "conflicting",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 affirms issuance and E2 denies it for the same interval without precedence.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-07-B",
+      "dimension": "propagation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1/E2 contain no receipt linked to the named downstream target.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-07-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-07-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-08-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-08-A",
+      "dimension": "propagation",
+      "original_proposal": "partial",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 records W receipt and leaves V receipt unreported.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-08-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-08-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-08-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies the issued intervention; only pair 07-B supplies an incompatible issuance account in E2.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-08-B",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 or E2 explicitly records receipt for all named targets.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-08-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage establishes the specified cancellation or settlement.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-08-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage supplies a linked account result; scope itself is not an observation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-09-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies issuance; repetitions in E2 add no independent source.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-09-A",
+      "dimension": "propagation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 expressly supplies no downstream receipt.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-09-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage reports cancellation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-09-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage reports the specified account consequence.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-09-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 identifies issuance; repetitions in E2 add no independent source.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-09-B",
+      "dimension": "propagation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 expressly supplies no downstream receipt.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-09-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage reports cancellation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-09-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither passage reports the specified account consequence.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-10-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records issuance.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-10-A",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records receipt at W.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-10-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 and E2 explicitly connect R to cancellation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-10-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "No account result is supplied; the inference from cancellation remains a review issue.",
+      "disposition": "open_construct_issue",
+      "limitation": "Same cancellation-to-fee inference ambiguity as original pairs 02/03 remains open.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-10-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither export contests E1 issuance.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-10-B",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Neither export contests E1 receipt.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-10-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "conflicting",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 and E2 contradict execution status without precedence.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-10-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Conflicting system-course evidence does not itself supply an account outcome; causal inference remains a review issue.",
+      "disposition": "open_construct_issue",
+      "limitation": "Same cancellation-to-fee inference ambiguity as original pairs 02/03 remains open.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-11-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records both instructions.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-11-A",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records both receipts.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-11-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "partial",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "The linked credit establishes the result of RA settlement, but RB is unreported.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-11-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "partial",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "The specified A fee is credited; B remains unreported.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-11-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records both instructions.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-11-B",
+      "dimension": "propagation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records both receipts.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-11-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Linked credits establish the specified settlements despite absent separate settlement records.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-11-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 links both credits to both erroneous fees.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-12-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records issuance.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-12-A",
+      "dimension": "propagation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 reports no receipt evidence.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-12-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 reports no execution evidence.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-12-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 lacks the link and E2 supplies no outcome information.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-12-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records issuance.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-12-B",
+      "dimension": "propagation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "The restriction is on the account record, not receipt; receipt stays unreported.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-12-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "The restriction is on the account record, not execution; execution stays unreported.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-12-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_observable",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 identifies an outcome-access barrier while E1 lacks causal linkage. The proposed precedence selects not_observable; both limitations must remain recorded.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-13-A",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records invocation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-13-A",
+      "dimension": "propagation",
+      "original_proposal": "not_applicable",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 excludes any downstream handoff within the scoped mechanism; propagation has no separate role under this draft.",
+      "disposition": "open_construct_issue",
+      "limitation": "Mechanism changes across the pair. No downstream handoff is a scoped conceptual assumption, not absence of evidence. Canonical applicability still requires human review.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-13-A",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "Architecture describes a mechanism, not evidence that it executed.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-13-A",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "No account consequence is recorded.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-13-B",
+      "dimension": "action",
+      "original_proposal": "yes",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E1 records invocation.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-13-B",
+      "dimension": "propagation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "E2 establishes that a receiving target exists but provides no receipt evidence.",
+      "disposition": "open_construct_issue",
+      "limitation": "Mechanism changes across the pair. No downstream handoff is a scoped conceptual assumption, not absence of evidence. Canonical applicability still requires human review.",
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-13-B",
+      "dimension": "trajectory_effect",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "No execution record is supplied.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    },
+    {
+      "card_id": "V2-13-B",
+      "dimension": "outcome_mitigation",
+      "original_proposal": "not_reported",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "basis": "No account consequence is recorded.",
+      "disposition": "provisionally_supported_under_draft",
+      "limitation": null,
+      "replacement_label": null
+    }
+  ]
+}
