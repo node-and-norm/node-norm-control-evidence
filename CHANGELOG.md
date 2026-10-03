@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+Added CEC documentary challenge v1: twelve invented packets, 36 separate AI-authored reference judgments, frozen questions and codebook, an offline request preparer, and six boundary tests. Seven of eight evidence classes occur; coverage gaps and dependent case families are explicit. No CEC model inference, empirical ratings or research approval.
+
 ### CEC continuation · 2026-10-03 America/New_York
 
 Recovered the previously unpublished pilot-support work from local commit `dafa9c8e289e8c4ccb88ce9739b9c502e4035d67`, preserving its historical audit and open decisions. Added optional, offline Jev request preparation for the three existing synthetic demonstrations, with eight evidence classes, three separate propositions, source-family provenance, exact artifact hashes and boundary tests. Published preparation is not a live model run, a scientific release or an independent assessment. TAE work remains paused at its separate checkpoint.

@@ -17,3 +17,7 @@ Use a fresh output directory. Preparation saves exact inputs, requests, question
 The eight choices retain CEC's distinction among `yes`, `no`, `partial`, `conflicting`, `unknown`, `not_reported`, `not_observable` and `not_applicable`. These are proposals under the existing codebook; they are separate from the pilot rubric's four support judgments and TAE's five-class experiment.
 
 The original synthetic bundles include labels and are saved as provenance only. They must never be submitted wholesale to a model or given to an unexposed assessor. The prepared request omits those labels, but evidence wording and earlier exposure remain limitations. No blinding claim is made.
+
+## Documentary challenge continuation
+
+The [versioned challenge set](challenge-v1/README.md) adds twelve invented packets and a separate AI-authored reference key. It preserves 36 expectations before any CEC model inference. Run `python experiments/jev-cec/challenge.py check` to verify its hashes and references. This is development exposure; independent review and a live execution protocol remain outstanding.
