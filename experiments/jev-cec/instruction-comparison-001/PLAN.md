@@ -41,3 +41,7 @@ Report direct-evidence targets and disputed-reference cases only as named second
 The offline preparer validates the v2 freeze, builds both payload conditions and writes exact request hashes and the source-artifact hashes. That manifest identifies a preparation run, not a final study freeze.
 
 Next implement the comparison runner and paired analysis, test counterbalanced accounting and failures using a local service, finalize the secondary subset membership, then freeze plan, candidate, source records, reference, implementation and budget contract at a clean commit. No source repair, reference relabeling or sensitivity normalization may be folded into this comparison. Those require separate versions.
+
+## Implementation checkpoint
+
+The comparison runner and paired analysis now implement this schedule. Secondary membership is fixed exactly as listed above; it will not be selected after outputs. The source freeze covers the inherited v2 artifacts plus this plan, candidate, preparation, runner and analysis. Live preflight requires the supported rate/limit configuration to be verified on the execution date and a clean committed checkout. Mock execution supplies no model findings.
