@@ -82,3 +82,25 @@ class ComparisonRunnerTests(unittest.TestCase):
         for k,v in report.items():self.assertEqual(v,saved[k])
         self.assertEqual(saved['live_requests_sent'],0)
         self.assertFalse(json.loads((p/'metadata.json').read_text())['working_tree_dirty'])
+    def test_live_archive_reproduction(self):
+        p=ROOT/'experiments/jev-cec/instruction-comparison-001/live-001'
+        runner.verify(p)
+        rows=json.loads((p/'schedule.json').read_text());records=json.loads((p/'attempts.json').read_text())
+        for r in records:
+            if r['status']=='valid':r['response_raw']=(p/'responses'/f'{r["attempt_id"]}.bin').read_bytes()
+        key=json.loads((p/'source/execution-v2/reference-key.json').read_text())
+        report=runner.summarize(rows,records,key,'live');saved=json.loads((p/'report.json').read_text())
+        def compare(a,b,k=''):
+            if isinstance(a,dict):
+                self.assertEqual(set(a),set(b))
+                for x in a:compare(a[x],b[x],x)
+            elif isinstance(a,list):
+                self.assertEqual(len(a),len(b))
+                for x,y in zip(a,b):compare(x,y,k)
+            elif k in ('brier_loss','mean_brier_loss') and isinstance(a,float):self.assertAlmostEqual(a,b,delta=1e-12)
+            else:self.assertEqual(a,b)
+        for k,v in report.items():compare(v,saved[k],k)
+        self.assertEqual(saved['live_requests_sent'],120)
+        self.assertEqual(saved['passes']['1']['paired']['agreement_difference'],0)
+        self.assertEqual(saved['request_counts']['invalid'],14)
+        self.assertFalse(json.loads((p/'metadata.json').read_text())['working_tree_dirty'])
