@@ -58,3 +58,7 @@ The twelve cards share two invented settings and seven observed reference classe
 ## Publication checks
 
 The copied archive matches its original manifest. Raw responses were inspected as structured model answers and usage, and a direct scan found no occurrence of the configured credential in any artifact. The report is reproduced from saved raw responses and the frozen key by a repository test. Recalculated Brier values permit absolute floating-point differences up to 1e-12 because summation order can vary between Python processes. Counts, labels and other values must match exactly; archive hashes and response acceptance rules remain unchanged. These checks establish artifact consistency and mechanical reproduction, not source authenticity or scientific validity.
+
+## Subsequent review
+
+The [post-output boundary review](BOUNDARY-REVIEW.md) examines all 22 mismatches as nine card-dimension issues. It records provisional interpretations and successor requirements separately from this frozen run.
